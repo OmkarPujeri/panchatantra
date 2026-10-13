@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "id": "PT007:9+",
+      "code": "PT007",
+      "band": "9+",
+      "file": "corpus/age/9+/PT007-godly-and-june.txt",
+      "source_chapter": "corpus/stories/PT007-godly-and-june.txt",
+      "claims": [
+        {
+          "claim": "The edit shifted the subject of the sentence to Godly ('June served Godly, but Godly still did not trust him.'), so the immediately following sentence 'He thought of killing Godly' now resolves 'He' to Godly, yielding the self-contradictory 'Godly thought of killing Godly.' In the source it is June, not Godly, who reflects on killing Godly. The edit fixed the distrust actor but left the pronoun antecedent pointing at the wrong actor.",
+          "reason": "Confirmed. Telling line 13 reads: 'June served Godly, but Godly still did not trust him. He thought of killing Godly, but then a pupil's son arrived...' The subject of the immediately preceding independent clause is Godly, so the default antecedent for 'He' is Godly, giving the incoherent 'Godly thought of killing Godly.' The source (corpus/panchatantra_complete.txt line 2219) clearly attributes the reflection to June: 'As the time passed in this manner, June reflected: \"Dear me! Do what I will, he does not trust me. So shall I kill him with a knife in broad daylight? Or give him poison? Or butcher him like a beast?\"' The source's structure is also contrastive-correct: 'he does not trust me' (June speaking, Godly = 'he') whereas the telling inverted who distrusts whom and then left the pronoun pointing at the wrong actor. The telling contradicts the source and is internally self-contradictory."
+        }
+      ]
+    },
+    {
+      "id": "PT015:9+",
+      "code": "PT015",
+      "band": "9+",
+      "file": "corpus/age/9+/PT015-leap-and-creep.txt",
+      "source_chapter": "corpus/stories/PT015-leap-and-creep.txt",
+      "claims": [
+        {
+          "claim": "The telling's moral runs opposite to the source's lesson; source says sharing your home with a stranger destroyed Creep (the guest is the host's ruin), while the telling prescribes the reverse remedy (be a mindful, boundary-respecting host), and the body does not support the telling's moral either since Creep sets the boundary and still dies.",
+          "reason": "Source moral at corpus/panchatantra_complete.txt:3868 reads 'With no stranger share your house; Leap, the flea, killed Creep, the louse' — the lesson is that admitting the stranger (guest Leap) is what killed the host Creep. The source frame (line 3904) explicitly names hospitality as her undoing: 'she agreed, since courtesy was her hobby.' The telling (corpus/age/9+/PT015-leap-and-creep.txt:15) inverts this: 'Being a good host means being mindful of your guests' needs and respecting their boundaries, lest you suffer the consequences' — prescribing the opposite remedy. The telling's body also fails to support that moral: Creep scolds Leap (line 5) and lays down the boundary/condition (line 9), yet still dies (line 11), so boundary-respecting hosting is not shown to avert the disaster. The source clearly contradicts the telling's moral."
+        }
+      ]
+    },
+    {
+      "id": "PT056:9+",
+      "code": "PT056",
+      "band": "9+",
+      "file": "corpus/age/9+/PT056-the-old-man-with-the-young-wife.txt",
+      "source_chapter": "corpus/stories/PT056-the-old-man-with-the-young-wife.txt",
+      "claims": [
+        {
+          "claim": "Line 11 casts the fable's thief as the spared party: \"One counselor, Hook-Nose, suggested that the thief should not be killed.\" The source's spared party is the owl court's suppliant guest (the crow Live-Strong), not the fable's thief.",
+          "reason": "Confirmed against corpus/panchatantra_complete.txt. In the frame story, Foe-Crusher the owl king is deciding the fate of his suppliant guest Live-Strong the crow. Flame-Eye tells the fable 'The Old Man with the Young Wife' and then applies it (line 10767): 'Thus advantage may be anticipated from a benefactor, thief though he be. How much more from a suppliant guest? ... he should not be killed.' Hook-Nose replies at line 10769: 'O King, he should not be killed' — the 'he' is the suppliant guest, not the thief. The fable's thief merely replies and leaves (lines 10757-10765); he is never threatened or discussed as a candidate for killing. So the telling's line 11 'Hook-Nose, suggested that the thief should not be killed' misassigns the spared party, exactly as the flag states."
+        }
+      ]
+    },
+    {
+      "id": "PT062:9+",
+      "code": "PT062",
+      "band": "9+",
+      "file": "corpus/age/9+/PT062-the-cave-that-talked.txt",
+      "source_chapter": "corpus/stories/PT062-the-cave-that-talked.txt",
+      "claims": [
+        {
+          "claim": "The edited sentence has Live-Strong overjoyed at Curd-Face's departure, but the source names Red-Eye as the departing counselor whose loss Live-Strong rejoices over; the telling's own quoted thought two clauses later says \"Red-Eye's escape\", so the passage both contradicts the source and contradicts itself.",
+          "reason": "Source corpus/stories/PT062-the-cave-that-talked.txt:34 (identical at corpus/panchatantra_complete.txt:11230) reads: \"At Red-Eye's departure, Live-Strong was overjoyed. And he reflected: '... Red-Eye's flight is a blessing to us.'\" The telling corpus/age/9+/PT062-the-cave-that-talked.txt:13 instead writes \"Live-Strong was overjoyed at Curd-Face's departure\" yet in the very next sentence quotes the thought \"Red-Eye's escape is a blessing for us.\" Red-Eye (the owl counselor) is the departing figure; Curd-Face is the jackal from the embedded cave tale and is unrelated to Live-Strong's joy. The telling both swaps the name against the source and contradicts its own quoted thought one clause later."
+        }
+      ]
+    },
+    {
+      "id": "PT065:9+",
+      "code": "PT065",
+      "band": "9+",
+      "file": "corpus/age/9+/PT065-the-monkey-and-the-crocodile.txt",
+      "source_chapter": "corpus/stories/PT065-the-monkey-and-the-crocodile.txt",
+      "claims": [
+        {
+          "claim": "Line 15's opening 'The crocodile visited Red-Face, telling him about his wife's demands.' survives as a half-fixed invented onshore confession; read against the only demand the reader has seen (the heart, lines 9/13) it shows the crocodile disclosing his wife's demand on shore, contradicting the source, and clashes with the edited sentence 'She wanted Red-Face to come home as a guest.'",
+          "reason": "Confirmed against the source. corpus/stories/PT065-the-monkey-and-the-crocodile.txt line 118 is the crocodile's onshore FALSE pretext only ('So bring him home... please come home with me. Your brother's wife has set up an awning'); the heart demand stays hidden on shore and is revealed only at sea at line 140 ('Sir, I have deceived you and brought you to your death, because my wife bade me do it.'), same as the hand-off corpus/panchatantra_complete.txt lines 11936/11958. The telling's line 15 still asserts 'telling him about his wife's demands' on shore; the only demand previously shown the reader is the wife's demand for Red-Face's heart (lines 9 and 13), so the clause reads as an onshore disclosure of the heart demand — the source's opposite. Two independent corroborations: (1) the certfix audit for PT065:9+ (data/review_2026-10-13_certfix_workflow.json) quoted BOTH clauses as ONE invention; (2) that run applied only one half — Edit A ('The crocodile explained that his wife wanted Red-Face's heart, but he couldn't kill him.' -> the guest-pretext sentence) was confirmed and is the current text, while the companion Edit B (old 'The crocodile visited Red-Face, telling him about his wife's demands.' -> 'The crocodile visited Red-Face.') was REFUTED (not applied), its own verifier writing that the clause 'reveal[s] the heart plot on shore' and 'the source does the opposite'. So the surviving clause is exactly the half the project's own machinery judged to contradict the source, and it now clashes with the guest-invite sentence immediately after it. WORKLOG.md line 1397 records PT065 9+ as left 'incoherent'. Not refutable."
+        }
+      ]
+    },
+    {
+      "id": "PT068:9+",
+      "code": "PT068",
+      "band": "9+",
+      "file": "corpus/age/9+/PT068-the-potter-militant.txt",
+      "source_chapter": "corpus/stories/PT068-the-potter-militant.txt",
+      "claims": [
+        {
+          "claim": "The telling's appended moral (line 15: \"True worth is not measured by appearance or family background, but by one's actions and character\") inverts the source's lesson. The source chapter's authority closes the fable on noble lineage being decisive: the king refuses the potter despite his virtues and recites the stanza ending \"But in your family, my boy, / No elephants are slain.\" The telling's moral asserts the opposite about family background, and it contradicts the telling's own body line (line 13: the king refused because \"he had no noble blood\"). The source's narrator-tag in complete.txt (12270-12278) puts the lesson on a trickster ruined by telling the truth (\"lets the truth slip out, like Fight-Firm... is sure to lose his victory\"), which the telling's moral also drops.",
+          "reason": "Confirmed. The source's authoritative aphorism (corpus/stories/PT068-the-potter-militant.txt lines 24-26 = corpus/panchatantra_complete.txt 12302-12304) states \"But in your family, my boy, / No elephants are slain,\" and the king refuses the potter while conceding he is \"a treasure-house of all the virtues\" (source line 18 = complete.txt 12296): the source presents family background/lineage as decisive, the very thing that overrides the potter's virtues. The telling's appended moral (corpus/age/9+/PT068-the-potter-militant.txt line 15) asserts the opposite — that family background does not measure worth. That is a direct inversion of the source's stance on lineage. It is further an internal contradiction with the telling's own body, line 13, which gives the king's reason as \"he had no noble blood.\" The source's framing lesson at complete.txt 12270-12278 (the heedless trickster who \"lets the truth slip out, like Fight-Firm... is sure to lose his victory\") is also not reflected by the telling's moral. No reading of the cited source lines supports the moral's claim that family background is not a measure of worth."
+        }
+      ]
+    }
+  ]
+}

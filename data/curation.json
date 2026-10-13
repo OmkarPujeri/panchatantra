@@ -1,0 +1,1628 @@
+{
+ "PT001": {
+  "title": "Translator's Introduction",
+  "book": 0,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 7,
+  "reason": "gore-detail x2; murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "gore-detail",
+    "count": 2,
+    "weight": 2,
+    "example": "gar to the graveyard hied and there \"friend corpse, arise,\" he cried; \"one moment lift my heav"
+   },
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "eed of being secret when they feed; the lion killed the ram who could not check his appetite for"
+   }
+  ]
+ },
+ "PT002": {
+  "title": "Introduction",
+  "book": 0,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT003": {
+  "title": "The Loss of Friends",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "sexual-soft x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "sexual-soft",
+    "count": 1,
+    "weight": 2,
+    "example": "pomp of umbrella, flyflap, fan, vehicle, and amorous display, was held erect by sheer pride in th"
+   }
+  ]
+ },
+ "PT004": {
+  "title": "The Wedge-pulling Monkey",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "sexual-soft x1; murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "sexual-soft",
+    "count": 1,
+    "weight": 2,
+    "example": "disagrees, blames, or pulls the strings of intrigue with enemies, is beloved of kings. one who find"
+   },
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": ". one who thinks of dice as death, wine as poison-stings, others' wives as statues, he is be"
+   }
+  ]
+ },
+ "PT005": {
+  "title": "The Jackal and the War-Drum",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT006": {
+  "title": "Merchant Strong-Tooth",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "misogyny x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "misogyny",
+    "count": 1,
+    "weight": 4,
+    "example": "what beggar can be dignified? whose heart no woman stings who, trapped by scamps, comes safely"
+   }
+  ]
+ },
+ "PT007": {
+  "title": "Godly and June",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "with a knife in broad daylight? or give him poison? or butcher him like a beast?\" while he was"
+   }
+  ]
+ },
+ "PT008": {
+  "title": "The Jackal at the Ram-Fight",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "s caught between the crashing heads, and was killed. then godly said: \"the jackal at the ram-fi"
+   }
+  ]
+ },
+ "PT009": {
+  "title": "The Weaver's Wife",
+  "book": 1,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 47,
+  "reason": "sexual x8; dismember x5",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "sexual",
+    "count": 8,
+    "weight": 5,
+    "example": "way, the flirt becomes supremely gay. the wench cares not a straw to miss the covered couc"
+   },
+   {
+    "signal": "misogyny",
+    "count": 3,
+    "weight": 4,
+    "example": "stolen bliss. and again: for stranger men the slut will see the ruin of her family, the worl"
+   },
+   {
+    "signal": "dismember",
+    "count": 5,
+    "weight": 5,
+    "example": "she made no answer. then he became angry and cut off her nose with a sharp knife. and he said: \"w"
+   },
+   {
+    "signal": "murder",
+    "count": 3,
+    "weight": 1,
+    "example": "ngs are clipped. honey in a woman's words, poison in her breast: so, although you taste her l"
+   }
+  ]
+ },
+ "PT010": {
+  "title": "How the Crow-Hen Killed the Black Snake",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "how the crow-hen killed the black snake in a certain region grew a"
+   }
+  ]
+ },
+ "PT011": {
+  "title": "The Heron That Liked Crab-Meat",
+  "book": 1,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 14,
+  "reason": "dismember x2; misogyny x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "misogyny",
+    "count": 1,
+    "weight": 4,
+    "example": "tray: shun your false and foolish friends, fickle, seeking vicious ends. why, he has already"
+   },
+   {
+    "signal": "dismember",
+    "count": 2,
+    "weight": 5,
+    "example": "is being so, you are lost, my food supply is cut off, i too am lost, and in grief at the thought,"
+   }
+  ]
+ },
+ "PT012": {
+  "title": "Numskull and the Rabbit",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT013": {
+  "title": "The Weaver Who Loved a Princess",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "murder x7",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 7,
+    "weight": 1,
+    "example": "d yet—i promise it—the wretch shall soon be slain by me. so valor reached the country by marc"
+   }
+  ]
+ },
+ "PT014": {
+  "title": "The Ungrateful Man",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 3,
+  "reason": "murder x5",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 5,
+    "weight": 1,
+    "example": "and when he was within range of a spring, i killed him. all this i took from his person and sto"
+   }
+  ]
+ },
+ "PT015": {
+  "title": "Leap and Creep",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "s she crouched in the nap of the fabric, and killed her with her family. \"and that is why i say"
+   }
+  ]
+ },
+ "PT016": {
+  "title": "The Blue Jackal",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 4,
+  "reason": "OVERRULED to BOTH 2026-10-13: the keyword screen fired on gore-detail/murder (the jackal torn to bits) but the fable's death is a single line and the 4-9 telling passes readability (FK 3.86). story_tags.json already carries this overrule in its age_map rationale (HANDOVER §5). Original signal below kept as the record.",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "gore-detail",
+    "count": 1,
+    "weight": 2,
+    "example": "e heard this, he endeavored to flee, but was torn to bits by a tiger and died. \"and that is why i say"
+   },
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "yed the kingly glory, while lions and others killed food-animals and laid them before him. these"
+   }
+  ]
+ },
+ "PT017": {
+  "title": "Passion and the Owl",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ul bow, drew an arrow as far as his ear, and killed the swan, who was resting near the owl's nes"
+   }
+  ]
+ },
+ "PT018": {
+  "title": "Ugly's Trust Abused",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "cannibal x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "atch any creature, nor see any. master, pray eat me and support your life for a day. thus the ma"
+   }
+  ]
+ },
+ "PT019": {
+  "title": "The Lion and the Carpenter",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "cannibal x1; murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "wife cooks the most delicious things, and i eat them every day, in order to show friendly feeling"
+   },
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ck entrance there is given. and again: the slain attains the sky, the victor joyful lives;"
+   }
+  ]
+ },
+ "PT020": {
+  "title": "The Plover Who Fought the Ocean",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT021": {
+  "title": "Shell-Neck, Slim, and Grim",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT022": {
+  "title": "Forethought, Readywit, and Fatalist",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "hey pounded him repeatedly with clubs and so killed him. \"and that is why i say: forethought a"
+   }
+  ]
+ },
+ "PT023": {
+  "title": "The Duel between Elephant and Sparrow",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "of it? this elephant—curse his spring fever!—killed my babies. so if you are my friend, think of"
+   }
+  ]
+ },
+ "PT024": {
+  "title": "The Shrewd Old Gander",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT025": {
+  "title": "The Lion and the Ram",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "to his diet.\" so he made a quick spring and killed the ram. \"and that is why i say: the poor"
+   }
+  ]
+ },
+ "PT026": {
+  "title": "Smart, the Jackal",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "pon smart reflected: \"if spike-ear here were killed, then we should all be nourished for a few d"
+   }
+  ]
+ },
+ "PT027": {
+  "title": "The Monk Who Left His Body Behind",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT028": {
+  "title": "The Girl Who Married a Snake",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT029": {
+  "title": "Poor Blossom",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT030": {
+  "title": "The Unteachable Monkey",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT031": {
+  "title": "Right-Mind and Wrong-Mind",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT032": {
+  "title": "A Remedy Worse than the Disease",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "one, the mungoose followed the bits of fish, killed the villainous snake, and also ate at his le"
+   }
+  ]
+ },
+ "PT033": {
+  "title": "The Mice That Ate Iron",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT034": {
+  "title": "The Results of Education",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "the robber for his victims died; the monkey killed the king.\" \"how was that?\" asked victor. an"
+   }
+  ]
+ },
+ "PT035": {
+  "title": "The Sensible Enemy",
+  "book": 1,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT036": {
+  "title": "The Foolish Friend",
+  "book": 1,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 7,
+  "reason": "misogyny x1; murder x5",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "misogyny",
+    "count": 1,
+    "weight": 4,
+    "example": "in a king. and once more: kings' policy is fickle, like a woman of the town: for now it hoar"
+   },
+   {
+    "signal": "murder",
+    "count": 5,
+    "weight": 1,
+    "example": "minister intelligent in the six expedients, killed the king in battle, seized his kingdom, and"
+   }
+  ]
+ },
+ "PT037": {
+  "title": "The Winning of Friends",
+  "book": 2,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "cannibal x1; murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "dissuasion from swift, he greedily sought to eat them and alighted in the great snare. the moment"
+   },
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "counsel, regarded the rice-grains as deadly poison, and did not peep. at this juncture a dove-"
+   }
+  ]
+ },
+ "PT038": {
+  "title": "The Bharunda Birds",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "t refused, the second neck angrily picked up poison somewhere and ate it. as they had one belly,"
+   }
+  ]
+ },
+ "PT039": {
+  "title": "Gold's Gloom",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT040": {
+  "title": "Mother Shandilee's Bargain",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT041": {
+  "title": "Self-defeating Forethought",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT042": {
+  "title": "Mister Duly",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "hant reached the spot, running amuck. he had killed his driver, had got beyond control, and the"
+   }
+  ]
+ },
+ "PT043": {
+  "title": "Soft, the Weaver",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT044": {
+  "title": "Hang-Ball and Greedy",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT045": {
+  "title": "The Mice That Set Elephants Free",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "e survivors held a convention. \"we are being killed,\" they said, \"by these lumbering elephants—c"
+   }
+  ]
+ },
+ "PT046": {
+  "title": "Spot's Captivity",
+  "book": 2,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT047": {
+  "title": "Crows and Owls",
+  "book": 3,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "murder x3",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 3,
+    "weight": 1,
+    "example": "at whenever he met a crow in his airings, he killed him and passed on. in this way his constant"
+   }
+  ]
+ },
+ "PT048": {
+  "title": "How the Birds Picked a King",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "lordly sway is good; but more than one will slay, like plural suns on judgment day. why, th"
+   }
+  ]
+ },
+ "PT049": {
+  "title": "How the Rabbit Fooled the Elephant",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "n afar by my sacred name. and there you have slain rabbits who are under my special protection,"
+   }
+  ]
+ },
+ "PT050": {
+  "title": "The Cat's Judgment",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "he is caught in some trap, or has even been killed.\" and many days passed while i grieved in th"
+   }
+  ]
+ },
+ "PT051": {
+  "title": "The Brahman's Goat",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT052": {
+  "title": "The Snake and the Ants",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT053": {
+  "title": "The Snake Who Paid Cash",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT054": {
+  "title": "The Unsocial Swans",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT055": {
+  "title": "The Self-sacrificing Dove",
+  "book": 3,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 5,
+  "reason": "misogyny x1; murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "misogyny",
+    "count": 1,
+    "weight": 4,
+    "example": "atified, and to her husband thus replied: \"no woman earns the name of bride whose husband is no"
+   },
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "in answer to his kindly words replied the murderer of birds: \"well, dove, the cold is in me st"
+   }
+  ]
+ },
+ "PT056": {
+  "title": "The Old Man with the Young Wife",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "ble point. in view of this, he should not be killed.\" having listened to this view, foe-crusher"
+   }
+  ]
+ },
+ "PT057": {
+  "title": "The Brahman, the Thief, and the Ghost",
+  "book": 3,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 8,
+  "reason": "cannibal x2",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 2,
+    "weight": 4,
+    "example": "went to sleep, the ghost started forward to eat him. but the thief saw him and said: \"my dear si"
+   }
+  ]
+ },
+ "PT058": {
+  "title": "The Snake in the Prince's Belly",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT059": {
+  "title": "The Gullible Carpenter",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT060": {
+  "title": "Mouse-Maid Made Mouse",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "y age of eight. the early signs one kinsman slay; the bosom takes the next away; friends di"
+   }
+  ]
+ },
+ "PT061": {
+  "title": "The Bird with Golden Dung",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT062": {
+  "title": "The Cave That Talked",
+  "book": 3,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "juice of it. \"later, when your enemies are slain, and you have returned to your home, i will"
+   }
+  ]
+ },
+ "PT063": {
+  "title": "The Frogs That Rode Snakeback",
+  "book": 3,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 3,
+  "reason": "murder x13",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 13,
+    "weight": 1,
+    "example": "ake in a certain spot, and his name was slow-poison. he considered the situation from this point"
+   }
+  ]
+ },
+ "PT064": {
+  "title": "The Butter-blinded Brahman",
+  "book": 3,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 10,
+  "reason": "sexual x1; dismember x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "sexual",
+    "count": 1,
+    "weight": 5,
+    "example": "theodore in a certain town. his wife, being unchaste and a pursuer of other men, was forever maki"
+   },
+   {
+    "signal": "dismember",
+    "count": 1,
+    "weight": 5,
+    "example": "ked him to such effect that he died. he also cut off his wicked wife's nose, and dismissed her."
+   }
+  ]
+ },
+ "PT065": {
+  "title": "The Monkey and the Crocodile",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ds for this. there is a saying: the brahman-murderer or thief, drunkard or liar, finds relief;"
+   }
+  ]
+ },
+ "PT066": {
+  "title": "Handsome and Theodore",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 2,
+  "reason": "murder x2",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "ernizes with too vigorous a foe, is eating poison, and will soon perceive it to be so. \"so i"
+   }
+  ]
+ },
+ "PT067": {
+  "title": "Flop-Ear and Dusty",
+  "book": 4,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 3,
+  "reason": "murder x5",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 5,
+    "weight": 1,
+    "example": "op-ear, \"but village beasts are likely to be killed by forest animals. so what good is your char"
+   }
+  ]
+ },
+ "PT068": {
+  "title": "The Potter Militant",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ut in your family, my boy, no elephants are slain.\" \"how was that?\" asked the potter. and the"
+   }
+  ]
+ },
+ "PT069": {
+  "title": "The Jackal Who Killed No Elephants",
+  "book": 4,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 7,
+  "reason": "cannibal x1; murder x4",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "o not falsify their trust. \"now suppose you eat him, and feel better. in the morning i will brin"
+   },
+   {
+    "signal": "murder",
+    "count": 4,
+    "weight": 1,
+    "example": "the jackal who killed no elephants in a part of a forest lived a"
+   }
+  ]
+ },
+ "PT070": {
+  "title": "The Ungrateful Wife",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ou do not give me your love, you will be the murderer of a brahman woman.\" \"but what can you do wi"
+   }
+  ]
+ },
+ "PT071": {
+  "title": "King Joy and Secretary Splendor",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "although in tiger-skin arrayed, the ass was killed—because he brayed.\" \"how was that?\" asked t"
+   }
+  ]
+ },
+ "PT072": {
+  "title": "The Ass in the Tiger-Skin",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "ceived that he was a donkey in disguise, and killed him with blows from clubs and stones and arr"
+   }
+  ]
+ },
+ "PT073": {
+  "title": "The Farmer's Wife",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT074": {
+  "title": "The Pert Hen-Sparrow",
+  "book": 4,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 10,
+  "reason": "sexual x2",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "sexual",
+    "count": 2,
+    "weight": 5,
+    "example": "alling sky.\" thereupon he said to her: you slut! you wench! you smarty! you needle-face! be"
+   }
+  ]
+ },
+ "PT075": {
+  "title": "How Supersmart Ate the Elephant",
+  "book": 4,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 7,
+  "reason": "misogyny x1; murder x4",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "misogyny",
+    "count": 1,
+    "weight": 4,
+    "example": "e; from brahmans, self-denial; from women, fickle conduct, from relatives, a trial. \"and the"
+   },
+   {
+    "signal": "murder",
+    "count": 4,
+    "weight": 1,
+    "example": "r no circumstances do i eat what another has killed. i graciously bestow this elephant upon you."
+   }
+  ]
+ },
+ "PT076": {
+  "title": "The Dog Who Went Abroad",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "in, put his reliance in resolute valor, and killed him. so he recovered his home and lived ther"
+   }
+  ]
+ },
+ "PT089": {
+  "title": "Loss of Gains",
+  "book": 4,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT077": {
+  "title": "Ill-considered Action",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT078": {
+  "title": "The Loyal Mungoose",
+  "book": 5,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "gore-detail x1; murder x2",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "gore-detail",
+    "count": 1,
+    "weight": 2,
+    "example": "nd, and near the cradle a great black snake, torn to bits. then, overwhelmed with sorrow because she h"
+   },
+   {
+    "signal": "murder",
+    "count": 2,
+    "weight": 1,
+    "example": "ngrily dropped the water-jar upon him, which killed him the moment that it struck. there she lef"
+   }
+  ]
+ },
+ "PT079": {
+  "title": "The Four Treasure-Seekers",
+  "book": 5,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "gore-detail x2",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "gore-detail",
+    "count": 2,
+    "weight": 2,
+    "example": "gar to the graveyard hied and there 'friend corpse, arise,' he cried; 'one moment lift my heav"
+   }
+  ]
+ },
+ "PT080": {
+  "title": "The Lion-Makers",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": ", the lion was brought to life, rose up, and killed all three. but the man of sense, after the l"
+   }
+  ]
+ },
+ "PT081": {
+  "title": "Hundred-Wit, Thousand-Wit, and Single-Wit",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 1,
+  "reason": "murder x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 1,
+    "weight": 1,
+    "example": "it and thousand-wit fell into a net and were killed, though they struggled to save their lives b"
+   }
+  ]
+ },
+ "PT082": {
+  "title": "The Musical Donkey",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": false,
+  "evidence": []
+ },
+ "PT083": {
+  "title": "Slow, the Weaver",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT084": {
+  "title": "The Brahman's Dream",
+  "book": 5,
+  "bands": [
+   "4-9",
+   "9+"
+  ],
+  "verdict": "BOTH",
+  "score": 0,
+  "reason": "nothing flagged",
+  "scoped_to_fable": true,
+  "evidence": []
+ },
+ "PT085": {
+  "title": "The Unforgiving Monkey",
+  "book": 5,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 3,
+  "reason": "murder x3",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "murder",
+    "count": 3,
+    "weight": 1,
+    "example": "ent it is sweet, at the last it will turn to poison. at any rate, i will not behold the death of"
+   }
+  ]
+ },
+ "PT086": {
+  "title": "The Credulous Fiend",
+  "book": 5,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "cannibal x1",
+  "scoped_to_fable": false,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "ry danger? this is your natural food, a man. eat him.\" on hearing this, the fiend took his own f"
+   }
+  ]
+ },
+ "PT087": {
+  "title": "The Fiend Who Washed His Feet",
+  "book": 5,
+  "bands": [
+   "9+"
+  ],
+  "verdict": "NINE_PLUS",
+  "score": 4,
+  "reason": "cannibal x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "cannibal",
+    "count": 1,
+    "weight": 4,
+    "example": "pon the brahman thought: \"he will be sure to eat me after his worship. i will hurry away. for he"
+   }
+  ]
+ },
+ "PT088": {
+  "title": "The Three-breasted Princess",
+  "book": 5,
+  "bands": [],
+  "verdict": "EXCLUDE",
+  "score": 25,
+  "reason": "dismember x3; infanticide x1",
+  "scoped_to_fable": true,
+  "evidence": [
+   {
+    "signal": "dismember",
+    "count": 3,
+    "weight": 5,
+    "example": "is slow started off for the market. but she cut up the snake, put it in a kettle with buttermil"
+   },
+   {
+    "signal": "infanticide",
+    "count": 1,
+    "weight": 5,
+    "example": "chamberlain and said: \"sir, let this girl be exposed in the forest, so that not a single soul may learn the fac"
+   },
+   {
+    "signal": "sexual-soft",
+    "count": 1,
+    "weight": 2,
+    "example": "work. in course of time the princess had an intrigue with the hunchback, and she said: \"my belovèd, if"
+   },
+   {
+    "signal": "murder",
+    "count": 3,
+    "weight": 1,
+    "example": "my belovèd, if this blind man happened to be killed, we should live happily together. please fin"
+   }
+  ]
+ }
+}

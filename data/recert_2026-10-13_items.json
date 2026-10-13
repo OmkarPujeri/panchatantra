@@ -1,0 +1,529 @@
+[
+  {
+    "id": "PT005:4-9",
+    "file": "corpus/age/4-9/PT005-the-jackal-and-the-war-drum.txt",
+    "source_chapter": "corpus/stories/PT005-the-jackal-and-the-war-drum.txt",
+    "edits": [
+      {
+        "old": "He saw that the drum was quiet when the wind blew.",
+        "new": "He saw that the drum was quiet when the wind was still.\n\nWhen the wind blew, the grass swayed and struck the drum.\n\nThat was what made the sound.",
+        "rationale": "Telling inverts the cause: source has the drum SOUND when wind sways grass against it and be DUMB at other times; the telling states it was quiet when the wind blew. 9+ render is correct, confirming a 4-9-only reversal."
+      }
+    ]
+  },
+  {
+    "id": "PT007:4-9",
+    "file": "corpus/age/4-9/PT007-godly-and-june.txt",
+    "source_chapter": "corpus/stories/PT007-godly-and-june.txt",
+    "edits": [
+      {
+        "old": "Moral: Trusting no one can lead to trouble.",
+        "new": "Moral: Trusting a false friend can lead to trouble.",
+        "rationale": "Body: Godly 'trusted no one' and kept the treasure safe (lines 9-11); the only trust he extends - making June a disciple and handing him the robe - is what loses the treasure (lines 43-55). The moral blames distrust, which the body never shows causing harm; it points the opposite way from the depicted betrayal. Source confirms the loss comes from misplaced trust in a rogue/flatterer."
+      }
+    ]
+  },
+  {
+    "id": "PT021:4-9",
+    "file": "corpus/age/4-9/PT021-shell-neck-slim-and-grim.txt",
+    "source_chapter": "corpus/stories/PT021-shell-neck-slim-and-grim.txt",
+    "edits": [
+      {
+        "old": "You can fly away, but I will drown.",
+        "new": "You can fly away, but the water is drying up.",
+        "rationale": "The source's stated danger is the drought/scant water; drowning is impossible in a dried-up lake and inverts the mechanism. Telling invents death by excess water."
+      }
+    ]
+  },
+  {
+    "id": "PT031:4-9",
+    "file": "corpus/age/4-9/PT031-right-mind-and-wrong-mind.txt",
+    "source_chapter": "corpus/stories/PT031-right-mind-and-wrong-mind.txt",
+    "edits": [
+      {
+        "old": "Right-Mind said, \"Please come out, goddess.\"\n\nThe voice did not come out.\n\nSo the magistrates looked inside the tree.\n\nThey found Wrong-Mind's father hiding there.",
+        "new": "Right-Mind set fire to the tree.\n\nWrong-Mind's father ran out of the hole.\n\nHis body was scorched.\n\nHe said, \"It is all Wrong-Mind's doing.\"",
+        "rationale": "The telling replaces the source's causal chain with a fabricated one. Source: the trick is exposed when Right-Mind sets fire to the mimosa; the scorched father crawls out and confesses (\"his body scorched and his eyes popping out... 'It is all Wrong-Mind's doing'\"). Telling: Right-Mind asks a goddess to come out, the voice refuses, and \"the magistrates looked inside the tree.\" No fire, no search in the source. Fixed minimally to restore the fire-and-confession mechanism; kept the age-appropriate softened outcome (no hanging), which is borderline content-softening rather than a fabricated event."
+      }
+    ]
+  },
+  {
+    "id": "PT041:4-9",
+    "file": "corpus/age/4-9/PT041-self-defeating-forethought.txt",
+    "source_chapter": "corpus/stories/PT041-self-defeating-forethought.txt",
+    "edits": [
+      {
+        "old": "But the jackal's greed made him eat too quickly.",
+        "new": "But as he ate, the bowstring snapped.",
+        "rationale": "The telling replaces the source's causal mechanism with an invented fast-eating death, inverting the jackal's depicted (slow) behaviour. Source line 17 even keeps the 'eat slowly' plan, making line 19 self-contradictory."
+      }
+    ]
+  },
+  {
+    "id": "PT042:4-9",
+    "file": "corpus/age/4-9/PT042-mister-duly.txt",
+    "source_chapter": "corpus/stories/PT042-mister-duly.txt",
+    "edits": [
+      {
+        "old": "The king realized that Mister Duly was the one who had saved the princess, the policeman's daughter, and the merchant's daughter.",
+        "new": "The princess, the policeman's daughter, and the merchant's daughter told their tales. The king heard them all. He learned the truth.",
+        "rationale": "The telling credits MD with saving all three women, but the source saves only the bride. The princess and Naughty each dismiss him, and the telling's own body already shows both sending him away."
+      }
+    ]
+  },
+  {
+    "id": "PT045:4-9",
+    "file": "corpus/age/4-9/PT045-the-mice-that-set-elephants-free.txt",
+    "source_chapter": "corpus/stories/PT045-the-mice-that-set-elephants-free.txt",
+    "edits": [
+      {
+        "old": "\"We must help the elephants,\" they said.",
+        "new": "\"We must find a way to stay safe,\" they said.",
+        "rationale": "Source convenes the mice for their OWN crisis and has them devise a remedy for self-preservation; the telling invents a motive to help the elephants."
+      },
+      {
+        "old": "He remembered the mice who helped him.",
+        "new": "He remembered the mice. They were his only hope.",
+        "rationale": "Direction is inverted: the elephant had earlier granted the mice's request; the mice had not yet helped him. Source has the king recall them only as his sole means of deliverance, not as past benefactors."
+      }
+    ]
+  },
+  {
+    "id": "PT046:4-9",
+    "file": "corpus/age/4-9/PT046-spot-s-captivity.txt",
+    "source_chapter": "corpus/stories/PT046-spot-s-captivity.txt",
+    "edits": [
+      {
+        "old": "Gold, the deer, came up with a plan to save him.",
+        "new": "Gold, the mouse, came up with a plan to save him.",
+        "rationale": "Source names Gold as the mouse, not a deer. The telling even has Gold slip into a grass-clump (a mouse action) at line 36, contradicting its own 'deer' label."
+      }
+    ]
+  },
+  {
+    "id": "PT056:4-9",
+    "file": "corpus/age/4-9/PT056-the-old-man-with-the-young-wife.txt",
+    "source_chapter": "corpus/stories/PT056-the-old-man-with-the-young-wife.txt",
+    "edits": [
+      {
+        "old": "The thief said, \"I don't want anything. But if she hugs you like that, I will come back.\" The old man thought, \"Maybe I should not kill him. He helped us.\"",
+        "new": "The thief said, \"I don't want anything. If I ever want something, I will come back when she does not hug you.\"",
+        "rationale": "Thief's condition is inverted: in the source the thief returns only if she does NOT cling. The old man's 'I should not kill him' deliberation appears nowhere in the source — the old man only thanks the thief as a benefactor; no killing is ever contemplated in the fable."
+      },
+      {
+        "old": "Foe-Crusher, a king, heard about this story. He asked another counselor, Hook-Nose, what to do. Hook-Nose said, \"Do not kill him. He helped us.\"",
+        "new": "Foe-Crusher, a king, heard about this story. His counselors said the guest should not be killed. Help may come from a benefactor, even a thief.",
+        "rationale": "The 'thief though he be ... benefactor' verdict is Flame-Eye's (the teller of the fable), not Hook-Nose's; Hook-Nose is questioned separately. The spared party is the suppliant guest, not the fable's thief, who simply leaves and is never in danger. 'He helped us' is not stated of the thief."
+      }
+    ]
+  },
+  {
+    "id": "PT068:4-9",
+    "file": "corpus/age/4-9/PT068-the-potter-militant.txt",
+    "source_chapter": "corpus/stories/PT068-the-potter-militant.txt",
+    "edits": [
+      {
+        "old": "The king told the potter a story, but it's not important right now.",
+        "new": "The king told the potter a story. Then he said, \"You must go too, before they find out you are a potter. If not, they will hoot you and kill you.\" The potter heard this and ran away.",
+        "rationale": "Ryder's chapter ends on the hand-off \"And the king told the story of\" (stories/PT068 line 28); the fable's real closing action is in the continuation. The telling stops at the king's dismissal and a meta line (\"...it's not important right now\") and never shows the potter leaving, so the source's concluding beat is absent."
+      }
+    ]
+  },
+  {
+    "id": "PT073:4-9",
+    "file": "corpus/age/4-9/PT073-the-farmer-s-wife.txt",
+    "source_chapter": "corpus/stories/PT073-the-farmer-s-wife.txt",
+    "edits": [
+      {
+        "old": "The monkey said, \"You are foolish. I will not give you advice. You are like a monkey who broke a sparrow's nest.\"\n\nMoral: Bad things often happen together.",
+        "new": "The monkey said, \"You are foolish. I will not give you advice.\"\n\nBut at last the monkey helped him. He told the crocodile to be brave and fight for his home.\n\nThe crocodile went home. He fought the other crocodile and won. He got his house back and lived there happily.\n\nMoral: Bad things often happen together.",
+        "rationale": "The telling introduces the crocodile's occupied-house thread and the monkey's flat refusal, then ends with a moral - exactly the chapter's hand-off point. The frame never lands on a resolution, and 'a monkey who broke a sparrow's nest' dangles a story the telling never tells. The source resolves the frame: the crocodile receives his friend's advice, fights the intruder, and recovers his home. Same pattern and same Book IV crocodile frame fixed earlier for PT089 4-9 ('So the crocodile fought the stranger and won. He got his home back...')."
+      }
+    ]
+  },
+  {
+    "id": "PT077:4-9",
+    "file": "corpus/age/4-9/PT077-ill-considered-action.txt",
+    "source_chapter": "corpus/stories/PT077-ill-considered-action.txt",
+    "edits": [
+      {
+        "old": "The barber went to a monastery and asked for monks. He clubbed them and got gold.",
+        "new": "The barber went to a monastery and asked for monks. He clubbed them, but they did not turn to gold.",
+        "rationale": "Telling states the barber 'got gold'; the source's real monks did not turn to gold — only Jewel's fate-sent monk did. Source shows them dying/wounded and bleeding, and the telling's own next line has them running with blood, so the gold claim is both invented and internally inconsistent."
+      }
+    ]
+  },
+  {
+    "id": "PT083:4-9",
+    "file": "corpus/age/4-9/PT083-slow-the-weaver.txt",
+    "source_chapter": "corpus/stories/PT083-slow-the-weaver.txt",
+    "edits": [
+      {
+        "old": "Slow died. The people learned a lesson.",
+        "new": "Slow died.",
+        "rationale": "Source ends the tale with Slow's death and draws no lesson; grep confirms 'lesson'/'learn' occur nowhere in the source chapter. The sentence asserts an outcome the source never states."
+      }
+    ]
+  },
+  {
+    "id": "PT084:4-9",
+    "file": "corpus/age/4-9/PT084-the-brahman-s-dream.txt",
+    "source_chapter": "corpus/stories/PT084-the-brahman-s-dream.txt",
+    "edits": [
+      {
+        "old": "Seedy turned white from head to toe.\n\nSeedy woke up, and his friends laughed at him.\nHe looked silly with his white face.\n\nMoral:",
+        "new": "Seedy turned white from head to toe.\n\nMoral:",
+        "rationale": "Source story ends at the whitening in his hypnotic dream; the Brahman is solitary and no waking, friends, or laughter appears anywhere in the chapter or complete text. Telling appends an invented event and characters."
+      }
+    ]
+  },
+  {
+    "id": "PT002:9+",
+    "file": "corpus/age/9+/PT002-introduction.txt",
+    "source_chapter": "corpus/stories/PT002-introduction.txt",
+    "edits": [
+      {
+        "old": "The advisors suggested different methods to educate the princes, but one advisor, Keen, had a clever idea. He said, \"Your Majesty, we can't teach them in a short time. They need to learn the basics of grammar, then move on to books on religion and practical life. It will take twelve years.\"\n\nBut Keen had another idea. He said, \"Since life is short, and verbal sciences take a long time to master, let's create a summary of the essential facts. This way, we can make them intelligent in a short time.\"",
+        "new": "The advisors suggested different methods to educate the princes. They said, \"Your Majesty, we can't teach them in a short time. They need to learn the basics of grammar, then move on to books on religion and practical life. It will take twelve years.\"\n\nBut one advisor, Keen, had a clever idea. He said, \"Since life is short, and verbal sciences take a long time to master, let's create a summary of the essential facts. This way, we can make them intelligent in a short time.\"",
+        "rationale": "Telling (line 9) attributes the twelve-year grammar-then-religion curriculum to Keen, then (line 11) has Keen 'also' propose the epitome. Source assigns the twelve-year doctrine to the counselors en masse and gives Keen the opposite, epitome proposal — so his position is inverted."
+      }
+    ]
+  },
+  {
+    "id": "PT003:9+",
+    "file": "corpus/age/9+/PT003-the-loss-of-friends.txt",
+    "source_chapter": "corpus/stories/PT003-the-loss-of-friends.txt",
+    "edits": [
+      {
+        "old": "The driver reported to Increase that Lively had died.",
+        "new": "The driver told Increase that Lively had sunk in the mud.",
+        "rationale": "Telling line 5 gives the driver the death report. Source line 56 gives the driver only a truthful mud report; the false death report belongs to 'the men' (line 60), which the telling itself already states correctly on line 7. Fixing line 5 removes the contradiction and matches source."
+      }
+    ]
+  },
+  {
+    "id": "PT006:9+",
+    "file": "corpus/age/9+/PT006-merchant-strong-tooth.txt",
+    "source_chapter": "corpus/stories/PT006-merchant-strong-tooth.txt",
+    "edits": [
+      {
+        "old": "Bull was overjoyed and apologized for his actions.",
+        "new": "Bull was overjoyed and said, \"Friend, I forgive you.\"",
+        "rationale": "Source inverts the roles: Bull, the actual wrongdoer, magnanimously FORGIVES Strong-Tooth when given the garments. Nobody apologizes. The telling flips Bull into the contrite party who apologizes."
+      }
+    ]
+  },
+  {
+    "id": "PT007:9+",
+    "file": "corpus/age/9+/PT007-godly-and-june.txt",
+    "source_chapter": "corpus/stories/PT007-godly-and-june.txt",
+    "edits": [
+      {
+        "old": "As time passed, June served Godly, but still didn't trust him.",
+        "new": "As time passed, June served Godly, but Godly still did not trust him.",
+        "rationale": "Telling makes June the distrusting party; source makes Godly the distrusting party. Actor reversed."
+      }
+    ]
+  },
+  {
+    "id": "PT015:9+",
+    "file": "corpus/age/9+/PT015-leap-and-creep.txt",
+    "source_chapter": "corpus/stories/PT015-leap-and-creep.txt",
+    "edits": [
+      {
+        "old": "She agreed to let Leap stay, but with a condition: \"You must not bite the king when he's drunk, tired, or asleep. That's the right time and place.\"",
+        "new": "She agreed to let Leap stay, but with a condition: \"When the king is drunk, tired, or asleep, then you may quietly bite him on the feet. That is the right time and place.\"",
+        "rationale": "source line 44 makes wine/fatigue/sleep the sanctioned TIME to bite (on the feet); the telling makes that same state forbidden, and the trailing 'That's the right time and place' contradicts its own clause."
+      }
+    ]
+  },
+  {
+    "id": "PT018:9+",
+    "file": "corpus/age/9+/PT018-ugly-s-trust-abused.txt",
+    "source_chapter": "corpus/stories/PT018-ugly-s-trust-abused.txt",
+    "edits": [
+      {
+        "old": "However, Haughty soon fell ill and couldn't hunt for food. His companions, the leopard, the crow, and the jackal, grew tired and hungry. They begged Haughty to let them find food for him, but he refused, saying he was on a diet.",
+        "new": "However, Haughty fought an elephant one day and was wounded by a tusk. He had to keep to his cave. After five or six days, all of them were in distress from the lack of food. Haughty told them he could not supply the usual food while wounded, and urged them to hunt up a creature for them both to eat.",
+        "rationale": "Telling invents the lion's illness and his refusal to let companions hunt; source has a tusk wound and the LION ordering them to hunt up a food-animal."
+      }
+    ]
+  },
+  {
+    "id": "PT026:9+",
+    "file": "corpus/age/9+/PT026-smart-the-jackal.txt",
+    "source_chapter": "corpus/stories/PT026-smart-the-jackal.txt",
+    "edits": [
+      {
+        "old": "Moral: Those who use their intelligence to harm others will eventually be punished for their selfish deeds.",
+        "new": "Moral: Those who wrong others for their own good should keep their plans a secret, as Smart did.",
+        "rationale": "Telling's moral promises the schemer 'will eventually be punished,' an outcome absent from the fable and the frame. Source's moral is that the wise schemer should keep his plans secret, exactly as Smart does. Substituted karma line, unearned."
+      },
+      {
+        "old": "Meat-Face blamed Smart, but the lion realized he was innocent.",
+        "new": "Smart blamed Meat-Face for the missing heart, so Meat-Face fled for his life. The lion chased him a short way, then turned back.",
+        "rationale": "Accusation is reversed. Source: Smart accuses Meat-Face and Meat-Face flees; the lion chases briefly then turns back. Telling says Meat-Face blamed Smart and adds an invented beat, 'the lion realized he was innocent'; drops the flight and turn-back."
+      }
+    ]
+  },
+  {
+    "id": "PT029:9+",
+    "file": "corpus/age/9+/PT029-poor-blossom.txt",
+    "source_chapter": "corpus/stories/PT029-poor-blossom.txt",
+    "edits": [
+      {
+        "old": "The gods asked Yama to speak to Death, and when he did, Blossom died at the mere sight of Death.",
+        "new": "The gods spoke to Death and asked him to spare Blossom. But Blossom died at the mere sight of Death.",
+        "rationale": "Source: the gods themselves address Death (\"Pray speak to him\" -> \"when they did so\"). Telling reassigns the speaker to Yama, inverting the acting agent."
+      },
+      {
+        "old": "The gods returned to heaven, and the story of Blossom's fate spread throughout the land.",
+        "new": "With that, the gods returned to heaven.",
+        "rationale": "Telling invents that the story spread through the land; source ends the tale with the gods going back to heaven."
+      }
+    ]
+  },
+  {
+    "id": "PT030:9+",
+    "file": "corpus/age/9+/PT030-the-unteachable-monkey.txt",
+    "source_chapter": "corpus/stories/PT030-the-unteachable-monkey.txt",
+    "edits": [
+      {
+        "old": "The other monkeys were shocked and saddened by the bird's death. They realized that they had been foolish to ignore Needle-Face's warnings. They learned a valuable lesson that day: it's always better to listen to advice from others, rather than stubbornly doing what you think is right.",
+        "new": "The monkey did not learn from what happened. He would not listen, even when the bird tried again and again. An unfit mind cannot be taught, no matter how good the advice.",
+        "rationale": "Source never mentions the other monkeys again after the firefly scene and states no reaction; the mourning and 'learned a lesson' are invented."
+      }
+    ]
+  },
+  {
+    "id": "PT033:9+",
+    "file": "corpus/age/9+/PT033-the-mice-that-ate-iron.txt",
+    "source_chapter": "corpus/stories/PT033-the-mice-that-ate-iron.txt",
+    "edits": [
+      {
+        "old": "Moral: People often lie to cover up their own mistakes, but honesty is always the best policy.",
+        "new": "Moral: A liar is often trapped by his own lie.",
+        "rationale": "The body tracks the source exactly, but the appended Moral asserts a lesson the source never states. Every load-bearing act is a lie (Lakshman: mice ate iron; Naduk: a hawk stole the boy) and nobody wins by honesty, so 'honesty is always the best policy' is unearned and inverted. The source's own lesson for this fable is the retort verse (the absurd lie answered by an equally absurd one). Edit replaces the moral with the source's actual point."
+      }
+    ]
+  },
+  {
+    "id": "PT035:9+",
+    "file": "corpus/age/9+/PT035-the-sensible-enemy.txt",
+    "source_chapter": "corpus/stories/PT035-the-sensible-enemy.txt",
+    "edits": [
+      {
+        "old": "Realizing his mistake, the chief released the travelers, and they continued their journey. The thief's selfless act saved his friends' lives, and they all reached a safe destination.",
+        "new": "Realizing his mistake, the chief set the three friends free. The thief had died to save them. They hurried through the forest and reached a safe place.",
+        "rationale": "Source explicitly frees 'the three' and its closing verse is 'The robber for his victims died'; the telling's 'they all reached a safe destination' includes the thief, stating the opposite outcome."
+      }
+    ]
+  },
+  {
+    "id": "PT036:9+",
+    "file": "corpus/age/9+/PT036-the-foolish-friend.txt",
+    "source_chapter": "corpus/stories/PT036-the-foolish-friend.txt",
+    "edits": [
+      {
+        "old": "The merchant's son was appointed prime minister, and the prince became the king.",
+        "new": "The prince made the son of a man of learning his prime minister, and then became the king.",
+        "rationale": "Telling gives the merchant's son the prime ministership; the source assigns that post to the son of the man of learning and the merchant's son only the treasury secretaryship. Direct contradiction of a source-stated office."
+      }
+    ]
+  },
+  {
+    "id": "PT037:9+",
+    "file": "corpus/age/9+/PT037-the-winning-of-friends.txt",
+    "source_chapter": "corpus/stories/PT037-the-winning-of-friends.txt",
+    "edits": [
+      {
+        "old": "Together, the doves managed to lift the snare and fly away, leaving the hunter frustrated.",
+        "new": "Together, the doves managed to lift the snare and fly away, leaving the hunter frustrated. But the snare was still tied around them. Gay-Neck led the doves to the city to find his friend, a mouse named Gold. Gold cut the bonds of every dove, and they were free to go home.",
+        "rationale": "Source chapter ends on a hand-off ('And Gay-Neck told the story of'), so the true resolution is sought in complete.txt. There the escape is only a midpoint: the doves still carry the snare and are freed later by Gay-Neck's friend the mouse Gold. The telling stops at the escape and closes with a teamwork moral as if resolved, omitting the friend-Gold freeing that gives the story its title."
+      }
+    ]
+  },
+  {
+    "id": "PT046:9+",
+    "file": "corpus/age/9+/PT046-spot-s-captivity.txt",
+    "source_chapter": "corpus/stories/PT046-spot-s-captivity.txt",
+    "edits": [
+      {
+        "old": "There was Gold, a wise and clever deer who had been watching me from a distance. There was Swift, a quick and agile deer who could run fast. And there was Slow, a gentle and kind deer who had been captured by the hunter.",
+        "new": "There was Gold, a wise and clever mouse who had been watching me from a distance. There was Swift, a quick and agile crow who could fly fast. And there was Slow, a gentle and kind turtle who had been captured by the hunter.",
+        "rationale": "Source names the species explicitly and via actions: Gold is the mouse (cuts the turtle's bonds, slides into a chink), Swift is the crow (flies into a tree), Slow is the turtle. Telling mislabels all three as 'deer,' then self-contradicts in line 13 (Swift pecks eyes; 'the turtle'). Minimal fix swaps the three species nouns."
+      }
+    ]
+  },
+  {
+    "id": "PT049:9+",
+    "file": "corpus/age/9+/PT049-how-the-rabbit-fooled-the-elephant.txt",
+    "source_chapter": "corpus/stories/PT049-how-the-rabbit-fooled-the-elephant.txt",
+    "edits": [
+      {
+        "old": "Moral: Pretending to be something you're not can lead to trouble, and honesty is always the best policy.",
+        "new": "Moral: A clever trick can save you from a foe much stronger than you.",
+        "rationale": "The story's whole point is a successful, unpunished deception; the appended moral asserts the opposite and is found nowhere in the source."
+      }
+    ]
+  },
+  {
+    "id": "PT052:9+",
+    "file": "corpus/age/9+/PT052-the-snake-and-the-ants.txt",
+    "source_chapter": "corpus/stories/PT052-the-snake-and-the-ants.txt",
+    "edits": [
+      {
+        "old": "Haughty perished.\n\nThe ants celebrated their victory, and the ant-hill was safe once again.\n\nMoral:",
+        "new": "Haughty perished.\n\nMoral:",
+        "rationale": "Source fable ends at the death ('And Haughty perished' / 'The ants devoured the giant snake'); it never mentions a celebration or the ant-hill being threatened then saved. The telling appends a discrete invented closing scene."
+      },
+      {
+        "old": "Haughty decided to take a shortcut through a narrow crevice, thinking it would save him time.",
+        "new": "instead of following the beaten path out of his hole, Haughty tried to crawl through a narrower crevice.",
+        "rationale": "Source gives no motive; it attributes the wound to his huge body, the small opening, and fate. The telling invents an internal motive ('thinking it would save him time') not stated by the source."
+      }
+    ]
+  },
+  {
+    "id": "PT054:9+",
+    "file": "corpus/age/9+/PT054-the-unsocial-swans.txt",
+    "source_chapter": "corpus/stories/PT054-the-unsocial-swans.txt",
+    "edits": [
+      {
+        "old": "The king's soldiers were left standing alone, confused and frustrated. The king realized that he had made a mistake and that his soldiers had overreacted.\n\nThe king learned a valuable lesson from this experience: being generous and kind to all living creatures is essential for maintaining peace and harmony.\n\nMoral: Generosity and kindness towards all living beings lead to a harmonious and peaceful society.",
+        "new": "Moral: Be generous to all that lives.",
+        "rationale": "The source ends the fable the instant the flock escapes, followed only by the tag verse; the king (who himself ordered the slaughter) is never shown reacting, repenting, or learning. The telling invents the soldiers being 'confused and frustrated', the king realizing 'he had made a mistake', and the king learning a lesson, then builds an invented moral-extension on it. Replaced with the source's escape-ending and tag verse."
+      }
+    ]
+  },
+  {
+    "id": "PT056:9+",
+    "file": "corpus/age/9+/PT056-the-old-man-with-the-young-wife.txt",
+    "source_chapter": "corpus/stories/PT056-the-old-man-with-the-young-wife.txt",
+    "edits": [
+      {
+        "old": "He explained, \"We should expect help from our enemies if they are divided among themselves. The thief has shown us that life and kindness can be more valuable than wealth.\"",
+        "new": "He explained, \"We should expect help from our enemies if they are divided among themselves.\"",
+        "rationale": "The clause 'The thief has shown us that life and kindness can be more valuable than wealth' is invented. In the source Hook-Nose's ONLY reason is the discord verse; the benefactor/thief argument belongs to Flame-Eye (who told the old-man story). The telling already delivers that idea via the old man at line 9, so removing the invented clause leaves Hook-Nose with exactly his own source reason."
+      },
+      {
+        "old": "The thief replied, \"I don't want anything. If she shows me such affection, I'll return another time.\"",
+        "new": "The thief replied, \"I want nothing here. But if I did want something, I would come back only when she does not cling to you like that.\"",
+        "rationale": "The telling inverts the thief's condition: source says he would return if she does NOT cling (household divided); telling says he would return if she DOES show affection. Rewritten to state the source's actual claim."
+      }
+    ]
+  },
+  {
+    "id": "PT059:9+",
+    "file": "corpus/age/9+/PT059-the-gullible-carpenter.txt",
+    "source_chapter": "corpus/stories/PT059-the-gullible-carpenter.txt",
+    "edits": [
+      {
+        "old": "The carpenter, hearing the commotion, emerged from under the bed and accused his wife and the lover of infidelity. But instead of being angry, he praised his wife for being clever and convincing.",
+        "new": "The carpenter, fool that he was, felt his heart thrill with joy when he heard her words. He came out from under the bed and called her a faithful wife. He said he had only pretended a trip to another village to test her, and had hidden under the bed.",
+        "rationale": "The telling stages an accusation the source does not contain and inverts the praise. Source: the carpenter (a fool) is thrilled with joy and greets her as 'faithful wife' — he is deceived and never confronts them. Line 50 has no accusation; grep for 'accus' returns zero hits in the chapter and the complete text. The praise in the source is 'faithful', not 'clever and convincing'."
+      }
+    ]
+  },
+  {
+    "id": "PT062:9+",
+    "file": "corpus/age/9+/PT062-the-cave-that-talked.txt",
+    "source_chapter": "corpus/stories/PT062-the-cave-that-talked.txt",
+    "edits": [
+      {
+        "old": "A wise old owl named Live-Strong",
+        "new": "A wise old crow named Live-Strong",
+        "rationale": "ACTOR_MISASSIGNED confirmed: source names Live-Strong a crow and makes the owls his victims, so the telling's \"owl...destroy the owls\" both self-contradicts and inverts the frame's crow-vs-owl alignment."
+      }
+    ]
+  },
+  {
+    "id": "PT065:9+",
+    "file": "corpus/age/9+/PT065-the-monkey-and-the-crocodile.txt",
+    "source_chapter": "corpus/stories/PT065-the-monkey-and-the-crocodile.txt",
+    "edits": [
+      {
+        "old": "The crocodile explained that his wife wanted Red-Face's heart, but he couldn't kill him.",
+        "new": "The crocodile said his wife had scolded him for not returning Red-Face's kindness. She wanted Red-Face to come home as a guest.",
+        "rationale": "Continuation of the invented onshore confession; the crocodile names the wife's real demand (his heart) on shore. Source has him conceal it and instead imply she only wants the monkey as a guest. Faithful replacement: wife scolded him for ingratitude and invited the monkey home."
+      }
+    ]
+  },
+  {
+    "id": "PT067:9+",
+    "file": "corpus/age/9+/PT067-flop-ear-and-dusty.txt",
+    "source_chapter": "corpus/stories/PT067-flop-ear-and-dusty.txt",
+    "edits": [
+      {
+        "old": "This time, the lion was prepared and killed Flop-Ear. Dusty ate the donkey's ears and heart, and the lion divided the spoils with him. The lion was impressed with Dusty's cunning and promised not to be like Flop-Ear, who was deceived by his own foolishness.",
+        "new": "This time, the lion was prepared and killed Flop-Ear. The lion went to the river to bathe and left Dusty on guard. Dusty ate the donkey's ears and heart. When the lion came back, he found the donkey minus ears and heart, and grew very angry. But Dusty said the donkey was born without ears and heart. The lion believed him, divided the food, and ate his share without suspicion.",
+        "rationale": "The lion never promises anything about Flop-Ear; the source has him furious at the missing ears/heart and then fooled by the jackal's lie. The telling also dropped that lie. Restores the true resolution verbatim from the source."
+      },
+      {
+        "old": "Moral: The heedless trickster who forgets his own advantage and lets the truth slip out is sure to lose his victory.",
+        "new": "Moral: Those who let sweet promises deceive them may lose their lives.",
+        "rationale": "That verse is the MONKEY's outer-frame speech to the crocodile, introducing the NEXT nested tale (Fight-Firm). The donkey tale's body shows the trickster Dusty WINNING by lying, so a moral about a trickster losing by telling the truth names an outcome the body never depicts. Replaced with the lesson the body actually earns: the donkey, deceived by flattery and promises, is killed."
+      }
+    ]
+  },
+  {
+    "id": "PT068:9+",
+    "file": "corpus/age/9+/PT068-the-potter-militant.txt",
+    "source_chapter": "corpus/stories/PT068-the-potter-militant.txt",
+    "edits": [
+      {
+        "old": "Fight-Firm asked the king not to punish him, but to let him prove his bravery in battle. The king refused, saying that although Fight-Firm might be brave and clever, he had no noble blood.",
+        "new": "Fight-Firm asked the king not to punish him, but to let him prove his bravery in battle. The king refused. He said Fight-Firm might be brave and clever, but he had no noble blood. The king told him to leave before the soldiers learned he was a potter. So Fight-Firm left.",
+        "rationale": "Telling ends on the king's refusal; the source's closing action (the potter leaves) is never shown. Add the departure, matching the source."
+      }
+    ]
+  },
+  {
+    "id": "PT073:9+",
+    "file": "corpus/age/9+/PT073-the-farmer-s-wife.txt",
+    "source_chapter": "corpus/stories/PT073-the-farmer-s-wife.txt",
+    "edits": [
+      {
+        "old": "The first crocodile was worried and asked his monkey friend for advice. The monkey refused to help, saying the crocodile was foolish to bother him. He told a story about a foolish monkey who broke a sparrow's nest, and then left.",
+        "new": "The first crocodile was worried and asked his monkey friend for advice. At first the monkey refused to help. He said the crocodile was a fool, and told a story about a foolish monkey who broke a sparrow's nest. But the crocodile begged his old friend again and again. Then the monkey told him to fight the intruder who had taken his house. The crocodile fought the intruder and killed him. So he got his home back and lived there happily.",
+        "rationale": "Source chapter ends on a hand-off; the crocodile's stolen-house thread it just introduced is only resolved at complete.txt:12820 (monkey relents, advises fight; crocodile kills intruder, recovers home). The telling stops exactly at the hand-off and adds an invented departure ('and then left') the source contradicts - the monkey does not leave, it later relents and advises. Edit lands the telling on the source's true resolution."
+      }
+    ]
+  },
+  {
+    "id": "PT077:9+",
+    "file": "corpus/age/9+/PT077-ill-considered-action.txt",
+    "source_chapter": "corpus/stories/PT077-ill-considered-action.txt",
+    "edits": [
+      {
+        "old": "He invited many monks to his house, clubbed them, and collected the gold.",
+        "new": "He invited many monks to his house and clubbed them. Some died, and others had their heads broken and cried out in pain.",
+        "rationale": "Telling asserts the barber 'collected the gold' from his clubbed victims. The source's clubbed monks simply die or howl; only Jewel's unique ancestor-treasure monk turned to gold. The telling invents a gold yield and guts the 'ill-considered action' point."
+      }
+    ]
+  },
+  {
+    "id": "PT081:9+",
+    "file": "corpus/age/9+/PT081-hundred-wit-thousand-wit-and-single-wit.txt",
+    "source_chapter": "corpus/stories/PT081-hundred-wit-thousand-wit-and-single-wit.txt",
+    "edits": [
+      {
+        "old": "The frog's wife asked, \"What happened?\" The frog replied, \"I was blinded by my own intelligence and pride. Intelligence is not the only factor in fate.\"",
+        "new": "The frog's wife asked, \"What happened?\" The frog replied, \"Hundred-Wit and Thousand-Wit trusted their cleverness, and it did not save them. Intelligence is not the only factor in fate.\"",
+        "rationale": "Source assigns survival to the frog (who heeded his one wit and fled) and death to the fish who trusted their many wits. The telling has the frog confess to being blinded by his own intelligence and pride, reversing that assignment. The moral sentence is the source's own line and is kept."
+      }
+    ]
+  },
+  {
+    "id": "PT086:9+",
+    "file": "corpus/age/9+/PT086-the-credulous-fiend.txt",
+    "source_chapter": "corpus/stories/PT086-the-credulous-fiend.txt",
+    "edits": [
+      {
+        "old": "The fiend, seeing the monkey's distress, tried to reason with him. He said, \"You have been caught by Twilight, the one who wins the race. It's time for you to bid me farewell and go home.\" The monkey, still in agony, couldn't respond and could only wait for his fate to be decided.",
+        "new": "The fiend, seeing the monkey's distress, tried to reason with him. He said, \"You have been caught by Twilight, the one who wins the race.\" The monkey, still in agony, couldn't respond and could only wait for his fate to be decided.",
+        "rationale": "The telling gives the fiend the line 'It's time for you to bid me farewell and go home' addressed to the monkey. In the source the fable's fiend only recites the mocking stanza; the farewell is spoken by the frame narrator (gold-finder) to his companion the wheel-bearer, not by the fiend to the monkey. The frameless telling cannot host that narrator line, so the faithful minimal fix is to drop the misassigned clause and leave the fiend's stanza as the fable's close (which is exactly where the source's fable ends)."
+      }
+    ]
+  }
+]

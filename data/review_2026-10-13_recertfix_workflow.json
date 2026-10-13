@@ -1,0 +1,55 @@
+{
+  "generated": "2026-10-13",
+  "source_workflow": "wf_6d11c736-cff",
+  "confirmedEdits": [
+    {
+      "story": "PT007:9+",
+      "file": "corpus/age/9+/PT007-godly-and-june.txt",
+      "old": "He thought of killing Godly",
+      "new": "June thought of killing Godly",
+      "rationale": "Telling line 13 reads 'June served Godly, but Godly still did not trust him. He thought of killing Godly, but then a pupil's son arrived...'. The subject of the immediately preceding independent clause is Godly, so the default antecedent of 'He' is Godly, producing the self-contradictory 'Godly thought of killing Godly.' The source (corpus/panchatantra_complete.txt:2219, = corpus/stories/PT007-godly-and-june.txt:96) attributes the reflection to June: 'As the time passed in this manner, June reflected: \"Dear me! Do what I will, he does not trust me. So shall I kill him with a knife...\"'. The prior edit had already made the distrust actor Godly ('Godly still did not trust him'), which is contrastive-correct, but left 'He' pointing back at the newly-installed Godly subject. Fix: name the actor June so the pronoun antecedent is unambiguous. A one-for-one word swap of equal syllable count leaves all readability metrics unchanged and in band (FK 5.5, 14.2 words/sentence, 1.316 syllables/word, 285 words). Coherence re-check of surrounding sentences: the following 'He handed June his treasure' still resolves to Godly (subject of 'Godly took June along ... came to a river'), which is source-correct; no other pronoun is disturbed.",
+      "source_quote": "As the time passed in this manner, June reflected: \"Dear me! Do what I will, he does not trust me. So shall I kill him with a knife in broad daylight? Or give him poison? Or butcher him like a beast?\""
+    },
+    {
+      "story": "PT015:9+",
+      "file": "corpus/age/9+/PT015-leap-and-creep.txt",
+      "old": "Moral: Being a good host means being mindful of your guests' needs and respecting their boundaries, lest you suffer the consequences.",
+      "new": "Moral: Do not share your house with a stranger. Welcoming the flea Leap is what brought death to Creep the louse.",
+      "rationale": "The telling's moral prescribes the opposite of the source's lesson. Ryder's text makes sharing your house with a stranger the cause of ruin ('With no stranger share your house; Leap, the flea, killed Creep, the louse'), and the frame names Creep's hospitality as her undoing ('she agreed, since courtesy was her hobby'). The telling instead moralized on being a mindful, boundary-respecting host, which the body does not support (Creep sets the boundary at line 9 and still dies). Fix states the source lesson directly; the moral is the last line so no pronoun antecedent is affected by the change.",
+      "source_quote": "With no stranger share your house; Leap, the flea, killed Creep, the louse."
+    },
+    {
+      "story": "PT056:9+",
+      "file": "corpus/age/9+/PT056-the-old-man-with-the-young-wife.txt",
+      "old": "suggested that the thief should not be killed",
+      "new": "suggested that the suppliant guest should not be killed",
+      "rationale": "The telling's line 11 names the fable's thief as the party spared by the owl court's counsel. The source (Ryder) shows the council is deciding the fate of Foe-Crusher's suppliant guest, the crow Live-Strong: Flame-Eye applies the fable and concludes of the guest 'he should not be killed' (line 10767), and Hook-Nose answers 'O King, he should not be killed' (line 10769). The fable's thief merely replies and leaves (lines 10757-10765) and is never a candidate for killing. Swapping 'the thief' for 'the suppliant guest' states exactly what the source states. This also repairs the pronoun antecedent: 'He explained' now unambiguously refers to Hook-Nose the counselor, whereas the erroneous 'the thief' gave 'He' a competing antecedent. The 4-9 sibling telling independently reads 'His counselors said the guest should not be killed', corroborating the correct actor. No neighboring sentences assign this actor or use conflicting he/she/it/they referents.",
+      "source_quote": "\"Thus advantage may be anticipated from a benefactor, thief though he be. How much more from a suppliant guest? ... In view of this, he should not be killed.\" (Flame-Eye, corpus/panchatantra_complete.txt line 10767); \"And Hook-Nose answered: 'O King, he should not be killed.'\" (line 10769)"
+    },
+    {
+      "story": "PT062:9+",
+      "file": "corpus/age/9+/PT062-the-cave-that-talked.txt",
+      "old": "Live-Strong was overjoyed at Curd-Face's departure.",
+      "new": "Live-Strong was overjoyed at Red-Eye's departure.",
+      "rationale": "Source PT062:34 (identical at complete.txt:11230) reads \"At Red-Eye's departure, Live-Strong was overjoyed.\" Red-Eye is the owl counselor who departs; Curd-Face is the jackal from the embedded cave tale and unrelated to Live-Strong's joy. The telling both contradicted the source and itself, since the very next sentence quotes Live-Strong's thought as \"Red-Eye's escape is a blessing for us.\" A one-word swap restores the source name. Coherence preserved: \"He thought\" still resolves to Live-Strong (the clause subject), and the inner \"He was wise\" resolves to Red-Eye (nearest named referent, matching source \"for he was farsighted\"). Readability of the corrected file: FK grade 6.7, words/sentence 14.7, syllables/word 1.399, 323 words — all within band.",
+      "source_quote": "At Red-Eye's departure, Live-Strong was overjoyed."
+    },
+    {
+      "story": "PT065:9+",
+      "file": "corpus/age/9+/PT065-the-monkey-and-the-crocodile.txt",
+      "old": "The crocodile visited Red-Face, telling him about his wife's demands.",
+      "new": "The crocodile visited Red-Face.",
+      "rationale": "Line 15 asserts the crocodile told Red-Face about his wife's demands on shore. The only demand the reader has seen is the wife's demand for Red-Face's heart (lines 9 and 13). The source's onshore scene (corpus/stories/PT065 line 104 'With these thoughts in mind, he visited the monkey' plus the false guest-pretext at line 118) discloses only the 'bring him home as a guest' pretext; the heart demand stays hidden until the sea scene (line 140: 'because my wife bade me do it'). So the surviving clause reveals the heart plot on shore — the source's opposite. Removing it makes line 15 match the source and removes the clash with the following guest-invite sentence.",
+      "source_quote": "With these thoughts in mind, he visited the monkey."
+    },
+    {
+      "story": "PT068:9+",
+      "file": "corpus/age/9+/PT068-the-potter-militant.txt",
+      "old": "Moral: True worth is not measured by appearance or family background, but by one's actions and character.",
+      "new": "Moral: The heedless trickster who lets the truth slip out is sure to lose his victory. Fight-Firm had all the virtues, yet the king sent him away, for no elephants are slain in his family.",
+      "rationale": "The source (Ryder) frames this fable inside a narrator lesson naming Fight-Firm: the heedless trickster who lets the truth slip out is sure to lose his victory (complete.txt 12270-12278), and the king concedes the potter is 'a treasure-house of all the virtues' yet sends him away, reciting 'But in your family, my boy, / No elephants are slain' (source lines 18-26 = complete.txt 12296-12304). The telling's moral asserted the opposite about family background and contradicted its own body line 13 ('he had no noble blood'). Fixed by stating only what the source states; the new moral also matches body line 13. Readability of the whole file: FK grade 4.9, words/sentence 12.3, syllables/word 1.333, 246 words - all within band. No pronoun antecedent broken (line 13 uses the named 'Fight-Firm'; the moral introduces its own subject).",
+      "source_quote": "\"No, my friend,\" said the king, \"you may be a treasure-house of all the virtues. Yet you must begone. You may have heard the stanza: ... But in your family, my boy, / No elephants are slain.\" ... \"The heedless trickster who forgets / His own advantage, and who lets / The truth slip out, like Fight-Firm, he / Is sure to lose his victory.\""
+    }
+  ],
+  "falsePositive": []
+}

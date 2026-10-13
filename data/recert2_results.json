@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PT007:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The applied edit (\"He thought of killing Godly\" -> \"June thought of killing Godly\") is correct. Source stories/PT007 line 96 attributes the murderous reflection to June (\"June reflected: 'Dear me! Do what I will, he does not trust me. So shall I kill him with a knife...'\"), so naming June matches the authority and fixes the self-contradictory reading (\"Godly thought of killing Godly\") created by the preceding Godly-subject clause. Coherence holds: \"Godly still did not trust him\" (him=June, source line 94 'Still, Godly kept his treasure under his arm'), and the subsequent \"He handed June his treasure\" resolves to Godly, subject of \"Godly took June along... came to a river\" (source lines 100-102). All events/actors match the source: June's service and lack of trust, the pupil's son bearing an invitation, Godly taking June along, the river, handing over the treasure/robe, asking June to keep watch, and June seizing the treasure once Godly was out of sight. No invented events; no moral line in the telling to contradict.",
+    "confirmedDefects": []
+  },
+  {
+    "id": "PT015:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The edited moral now states the source lesson. Ryder's verse (corpus/stories/PT015-leap-and-creep.txt and corpus/panchatantra_complete.txt:3868-3870) reads \"With no stranger share your house; ... Leap, the flea, killed Creep, the louse.\" The telling's new last line, \"Do not share your house with a stranger. Welcoming the flea Leap is what brought death to Creep the louse,\" matches that. Actors are correct throughout: Creep is the female louse (she/her), Leap the male flea (he/him), matching the source. The body tracks the source (Creep's warning, Leap's guest plea, the foot/back-and-real-time condition, the back bite, the crevice hiding, and the servants killing Creep in Leap's place). The moral is the standalone final line, so the swap touches no pronoun antecedent and subject continuity in the preceding sentences is undisturbed. No source line contradicts the telling; no defect.",
+    "confirmedDefects": []
+  },
+  {
+    "id": "PT056:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The edit (\"the thief\" -> \"the suppliant guest\") restores the source's actor. Source PT056 line 47 (complete.txt:10769): Hook-Nose answers \"O King, he should not be killed,\" where \"he\" is the suppliant guest (Live-Strong), per Flame-Eye's preceding conclusion (complete.txt:10767): \"How much more from a suppliant guest? ... he should not be killed.\" The fable's thief merely replies and leaves (complete.txt:10757-10765) and is never a killing candidate, so the old wording contradicted the source. The corrected line's quoted proverb (\"From enemies expect relief, If discord pierce their host\") is Hook-Nose's own source verse, so the attribution is faithful. Coherence: \"He explained\" now resolves unambiguously to Hook-Nose, the subject of the prior sentence; no competing antecedent remains. All other actors (Foe-Crusher the king, Hook-Nose the counselor), the old man/thief fable, and the closing moral match the source. No source line contradicts the telling. Note: \"the suppliant guest\" appears without prior introduction in this telling, but that mirrors the source chapter's own abruptness (the guest is introduced in the parent frame, not in PT056), so it is not a defect against the authority.",
+    "confirmedDefects": []
+  },
+  {
+    "id": "PT062:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The applied edit (Curd-Face -> Red-Eye) is a correct one-word fix. Source authority: corpus/stories/PT062-the-cave-that-talked.txt line 34 (identical at corpus/panchatantra_complete.txt:11230): \"At Red-Eye's departure, Live-Strong was overjoyed. And he reflected: 'Very good, indeed. Red-Eye's flight is a blessing to us. For he was farsighted, while the rest are numskulls. I can easily destroy them now.'\" The corrected telling matches this verbatim in actor and content, and it also removes the internal contradiction with the immediately following sentence (\"Red-Eye's escape is a blessing for us\"), which had already named Red-Eye. Coherence is preserved: \"He thought\" resolves to Live-Strong (clause subject); \"He was wise\" resolves to Red-Eye (nearest named referent, matching source \"he was farsighted\"); \"them\" = the owls. All other actors and events trace to the source (Rough-Claw the lion, Curd-Face the jackal, Live-Strong the crow, Cloudy the king, the owls burned while blind in their cave via Live-Strong's woodpile at the gate and Cloudy's followers' lighted fagots). No invented events. The closing moral (\"Never trust an enemy, however friendly he seems, and do not make one without cause\") is consistent with the source's \"The shrewd discover enemies / Disguised as friends\" verse; no source line contradicts it. The source chapter ends on a hand-off (\"And Live-Strong told the story of\", line 39), which the adaptation omits; that is a normal cut, not a contradiction. Minor liberties exist but none contradict a source line: Red-Eye and Cloudy are named without introduction in the telling, which mirrors the source excerpt (Red-Eye first appears unnamed-context at line 32-34); Cloudy is called \"the king of the forest\" where the source has him as king of the crows. No defect.",
+    "confirmedDefects": []
+  },
+  {
+    "id": "PT065:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The applied edit fixes the only contradiction. Line 15 previously asserted the crocodile told Red-Face about his wife's demands on shore, which revealed the hidden heart plot (the wife's demand for Red-Face's heart, seen at telling lines 9 and 13). The source keeps that hidden until the sea scene: the onshore visit discloses only the ungratefulness scolding and the guest-invite pretext (corpus/stories/PT065 lines 104 and 108-118: 'bring him home, and we will make some return for his kindness'), while the heart motive surfaces only at corpus/stories/PT065 line 140 ('because my wife bade me do it') and line 144. After the edit, line 15 reads 'The crocodile visited Red-Face... The crocodile said his wife had scolded him for not returning Red-Face's kindness. She wanted Red-Face to come home as a guest.' — matching the source and preserving coherence: the following guest-invite sentence (line 15) now follows cleanly, and the pronoun 'She' has an unambiguous antecedent (the crocodile's wife, line 7/9/11). Subject continuity across lines 15-17 (crocodile proposes the underwater home and the back-ride) is intact. All remaining scenes track the source: wife's heart demand and jealousy (lines 9-13 ~ source 52-92), the ride and drowning fear (17 ~ 132-136), the deceit and pray-to-god (19 ~ 138-142), the false second heart (21 ~ 146), the mocked refusal (23 ~ 164), the re-offer and final refusal with the Handsome/Theodore quip (25-27 ~ 174-184), and the faithless-friend moral (29 ~ the 'Whoever trusts a faithless friend' proverb, source 166-172). No invented events, correct actors (monkey Red-Face, crocodile Ugly-Mug, the wife), correct moral. The source chapter's closing hand-off into the embedded 'Handsome and Theodore' tale is a legitimate truncation for this age-band telling, not a defect. Minor descriptor 'mischievous' for Red-Face (telling line 3) is characterization, not a contradicting source event.",
+    "confirmedDefects": []
+  },
+  {
+    "id": "PT068:9+",
+    "verdict": "FAITHFUL",
+    "defects": [],
+    "notes": "The edited moral now faithfully renders the source's two stanzas. The frame narrator's stanza (corpus/panchatantra_complete.txt 12270-12278: \"The heedless trickster who forgets / His own advantage, and who lets / The truth slip out, like Fight-Firm, he / Is sure to lose his victory.\") and the king's stanza (complete.txt 12296-12304: \"you may be a treasure-house of all the virtues. Yet you must begone... But in your family, my boy, / No elephants are slain.\") are both correctly paraphrased. The prior moral asserted the opposite of the source (that family background does not matter) and contradicted the body's own line \"he had no noble blood\"; the fix removes that contradiction. Actors are right (potter Fight-Firm, the king, the jealous princes, the guards); no source line contradicts any body event. Coherence holds: the moral introduces its own named subject, so no pronoun antecedent is disturbed, and the body's \"he had no noble blood\" now aligns with the moral. Matches the rationale's cited line ranges.",
+    "confirmedDefects": []
+  }
+]

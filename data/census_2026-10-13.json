@@ -1,0 +1,1328 @@
+{
+  "audited": 142,
+  "resolves": 119,
+  "flagged": [
+    {
+      "story": "PT004-the-wedge-pulling-monkey",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "\"The king, impressed with Victor's words, decided to make him his new counselor. Victor was happy and proud to serve the king.\"",
+      "source_resolution": "corpus/stories/PT004-the-wedge-pulling-monkey.txt is TRUNCATED: it ends at line 788 on the hand-off \"And Victor told the story of\". The wedge-monkey fable itself is in corpus/panchatantra_complete.txt lines 862-866: a monkey bestrides the log, pulls the wedge, \"and when the wedge gave at the spot where his private parts entered the cleft, that, sir, you know without being told\" (the wedge snaps shut on him); Cheek then draws the moral \"that is why I say that meddling should be avoided by the intelligent.\" That is the entire fable — a two-paragraph illustration told by CHEEK to Victor. There is NO king in it, no one sent to find the monkey, and no promotion.",
+      "discrepancy": "The telling invents an ending absent from the source. Source: the monkey pulls the wedge, is crushed by the closing cleft, and Cheek closes with \"meddling should be avoided by the intelligent\" (complete.txt lines 862-866). Telling invents: (1) an angry king who \"had been warned about the monkey's misbehavior\"; (2) the king sending \"his counselor's son, Victor, to find the monkey\"; (3) a lecture dialogue in which Victor tells the monkey \"You must learn to think before acting\"; and (4) \"The king, impressed with Victor's words, decided to make him his new counselor.\" None of these elements — the king, the errand, the dialogue, or Victor's promotion — appear anywhere in the source. Greps for \"searched the forest\", \"find the monkey\", \"new counselor\", \"make him his\" return nothing matching this framing; in the source Victor is Rusty the lion's jackal retainer, unrelated to any monkey-trial scene."
+    },
+    {
+      "story": "PT019-the-lion-and-the-carpenter",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "\"The lion realized that the carpenter was right and that his friends were troublemakers. He decided to stay away from them and find a better way to get food. From then on, the lion visited the carpenter alone, and they became good friends.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4602-4610: the lion comes up and urges the carpenter (Spotless) not to fear, 'Do not be alarmed.' The carpenter stays in the tree and recites 'Your jackal does not reassure; / Your crow's sharp bill offends: / You therefore see me up a tree— / I do not like your friends.' The fable then ends with the narrator's line: 'And that is why I say that a king with shabby advisers brings no good to his dependents.' The PT019 chapter file (corpus/stories/PT019-*.txt) contains this same ending at line 30; its hand-off line at 104 ('And Victor told the story of') belongs to the Crows-and-Owls frame, not to this fable.",
+      "discrepancy": "The source fable ends with the carpenter refusing to descend and reciting the verse about not liking the lion's friends. It contains NO realization by the lion, NO decision to 'stay away' from the jackal and crow, and NO reconciliation in which 'they became good friends.' The entire final paragraph of the telling (lion sees his friends are troublemakers, abandons them, resumes daily visits alone, they become good friends) is a written ending the source does not contain."
+    },
+    {
+      "story": "PT020-the-plover-who-fought-the-ocean",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "\"Constance laid her eggs in a safe place. Sprawl was proud of himself, but he was wrong. The ocean's waves came and went, but they didn't hurt the plover's home.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4868-5131: the ocean seizes the eggs ('he made a long reach with his wave-hands and eagerly seized the eggs'), the hen-plover grieves, the plover vows to dry up the ocean and summons all the birds, Garuda and the blessèd one intervene, and finally 'the ocean, while all his train shook with fright, tremblingly took the eggs and restored them to the plover.' (The PT020 chapter file corpus/stories/PT020-*.txt is TRUNCATED — it ends at line 100 on the hand-off 'And Constance told the story of', so this resolution is only in the continuation.)",
+      "discrepancy": "The telling asserts the opposite of the source outcome: 'they didn't hurt the plover's home.' In the source the ocean does steal the eggs (a harm occurs) before they are eventually restored. The telling narrates no theft, no grief, no appeal, and no restoration — it invents a no-harm ending the source does not have."
+    },
+    {
+      "story": "PT020-the-plover-who-fought-the-ocean",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "\"Sprawl was taken aback. His wife was right – he had been foolish to boast about his bravery. Constance continued, \"And don't forget, it's wise to listen to friendly advice. Even a turtle learns from his friends.\" Sprawl looked at his wife with newfound respect, realizing he had been foolish to underestimate the ocean's power.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4868-5131: the ocean steals the plover's eggs; the plover vows to dry up the ocean and calls the birds; Garuda and the blessèd one intervene and the ocean restores the eggs to the plover.",
+      "discrepancy": "The telling stops on a realization/decision ('realizing he had been foolish to underestimate the ocean's power'). It never narrates the ocean seizing the eggs, the plover's appeal to the birds, Garuda's intervention, or the restoration of the eggs. Missing: the theft and the restoration — the entire resolution of the fable."
+    },
+    {
+      "story": "PT028",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "She told them about a wise person named Blossom. Blossom had a very hard life, but she never gave up. The girl said, \"I will be like Blossom. I will be happy with my snake husband.\"\n\nMoral: Be brave and happy with what you have.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 5611-5615 (continuation of the PT028 frame, past the truncated chapter's hand-off): \"One night the serpent issued from the generous chest which had been set for him in her chamber, and entered her bed... 'Stay, my dear wife. I am your husband.'... When she beheld him flashing with lofty diadem... they sank into a glad embrace. Now his father, the Brahman, rose betimes and discovered how matters stood. He therefore seized the serpent's skin that lay in the chest, and consumed it with fire... introduced to everybody as their own an extraordinarily handsome son.\"",
+      "discrepancy": "PT028 source chapter (corpus/stories/PT028-*.txt) ends on the hand-off line 'And the girl told the story of' and is TRUNCATED — its real ending is the continuation. This telling stops at the girl's decision to marry the snake and never shows the resolution: the night the serpent takes human form, reveals 'I am your husband,' and the father burns the snakeskin so he remains a man. Last beat is a decision, not the fable's consequence."
+    },
+    {
+      "story": "PT031-right-mind-and-wrong-mind",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wrong-Mind claimed to have a witness, the goddess of the forest, who would reveal the truth. The magistrates agreed, and Wrong-Mind's father was asked to be a witness. However, Right-Mind's father suspected foul play and warned his son about the dangers of clever schemes.\n\nMoral: Clever plans often hide a hidden trap, and trusting someone who is not trustworthy can lead to trouble.",
+      "source_resolution": "panchatantra_complete.txt:5814-5830 - the ordeal at the mimosa tree: Wrong-Mind's father speaks from the hole, Right-Mind burns the tree, the father confesses, Wrong-Mind is hanged, Right-Mind is honoured.",
+      "discrepancy": "Stops at the plan/warning, before the resolution. Nothing after the setup appears: no ordeal at the mimosa tree, no voice from the tree, no discovery of the hidden father, no consequence for Wrong-Mind. The telling simply ends on a warning and a moral. Also mis-attributes the warning: the source has WRONG-Mind's father warn Wrong-Mind (stories/PT031 line 54 'Oh, my son... we are both lost'); the telling has Right-Mind's father warning Right-Mind. Missing the entire back half of the fable."
+    },
+    {
+      "story": "PT039 - Gold's Gloom",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wide-Bottom said, \"The mouse-hole must be near its food.\nThe smell of its hoard makes it strong.\"\n\nCrop-Ear said, \"How did you know that?\"\nWide-Bottom said, \"Because I've lived a long time.\"\n\nCrop-Ear was happy to have Wide-Bottom as a friend.\nHe learned that kindness and friendship are important.\n\nMoral: A kind heart and a listening ear make good friends.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 7319: 'Then Wide-Bottom was filled with glee and said: \"Now, Crop-ear, sleep in peace. It was the smell of this that enabled the mouse to wake you.\" So they took the hoard and turned to the cell.' followed by line 7327: 'But Wide-Bottom laughed and said: \"Have no fear, my friend. His jumping energy is gone with his property.\"' The mouse's hoard is dug up and the mouse loses his strength; his followers then desert him (line ~7345 'not one of my followers accompanied me (for I was penniless)').",
+      "discrepancy": "The source chapter file corpus/stories/PT039-gold-s-gloom.txt is TRUNCATED - it ends on the hand-off 'And Wide-Bottom told the story of' (file line 82; complete text line 7113). The telling stops at Wide-Bottom's diagnosis of the mouse-hole and never reaches the real resolution: Wide-Bottom and Crop-Ear follow the tracks and dig up the hoard (line 7319), and the mouse's vigor is destroyed with his wealth (line 7327). The mouse problem the story is built on is never resolved. The closing lines ('Crop-Ear was happy to have Wide-Bottom as a friend. He learned that kindness and friendship are important') and the moral 'A kind heart and a listening ear make good friends' are an invented sentimental wrap not in the source (the source's point is the opposite - the mouse's strength came from its wealth; cf. the essay at line 497 on 'the misery of poverty ... the story of \"Gold's Gloom\"'). The added Q&A 'How did you know that?' / 'Because I've lived a long time' is also not in source."
+    },
+    {
+      "story": "PT039 - Gold's Gloom",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wide-Bottom asked Crop-Ear if he had found the mouse's hole, but Crop-Ear said he hadn't. \nThe holy man then explained that the mouse's hole was probably near its stash of food, and that the smell of the food was what made the mouse so active.\n\nCrop-Ear was amazed by Wide-Bottom's wisdom and asked him to tell more stories.\n\nMoral: A true friend looks beyond surface-level problems and sees the underlying causes of trouble.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 7319: 'So they took the hoard and turned to the cell.' and line 7327: 'But Wide-Bottom laughed and said: \"Have no fear, my friend. His jumping energy is gone with his property.\"' The mouse's hoard is dug up and his strength gone; his retinue deserts him ('not one of my followers accompanied me (for I was penniless)', line ~7345).",
+      "discrepancy": "The source chapter file is TRUNCATED (ends on the hand-off 'And Wide-Bottom told the story of', complete text line 7113). The telling stops at Wide-Bottom's explanation of the mouse-hole and ends on 'asked him to tell more stories' - a prelude/hand-off to the next nested tale, exactly the point the source file breaks off. It never reaches the source resolution: the hoard dug up (line 7319) and the mouse's jumping energy destroyed with his property (line 7327). The moral 'A true friend looks beyond surface-level problems and sees the underlying causes of trouble' is not the source's point (the source's point is about the power of wealth; cf. line 497)."
+    },
+    {
+      "story": "PT040-mother-shandilee-s-bargain",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The Brahman's wife asked, \"How was that?\" The Brahman said, \"It means that even a little help is good when given at the right time.\"\n\nMoral: Even a small gift can bring great happiness.",
+      "source_resolution": "panchatantra_complete.txt lines 7245-7259 (continuation, AFTER the nested Self-Defeating Forethought tale): wife agrees to give; softens/hulls the sesame; a dog fouls it; she trades hulled sesame for unhulled; the other household says 'To Mother Shandilee... she is mighty shrewd at a bargain.' That bargain IS the point of the chapter title.",
+      "discrepancy": "The chapter file corpus/stories/PT040 ends on the hand-off 'And the Brahman told the story of' (line 68-69) — it is a TRUNCATED source, and the fable's actual resolution (the sesame bargain) is NOT in it. Both tellings stop at that same 'How was that?' hand-off point, substituting a teaching/moral, and never show the bargain. The title is 'Mother Shandilee's Bargain' yet no bargain appears. The moral ('even a small gift can bring great happiness') names an outcome the body never shows. Missing content: complete-text lines 7245-7259."
+    },
+    {
+      "story": "PT040-mother-shandilee-s-bargain",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The wife asked, \"What's that supposed to mean?\" Shandilee explained that giving with a kind heart and at the right time brings great rewards. His wife was still skeptical, but Shandilee's words stayed with her.\n\nMoral: Even the smallest act of kindness can bring great rewards when done with a generous heart.",
+      "source_resolution": "panchatantra_complete.txt lines 7245-7259: the wife agrees to give; the sesame is fouled by a dog; she trades hulled for unhulled; the household calls Mother Shandilee 'mighty shrewd at a bargain.' This is the resolution of the titular bargain.",
+      "discrepancy": "Same as 4-9. The source chapter is truncated at the hand-off (stories/PT040 line 68-69), and the telling ends on a teaching/hint ('his words stayed with her') with no bargain and no consequence — it stops before the source resolution. The moral names rewards the body never shows. Missing content: complete-text lines 7245-7259."
+    },
+    {
+      "story": "PT043 - Soft, the Weaver",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The figure asked, \"How is that?\"\nSoft told the story of how people with money are respected, even if they are not good-looking.\n\nMoral: What is meant to be yours will come to you, no matter where you go.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8299-8330. After the hand-off, Soft resumes (\"Now anybody as rich as that becomes an object of desire. So give me plenty of money.\"), the figure sends him back to Growing City to observe the two merchants Penny-Hide and Penny-Fling, Soft sees Penny-Fling's generosity rewarded (\"Now at dawn a policeman came with money, a favor from the king, and gave it all to Penny-Fling.\") and wishes to become a giver: \"So may the blessèd Lord of All make me a person whose money goes in gifts and fun. I see no good in Penny-Hiding.\" Then line 8330: \"So the Lord of All took him at his word, making him that kind of person.\"",
+      "discrepancy": "The telling stops exactly on the chapter's hand-off line (\"Soft told the story of\") and never reaches the fable's real resolution. Missing entirely: the Penny-Hide / Penny-Fling episode and the closing line \"So the Lord of All took him at his word, making him that kind of person.\" The chapter file itself (corpus/stories/PT043-soft-the-weaver.txt:114) confirms the hand-off: \"And Soft told the story of\". The moral (\"What is meant to be yours will come to you\") names a fate the body never shows."
+    },
+    {
+      "story": "PT043 - Soft, the Weaver",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The figure was impressed with Soft's determination and decided to grant his wish. Soft returned home, where he and his wife lived happily ever after.\n\nMoral: The true value of wealth lies not in its accumulation, but in the ability to enjoy and share it with others.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8299-8330. The figure does NOT grant the wish at this point. He redirects Soft: \"'If things stand so,' said the figure, 'go once more to Growing City. There dwell two sons of merchants; their names are Penny-Hide and Penny-Fling...'\" Soft observes Penny-Fling's generosity, wishes to be a giver (\"So may the blessèd Lord of All make me a person whose money goes in gifts and fun\"), and line 8330: \"So the Lord of All took him at his word, making him that kind of person.\" There is no return home and no \"happily ever after\" anywhere in the Soft fable.",
+      "discrepancy": "\"The figure was impressed with Soft's determination and decided to grant his wish\" and \"Soft returned home, where he and his wife lived happily ever after\" are NOT in the source. In the source the figure is not impressed and does not grant; he sends Soft back to Growing City, where Soft abandons the wish for money-for-status and becomes a giver. The telling's ending inverts the fable's point (the source lesson is that money's fruit is gifts and fun, embodied in the Penny-Fling resolution), and the invented \"happily ever after\" supplies closure the source does not contain. The chapter file confirms the source the adapter had ends on the hand-off at corpus/stories/PT043-soft-the-weaver.txt:114 (\"And Soft told the story of\")."
+    },
+    {
+      "story": "PT048 How the Birds Picked a King",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "The birds thought about what the crow said.\n\nThey decided to ask the owl to be their king.\n\nThe owl was very happy.",
+      "source_resolution": "corpus/stories/PT048-how-the-birds-picked-a-king.txt IS TRUNCATED: it ends on a hand-off at line 128-129 - '\"How was that?\" asked the birds. And the crow told' - stopping as the crow begins a nested tale. The real resolution is in corpus/panchatantra_complete.txt. Line 9994: 'And all the birds, after listening to the crow's remarks, said: \"He speaks well,\" and they flew to their homes, planning to reassemble for consultation on the question of a king. Only the owl remained with his consort...' Line 9998: the owl, left un-anointed, says 'You monster! Why have you wronged me by preventing the regal anointing? From this day there is enmity between us.' Fable ends line 10046 ('the crow also left the spot'), frame resumes line 10048 ('For this cause, my son, we have an inherited feud with the owls.').",
+      "discrepancy": "The telling shows the OPPOSITE of the source. Source: the birds abandon the anointing and fly home (owl never made king), the owl is 'deeply disappointed' and declares eternal enmity - the origin of the crow-owl feud. The telling invents 'They decided to ask the owl to be their king. The owl was very happy.' No anointing is completed in the source, and the owl is disappointed, not happy. The body also never shows this: the crow argued against a second king, yet the telling has the birds proceed anyway and the moral ('It's not wise to have two leaders, when one is good enough') matches neither the body nor the source."
+    },
+    {
+      "story": "PT048 How the Birds Picked a King",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The birds looked at each other, unsure of what to do.",
+      "source_resolution": "Same source as 4-9: chapter file truncated at the hand-off line 129; real resolution in corpus/panchatantra_complete.txt lines 9994-10046 - the birds say 'He speaks well' and fly to their homes (anointing abandoned), the owl is left waiting and declares eternal enmity between owls and crows (line 9998), and the crow leaves (line 10046).",
+      "discrepancy": "The telling stops mid-action at 'unsure of what to do,' just before the birds' verdict. Missing from the telling: the birds' decision ('He speaks well') and departure, the abandonment of the anointing, and the owl's declaration of eternal enmity between owls and crows - the actual resolution and the point of the fable."
+    },
+    {
+      "story": "PT049",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Four-Tusk realized his mistake and bowed his head in deep obeisance, asking for forgiveness.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 9780: \"I shall never return here.\" And with these words he went to his own place. (Same in corpus/stories/PT049 lines 118-119.)",
+      "discrepancy": "Telling stops at the elephant's remorse/begging for forgiveness (source line 9777/118 content) and omits the source's actual outcome: the elephant's pledge \"I shall never return here\" and his departure (\"he went to his own place\") — the event that saves the rabbits' lake. Last beat is a plea/decision, not the consequence. Note the simpler 4-9 band DOES include this outcome, so the 9+ band alone stops short."
+    },
+    {
+      "story": "PT062",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The lion, Curd-Face, and the owls were all fooled. They thought the lion was going to be their friend. But Live-Strong had a different plan. He wanted to get rid of them.",
+      "source_resolution": "Chapter corpus/stories/PT062-the-cave-that-talked.txt line 88 (and corpus/panchatantra_complete.txt line 11284): \". . . threw their fagots upon Live-Strong's nest. Then all the owls (being blind in the daytime) remembered Red-Eye's counsels as they suffered the torments of Pot-baking Hell. In this fashion Cloudy exterminated his foes and returned to his old fortress in the banyan tree.\"",
+      "discrepancy": "The telling ends on Live-Strong's plan/intention ('He wanted to get rid of them') with no consequence shown. The source resolution - the woodpile built at the gate and Cloudy's crows throwing fire on it so the owls are burned (Pot-baking Hell) - is never shown. Last beat is a decision, not an outcome. Also, the body newly invents 'The lion, Curd-Face, and the owls were all fooled. They thought the lion was going to be their friend.', which is not in the source, but the defect is the missing resolution."
+    },
+    {
+      "story": "PT063",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Another black snake, a huge fellow, arrived and was shocked to see Slow-Poison carrying frogs. He said, \"Partner, this is disgusting! They're our natural food.\" Slow-Poison explained that he was just following the Brahman's curse. He told the story again, pretending to be remorseful.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 11542: \"Why spin it out? He ate them all so completely that not even frog-seed was left.\" (This follows the arrival of the second black snake at line 11499 and the nested Brahman tale.)",
+      "discrepancy": "The telling stops exactly at the source chapter's hand-off point (corpus/stories/PT063-the-frogs-that-rode-snakeback.txt line 48, \"How was that?\" asked the snake. And Slow-Poison told the story of), i.e. at the second snake's arrival and Slow-Poison's retelling. The fable's actual resolution - Slow-Poison devouring every frog so that 'not even frog-seed was left' - is never shown. It ends on Slow-Poison's pretense, then jumps to the moral."
+    },
+    {
+      "story": "PT071",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The king then told a story about a clever monkey who outwitted a crocodile. The monkey had seen the crocodile's sharp teeth and had decided to play a trick on him.\n\nMoral: Silence is often the best policy, especially when dealing with someone who is being unreasonable.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12447-12475: the King Joy fable ends at Splendor's verse (12449-12455); the frame then closes at 12457 ('You simpleton!... you were betrayed by your own speech') with the parrot/grackle and ass-in-tiger-skin proverbs, and hands off at 12477 to the NEXT nested tale, THE ASS IN THE TIGER-SKIN (12479). The monkey-and-crocodile is the ENCLOSING frame of Book 4 (starts 11822), told BY the monkey TO the crocodile — it is not a story the king tells.",
+      "discrepancy": "The King Joy fable's own resolution IS present (the telling's 'your own words betrayed you' matches source line 12457), but the telling does not land on it — it then trails off on a hand-off beat introducing a story it never tells: 'The king then told a story about a clever monkey who outwitted a crocodile. The monkey had seen the crocodile's sharp teeth and had decided to play a trick on him.' That is a plan ('had decided to play a trick'), no consequence, and the content is not in the source: the source's next nested tale is The Ass in the Tiger-Skin (PT072), and the monkey-and-crocodile is the enclosing frame, not a tale King Joy tells. The preceding frame line is also garbled — the king says 'just like Joy and I', though the king IS Joy (source has the monkey addressing the crocodile: 'henpecked just like Joy and Splendor'). Flagged as an unfinished/garbled closing hand-off; if the fable's resolution is judged sufficient, this could instead be read as RESOLVES with an invented trailing hand-off."
+    },
+    {
+      "story": "PT076",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The monkey decided to take action and defend his home against the desperate stranger who had taken it over. With courage and determination, the monkey fought back and killed the intruder, reclaiming his home.\n\nSpot's journey taught him that it's always better to appreciate what you have, rather than seeking something new and potentially harmful.",
+      "source_resolution": "panchatantra_complete.txt:12820 - \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\" The defeated home was the CROCODILE's (line 12547: crocodile says \"my home is ruined\").",
+      "discrepancy": "The telling's ending attributes the frame resolution to the MONKEY - 'the monkey fought back and killed the intruder, reclaiming his home' - and invents a take-over of the monkey's home. The source gives BOTH the killing of the intruder AND the recovery of the home to the CROCODILE; the monkey does no fighting anywhere in the source. The monkey-kills-the-intruder event is not in the source."
+    },
+    {
+      "story": "PT079",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The gold-finder scolded his companion, saying, \"I told you not to go any further. But you did not listen. Indeed, there is wisdom in the saying: 'Scholarship is less than sense; therefore seek intelligence.' You were blinded by your desire for treasure and did not use your common sense.\"\n\nMoral: True wisdom and common sense are more valuable than wealth and material possessions.",
+      "source_resolution": "The chapter file corpus/stories/PT079-the-four-treasure-seekers.txt is itself truncated: it ends mid-fable on the hand-off line \"'How was that?' asked the wheel-bearer. And the gold-finder told the story of\" (immediately after the scolding quoted in the telling). The Four Treasure-Seekers frame only closes in corpus/panchatantra_complete.txt, after the whole nested chain (Lion-Makers, Hundred-Wit, Musical Donkey, etc.), at line 13911: \"Then the gold-finder said: 'Yes, you are quite right... Yet, after all, a man should make fate his own, and not desert prudence, as you did in rejecting my advice.'\" — and the closing action one line later: \"With this the gold-finder bade him farewell and started home.\"",
+      "discrepancy": "The telling stops at exactly the point where the chapter file truncates (the scolding, right before the hand-off \"And the gold-finder told the story of\"), and never reaches the frame's actual resolution. Missing from the source resolution: the gold-finder's final words and \"With this the gold-finder bade him farewell and started home\" (complete text line 13911). The wheel-bearer's fate is left with no resolution. No fabricated event was added, so this is a truncation, not an invention."
+    },
+    {
+      "story": "PT085 - The Unforgiving Monkey",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The king, greedy for more pearl necklaces, decided to go to the lake with his retinue. The monkey led them to the lake, and when they were all in the water, the fiend ate them. The king was the last one to be eaten, and as he was being swallowed, the monkey told him that he had planned this revenge for the death of his household.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 13706 and 13718 (fable complete in corpus/stories/PT085-the-unforgiving-monkey.txt; the file's trailing 'And the other told the story of' is a FRAME hand-off, not a fable truncation). Source: the monkey spares the king and the king survives: 'Now go. I did not make you enter there, because I remembered that you were the king.' ... 'When the king heard this, he hastened home, grief-stricken.'",
+      "discrepancy": "The telling kills the king ('The king was the last one to be eaten'); the source explicitly spares him. The monkey says 'I did not make you enter there, because I remembered that you were the king,' and the source's final beat is the king RETURNING HOME grief-stricken. The king's death is not in the source. (Core revenge-via-lake resolution matches; the king's fate is inverted.)"
+    },
+    {
+      "story": "PT089",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "But it was too late. Numskull had lost all his fruit.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12820: \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\"",
+      "discrepancy": "The source fable (Book IV frame, 'The Monkey and the Crocodile', lines 11814-12820) ends with the crocodile fighting the intruder who seized his home and recovering it. The 4-9 telling invents a different plot and ending: two friends overfeed each other until one gets 'very fat', and the outcome is 'Numskull had lost all his fruit'. There is no crocodile, no rose-apple tree, no heart-plot, no overfeeding, and no loss-of-fruit outcome anywhere in the source resolution. 'Numskull' is not even a Book IV character (the lion Numskull appears in Book I, line 2804). The source monkey Red-Face gives his fruit away and survives; he never overeats or loses fruit. The telling's ending is not in the source."
+    },
+    {
+      "story": "PT089",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "But when the crocodile came back up, he found that the monkey had taken all the treasure and run away. The crocodile realized too late that he had been tricked.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12820 (same frame resolution): \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\"",
+      "discrepancy": "The telling keeps the monkey-and-crocodile frame and the 'monkey tricked the crocodile' verse, but invents the device and the ending. The source contains NO treasure: the monkey's trick is to claim his heart is kept 'in a hole in the rose-apple tree' (lines 11965-11966) so the crocodile turns back and he escapes being drowned. The word 'treasure' in the source appears only in unrelated nested tales, never in the monkey/crocodile frame. The telling's ending - the monkey stealing treasure and abandoning the crocodile, who is 'tricked' - is not in the source. In the source the crocodile's wife starves to death, his home is seized, the monkey gives him advice, and the crocodile kills the intruder and recovers his home (line 12820) with the friendship intact."
+    }
+  ],
+  "allBands": [
+    {
+      "story": "PT002-introduction",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"Vishnusharman took the boys home and made them learn five books. The books were about friends, winning friends, and being smart. The boys learned the books in six months. They became very smart and the king was happy.\"",
+      "source_resolution": "corpus/stories/PT002-introduction.txt is complete (74 lines, no hand-off). Lines 60-62: Vishnusharman \"made them learn by heart five books... These the princes learned, and in six months' time they answered the prescription. Since that day this work on the art of intelligent living, called Panchatantra... has traveled the world.\"",
+      "discrepancy": "None."
+    },
+    {
+      "story": "PT002-introduction",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"The princes learned the books, and in six months' time, they became intelligent and knowledgeable. From that day on, the Panchatantra, or the \\\"Five Books,\\\" traveled the world, teaching people how to live wisely.\"",
+      "source_resolution": "corpus/stories/PT002-introduction.txt lines 60-62: the princes learn the five books and in six months become masters; the Panchatantra then travels the world.",
+      "discrepancy": "None."
+    },
+    {
+      "story": "PT003-the-loss-of-friends",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"Rusty struck Lively. Lively died.\\nRusty was very sad. He cried.\\nHe said, \\\"Lively was my best friend. I have only hurt myself.\\\"\"",
+      "source_resolution": "The source CHAPTER file (corpus/stories/PT003-the-loss-of-friends.txt) IS TRUNCATED: it ends at line 106 on the hand-off \"And Cheek told the story of\". The true fable resolution is in the continuation in corpus/panchatantra_complete.txt line 6267: \"But when Rusty had killed Lively, his wrath subsided into pity at the memory of past affection. He wiped his weeping eyes with a blood-smeared paw and penitently said: 'Ah, me! It was very wrong. Lively was almost my second life. In killing him, I have only hurt myself.'\" The telling reaches exactly this beat (Rusty kills Lively, weeps, \"I have only hurt myself\").",
+      "discrepancy": "None. Despite the truncated chapter, the adapter reached the real resolution."
+    },
+    {
+      "story": "PT003-the-loss-of-friends",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"They met in the forest and fought. Rusty killed Lively. When his anger had passed, Rusty looked at his dead friend and wept. He said, \\\"Lively was my second life. In killing him, I have only hurt myself.\\\"\"",
+      "source_resolution": "Chapter file truncated at line 106 (hand-off \"And Cheek told the story of\"). Real resolution at corpus/panchatantra_complete.txt line 6267: Rusty kills Lively, wrath subsides into pity, he weeps and says \"Lively was almost my second life. In killing him, I have only hurt myself.\"",
+      "discrepancy": "None. The telling reproduces the source resolution (\"Lively was my second life. In killing him, I have only hurt myself.\")."
+    },
+    {
+      "story": "PT004-the-wedge-pulling-monkey",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "\"The king, impressed with Victor's words, decided to make him his new counselor. Victor was happy and proud to serve the king.\"",
+      "source_resolution": "corpus/stories/PT004-the-wedge-pulling-monkey.txt is TRUNCATED: it ends at line 788 on the hand-off \"And Victor told the story of\". The wedge-monkey fable itself is in corpus/panchatantra_complete.txt lines 862-866: a monkey bestrides the log, pulls the wedge, \"and when the wedge gave at the spot where his private parts entered the cleft, that, sir, you know without being told\" (the wedge snaps shut on him); Cheek then draws the moral \"that is why I say that meddling should be avoided by the intelligent.\" That is the entire fable — a two-paragraph illustration told by CHEEK to Victor. There is NO king in it, no one sent to find the monkey, and no promotion.",
+      "discrepancy": "The telling invents an ending absent from the source. Source: the monkey pulls the wedge, is crushed by the closing cleft, and Cheek closes with \"meddling should be avoided by the intelligent\" (complete.txt lines 862-866). Telling invents: (1) an angry king who \"had been warned about the monkey's misbehavior\"; (2) the king sending \"his counselor's son, Victor, to find the monkey\"; (3) a lecture dialogue in which Victor tells the monkey \"You must learn to think before acting\"; and (4) \"The king, impressed with Victor's words, decided to make him his new counselor.\" None of these elements — the king, the errand, the dialogue, or Victor's promotion — appear anywhere in the source. Greps for \"searched the forest\", \"find the monkey\", \"new counselor\", \"make him his\" return nothing matching this framing; in the source Victor is Rusty the lion's jackal retainer, unrelated to any monkey-trial scene."
+    },
+    {
+      "story": "PT005 (The Jackal and the War-Drum)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The jackal laughed and said, \"I was so silly! I thought it was full of food!\"\n\nMoral: Don't judge something by its noise or appearance.",
+      "source_resolution": "corpus/stories/PT005-the-jackal-and-the-war-drum.txt / corpus/panchatantra_complete.txt line 1652-1668: \"But he was disappointed to find it pure wood and skin, and recited a stanza: ... So he backed out, laughing to himself ... 'And that is why I say that one should not be troubled by a mere sound.'\"",
+      "discrepancy": "None. The fable's own resolution (jackal finds only wood and skin, backs out laughing) is present in full inside the PT005 chapter file before it descends into frame material; the telling stops on exactly that beat. NOTE: the PT005 chapter file does end on a hand-off line, but it is 'And Victor told the story of' — the transition into the NEXT nested tale in the frame, not the jackal fable. The jackal fable is not truncated."
+    },
+    {
+      "story": "PT005 (The Jackal and the War-Drum)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The jackal backed out, chuckling to himself. \"I thought it was full of fat, but all I found was wood and skin.\" He realized his foolish mistake and slunk away, still hungry.\n\nMoral: Be careful not to jump to conclusions, or you might end up with a hollow victory.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 1652-1668: \"But he was disappointed to find it pure wood and skin ... So he backed out, laughing to himself ... one should not be troubled by a mere sound.\"",
+      "discrepancy": "None. Same resolution as source; the added 'slunk away, still hungry' is consistent with the jackal having found no food and is not an invented outcome."
+    },
+    {
+      "story": "PT006 (Merchant Strong-Tooth)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The next day, Bull entered the palace and made another false accusation against the king. The king realized his mistake and reinstated Strong-Tooth, presenting him with gems and garments.\n\nMoral: A little thing can lift someone high, and a little thing can bring them down.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 2025: \"After thus considering the matter from every point of view, he summoned Strong-Tooth, presented him with gems from his own person and with garments, and reinstated him.\"",
+      "discrepancy": "None. NOTE: the PT006 chapter file ends on the hand-off 'And Victor told three stories in one, called' (which introduces the Godly-and-June trio), but the Merchant Strong-Tooth fable resolves far earlier in the same chapter (line 2025), and the telling ends exactly there. Not truncated."
+    },
+    {
+      "story": "PT007 (Godly and June)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "At the river, Godly gave June his robe to watch.\n\nJune took the treasure and ran away.\n\nMoral: Trusting no one can lead to trouble.",
+      "source_resolution": "corpus/stories/PT007-godly-and-june.txt / corpus/panchatantra_complete.txt line 2223 (end of the GODLY AND JUNE section, next header 'THE JACKAL AT THE RAM-FIGHT' begins at 2225): \"With these words he moved away. And as soon as he was out of sight, June seized the treasure and decamped.\"",
+      "discrepancy": "None. The PT007 chapter file ends at the natural close of the Godly-and-June section (no hand-off line); the telling ends on the same beat. The subsequent Godly adventures belong to the separately-headed PT008/PT009 stories, not this fable."
+    },
+    {
+      "story": "PT007 (Godly and June)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "As soon as Godly was out of sight, June seized the treasure and ran away.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 2223: \"And as soon as he was out of sight, June seized the treasure and decamped.\"",
+      "discrepancy": "None. Verbatim match to the source resolution."
+    },
+    {
+      "story": "PT008-the-jackal-at-the-ram-fight",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The rams crashed together, and the jackal died.\n\nGodly said, \"The jackal at the ram-fight\" and felt sad.\n\nHe looked for his treasure but it was gone.\n\nHe searched everywhere but couldn't find it.\n\nHe fell down and cried, \"Oh no! I'm robbed!\"\n\nHe got up and shouted, \"June, where did you go?\"\n\nHe followed June's tracks, muttering to himself.\n\nHe said, \"We were tricked by June, just like the jackal.\"",
+      "source_resolution": "Complete text line 2232-2234: jackal is caught between the crashing ram heads and killed; Godly finds his treasure gone, cries \"June, June! Where did you go after cheating me?\", and follows his disciple's tracks. The chapter file stories/PT008 is NOT truncated - it ends on this same fable resolution (line 14, \"'And we, when tricked by June.'\"), with no hand-off to a nested tale.",
+      "discrepancy": "None. The telling's final beats (jackal dies, treasure gone, June fled, tracks followed) match the source resolution exactly."
+    },
+    {
+      "story": "PT008-the-jackal-at-the-ram-fight",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The next time the rams fought, the jackal didn't move away. He stayed between the rams, and when they crashed, he was caught in the middle and died.\n\nGodly was sad and said, \"The jackal at the ram-fight.\" He then returned to his treasure, which was hidden nearby.\n\nBut when he arrived, he discovered that his treasure was gone. He panicked, fell to the ground, and cried out, \"I've been robbed!\" He quickly got up, looked around, and started to shout, \"June, June! Where did you go after cheating me? Tell me the truth!\"\n\nGodly followed June's tracks, muttering to himself, \"We all get tricked sometimes, just like June tricked me.\"",
+      "source_resolution": "Complete text line 2232-2234: jackal killed between the crashing rams; treasure gone; Godly screams \"June, June! Where did you go after cheating me?\" and follows his tracks. Chapter file stories/PT008 ends on this fable resolution, not on a hand-off.",
+      "discrepancy": "None. Ending matches the source resolution."
+    },
+    {
+      "story": "PT010-how-the-crow-hen-killed-the-black-snake",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The crow and his wife flew away. The crow-hen found a pond. The king's women were playing in the water. Golden chains lay on the bank. She took one chain and flew home.\n\nThe king's men saw her. They ran after her with clubs. The crow-hen dropped the chain in the snake's hole. Then she waited far away.\n\nThe king's men climbed the tree. They found the snake in the hole. They killed him with their clubs. Then they took back the golden chain.\n\nThe crow and his wife lived in peace.",
+      "source_resolution": "Chapter file stories/PT010 IS truncated: it ends on a hand-off at line 74 - \"And the jackal told the story of\" (introducing the heron nested tale) - so the ending is NOT in that file. The real resolution is in the continuation, complete text lines 2768-2774: jackal advises the golden-chain device; the crow-hen seizes a gold chain, drops it in the snake's hole; the king's men club the black snake, recover the chain, and \"Thereafter the crow and his wife lived in peace.\"",
+      "discrepancy": "None. The telling reaches and shows the true golden-chain resolution (king's men club the snake, recover the chain, crow lives in peace). NOTE: the suspected invented 'fish-bone stuck in the snake throat' death is NOT present in the current file - grep for 'bone' returns zero hits in this file; the only 'fish' mentions are the correct heron nested tale. The file appears already remediated."
+    },
+    {
+      "story": "PT010-how-the-crow-hen-killed-the-black-snake",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "...They killed him with their clubs, recovered the golden chain, and went their way. After that, the crow and his wife lived in peace.",
+      "source_resolution": "Chapter file stories/PT010 truncated (hand-off at \"And the jackal told the story of\"); true resolution in complete text lines 2768-2774: golden-chain device, king's men club the black snake and recover the chain; crow and wife live in peace.",
+      "discrepancy": "None. The telling carries the golden-chain resolution verbatim in substance. Its heron nested tale correctly names the crab ('strangled by a crab'), matching source line 72."
+    },
+    {
+      "story": "PT012-numskull-and-the-rabbit",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Numskull looked into the well and saw his own reflection. He thought it was the lion and roared loudly.\n\nThe rabbit said, \"Look, master. Your rival is very powerful.\"\n\nNumskull jumped into the well and drowned.\n\nThe rabbit was happy and told all the animals the good news.",
+      "source_resolution": "Chapter file stories/PT012 IS truncated: it ends on a hand-off at line 260 - \"And Victor told the story of\" (the frame introducing the weaver/Princess nested tale). HOWEVER the Numskull fable itself resolves BEFORE that hand-off, in the same chapter file at lines 220-222, matching complete text lines 3018-3022: the rabbit shows Numskull the well, the lion roars at his own reflection, the echo answers, \"hurled himself down, and met his death,\" and the rabbit carries the glad news to all the animals.",
+      "discrepancy": "None. The telling shows the well/reflection/roar/death and the rabbit telling the animals - the source resolution. The em-dash hand-off is to a different (frame-nested) tale, not this fable's ending."
+    },
+    {
+      "story": "PT012-numskull-and-the-rabbit",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The lion, thinking he was facing a powerful opponent, let out a loud roar. But the echo from the well made it sound twice as loud, and the lion, thinking he was being attacked, hurled himself down and met his death.\n\nThe rabbit returned to the other animals, telling them the good news. They praised him for his cleverness and thanked him for saving them from Numskull's cruel wrath.",
+      "source_resolution": "Numskull fable resolves at chapter file stories/PT012 lines 220-222 = complete text lines 3018-3022: well, reflection, roar, echo, \"hurled himself down, and met his death,\" rabbit carries the glad news to all the animals. (Chapter file ends later on a frame hand-off, but the fable ending is present.)",
+      "discrepancy": "None. Ending matches the source resolution."
+    },
+    {
+      "story": "PT013",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Then the weaver hurled his discus at Valor. It cut the king in two, then flew back to his hand. At the sight, all the other kings leaped from their chariots and bowed low, pleading, \"O Lord, our leaderless army is destroyed. Spare our lives and command us.\"\n\nHe answered, \"Your lives are safe. Whatever King Stout-Mail commands, you must do at once.\" The kings humbly agreed. The weaver gave Stout-Mail all the wealth of the defeated king, and he himself lived in all delight with his princess.",
+      "source_resolution": "corpus/panchatantra_complete.txt L3359-3367 (fable end, inside the chapter file at lines 304-320): the weaver hurls his discus at Valor, which cuts the king in twain and returns to his hand; the kings implore him; he spares them and tells them to obey King Stout-Mail; then 'the weaver bestowed on Stout-Mail all his rival's wealth... while he himself... enjoyed all known delights with the princess.'",
+      "discrepancy": "none - telling matches the source resolution beat for beat (discus cuts Valor in two, kings submit, wealth to Stout-Mail, weaver keeps princess). Chapter file's terminal hand-off ('And Victor told the story of', line 664) is the frame proceeding to the NEXT nested tale; the weaver fable itself is complete earlier in the same file."
+    },
+    {
+      "story": "PT014",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king apologized to the Brahman and asked him to reveal the truth about the gold. The Brahman told the whole story, and the king arrested the goldsmith, giving the Brahman a thousand villages and appointing him privy counselor.\n\nThe Brahman returned home, where he was welcomed by his family and friends. He lived happily, performing numerous sacrifices and attending to his royal duties.",
+      "source_resolution": "corpus/panchatantra_complete.txt L3774 (chapter file line 56): 'he arrested the goldsmith, while he gave the Brahman a thousand villages and appointed him privy counselor. But the Brahman summoned his family, was surrounded by friends and relatives... acquired massive merit by the performance of numerous sacrifices... and lived happily.'",
+      "discrepancy": "none - telling matches: goldsmith arrested, Brahman granted a thousand villages and made privy counselor, reunited with family, lives happily performing sacrifices. Chapter file's terminal hand-off ('And Victor told the story of', line 154) is the frame moving to the next tale; the fable is already fully resolved at line 56."
+    },
+    {
+      "story": "PT015",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king's servants came with a lamp and looked around.\nThey found Creep and her family in the bed.\nThey killed them all.\n\nMoral: Don't invite strangers to stay in your home.",
+      "source_resolution": "corpus/panchatantra_complete.txt L3919 (chapter file line 48): Leap hides in a crevice; the king's servants bring a lamp and make a minute inspection, and 'they came upon Creep as she crouched in the nap of the fabric, and killed her with her family.'",
+      "discrepancy": "none - matching resolution: the innocent host Creep and her family are killed while the guilty guest Leap escapes."
+    },
+    {
+      "story": "PT015",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Leap panicked and hid in a crevice, but the servants found Creep and her family, killing them instead.\n\nThe servants searched the bed, but Leap was nowhere to be found. They left, and the king was left with a painful scratch.",
+      "source_resolution": "corpus/panchatantra_complete.txt L3919 (chapter file line 48): 'Now Leap heard the king's command and in terrified haste crept into a crevice in the bed. Then the king's servants entered... brought a lamp and made a minute inspection. As fate would have it, they came upon Creep as she crouched in the nap of the fabric, and killed her with her family.'",
+      "discrepancy": "none material. Telling's added 'Leap was nowhere to be found' / 'king left with a painful scratch' are faithful consequences of the source's 'Leap crept into a crevice' (so not found) and the king's bite; the resolution beat (Creep's family killed in Leap's place) is exactly the source. Not an invented ending."
+    },
+    {
+      "story": "PT016",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "A tiger caught Fierce-Howl and tore him apart. Fierce-Howl died.",
+      "source_resolution": "corpus/stories/PT016-the-blue-jackal.txt (and corpus/panchatantra_complete.txt line 3956): \"And when he heard this, he endeavored to flee, but was torn to bits by a tiger and died.\"",
+      "discrepancy": "None. The chapter file ends on a frame hand-off (\"And Lively told the story of\"), but the jackal fable's resolution is present above it. Telling matches the source death."
+    },
+    {
+      "story": "PT016",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Fierce-Howl tried to run away, but a tiger caught him and tore him apart.",
+      "source_resolution": "corpus/stories/PT016-the-blue-jackal.txt (and corpus/panchatantra_complete.txt line 3956): \"he endeavored to flee, but was torn to bits by a tiger and died.\"",
+      "discrepancy": "None. Matches source resolution."
+    },
+    {
+      "story": "PT017",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The caravan leader thought the owl's hoot was a bad sign. He ordered his archer to shoot the swan. The archer shot and killed Passion.",
+      "source_resolution": "corpus/stories/PT017-passion-and-the-owl.txt (and corpus/panchatantra_complete.txt lines 4195-4196): \"the evil omen so disturbed the leader's spirit that he gave orders to a certain archer who could aim by sound. This archer strung his powerful bow, drew an arrow as far as his ear, and killed the swan.\"",
+      "discrepancy": "None. Chapter file ends on frame hand-off (\"And Lively told the story of\"), but swan fable resolves above it. Telling matches."
+    },
+    {
+      "story": "PT017",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Fear seized him, and he ordered an archer who could aim by sound to shoot. The archer drew his bow and killed the sleeping swan.",
+      "source_resolution": "corpus/stories/PT017-passion-and-the-owl.txt (and corpus/panchatantra_complete.txt lines 4195-4196): \"he gave orders to a certain archer who could aim by sound... and killed the swan, who was resting near the owl's nest.\"",
+      "discrepancy": "None. Matches source resolution."
+    },
+    {
+      "story": "PT018",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Haughty, moved by Ugly's words, gave the order, and the others tore Ugly's body apart. They devoured him, and Ugly finally gave up the ghost.",
+      "source_resolution": "corpus/stories/PT018-ugly-s-trust-abused.txt (and corpus/panchatantra_complete.txt line 4566): \"Hereupon the lion gave the word, the leopard and the jackal tore his body, the crow pecked out his eyes, poor Ugly yielded up the ghost, and all the others ravenously devoured him.\"",
+      "discrepancy": "None. Chapter file ends on frame hand-off (\"And Lively told the story of\"), but the camel fable resolves above it. Telling matches the source death."
+    },
+    {
+      "story": "PT019-the-lion-and-the-carpenter",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "\"The lion realized that the carpenter was right and that his friends were troublemakers. He decided to stay away from them and find a better way to get food. From then on, the lion visited the carpenter alone, and they became good friends.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4602-4610: the lion comes up and urges the carpenter (Spotless) not to fear, 'Do not be alarmed.' The carpenter stays in the tree and recites 'Your jackal does not reassure; / Your crow's sharp bill offends: / You therefore see me up a tree— / I do not like your friends.' The fable then ends with the narrator's line: 'And that is why I say that a king with shabby advisers brings no good to his dependents.' The PT019 chapter file (corpus/stories/PT019-*.txt) contains this same ending at line 30; its hand-off line at 104 ('And Victor told the story of') belongs to the Crows-and-Owls frame, not to this fable.",
+      "discrepancy": "The source fable ends with the carpenter refusing to descend and reciting the verse about not liking the lion's friends. It contains NO realization by the lion, NO decision to 'stay away' from the jackal and crow, and NO reconciliation in which 'they became good friends.' The entire final paragraph of the telling (lion sees his friends are troublemakers, abandons them, resumes daily visits alone, they become good friends) is a written ending the source does not contain."
+    },
+    {
+      "story": "PT020-the-plover-who-fought-the-ocean",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "\"Constance laid her eggs in a safe place. Sprawl was proud of himself, but he was wrong. The ocean's waves came and went, but they didn't hurt the plover's home.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4868-5131: the ocean seizes the eggs ('he made a long reach with his wave-hands and eagerly seized the eggs'), the hen-plover grieves, the plover vows to dry up the ocean and summons all the birds, Garuda and the blessèd one intervene, and finally 'the ocean, while all his train shook with fright, tremblingly took the eggs and restored them to the plover.' (The PT020 chapter file corpus/stories/PT020-*.txt is TRUNCATED — it ends at line 100 on the hand-off 'And Constance told the story of', so this resolution is only in the continuation.)",
+      "discrepancy": "The telling asserts the opposite of the source outcome: 'they didn't hurt the plover's home.' In the source the ocean does steal the eggs (a harm occurs) before they are eventually restored. The telling narrates no theft, no grief, no appeal, and no restoration — it invents a no-harm ending the source does not have."
+    },
+    {
+      "story": "PT020-the-plover-who-fought-the-ocean",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "\"Sprawl was taken aback. His wife was right – he had been foolish to boast about his bravery. Constance continued, \"And don't forget, it's wise to listen to friendly advice. Even a turtle learns from his friends.\" Sprawl looked at his wife with newfound respect, realizing he had been foolish to underestimate the ocean's power.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 4868-5131: the ocean steals the plover's eggs; the plover vows to dry up the ocean and calls the birds; Garuda and the blessèd one intervene and the ocean restores the eggs to the plover.",
+      "discrepancy": "The telling stops on a realization/decision ('realizing he had been foolish to underestimate the ocean's power'). It never narrates the ocean seizing the eggs, the plover's appeal to the birds, Garuda's intervention, or the restoration of the eggs. Missing: the theft and the restoration — the entire resolution of the fable."
+    },
+    {
+      "story": "PT021-shell-neck-slim-and-grim",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"He lost his grip and fell. People cut him up with knives.\"",
+      "source_resolution": "corpus/stories/PT021-*.txt lines 14-16 and corpus/panchatantra_complete.txt line 4800: the turtle speaks despite his vow, loses his grip, falls, and 'persons who wanted meat cut him to bits in a moment with sharp knives.'",
+      "discrepancy": "None. Final events match the source resolution."
+    },
+    {
+      "story": "PT021-shell-neck-slim-and-grim",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"The turtle, forgetting his vow, asked, \"What's all the chatter about?\" He lost his grip, and the people below cut him to pieces with sharp knives.\"",
+      "source_resolution": "corpus/stories/PT021-*.txt lines 14-16 and corpus/panchatantra_complete.txt line 4800: the turtle speaks, loses his grip, falls, and is cut to bits by people with sharp knives.",
+      "discrepancy": "None. Final events match the source resolution."
+    },
+    {
+      "story": "PT022-forethought-readywit-and-fatalist",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The next day, the fishermen came with a big net. They caught all the fish in the lake, including Readywit and Fatalist. But Readywit pretended to be dead and escaped. Fatalist got stuck in the net and was beaten to death.",
+      "source_resolution": "corpus/stories/PT022-forethought-readywit-and-fatalist.txt line 24 (also panchatantra_complete.txt line 4835): \"Readywit, while still in the water, played dead. And since they thought: 'This big fellow died without help,' they drew him from the net and laid him on the bank, from which he wriggled back to safety in the water. But Fatalist stuck his nose into the meshes of the net, struggling until they pounded him repeatedly with clubs and so killed him.\" Note: the chapter file ends on the hand-off \"And Constance told the story of\" (line 117), but that hand-off belongs to the outer plover/ocean frame, not this fable. The assigned fish fable resolves at line 24.",
+      "discrepancy": "None. Both bands match the source resolution: Readywit feigns death and escapes, Fatalist is clubbed to death."
+    },
+    {
+      "story": "PT022-forethought-readywit-and-fatalist",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "But Fatalist had no such plan. When the net gathered around him, he thrust his nose into the meshes. He struggled with all his strength, but the more he fought, the more tightly the cords held him. The fishermen saw the net thrashing. They beat him again and again with their heavy clubs, until at last he lay still. And so poor Fatalist died upon the shore. It was the lake he would not leave.",
+      "source_resolution": "corpus/stories/PT022-forethought-readywit-and-fatalist.txt line 24 (also panchatantra_complete.txt line 4835): \"...But Fatalist stuck his nose into the meshes of the net, struggling until they pounded him repeatedly with clubs and so killed him.\"",
+      "discrepancy": "None. Faithful to the source resolution (nose in the meshes, clubbed to death)."
+    },
+    {
+      "story": "PT023-the-duel-between-elephant-and-sparrow",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The friends carried out the plan. The gnat sang a happy song in the elephant's ear. The woodpecker pecked out the elephant's eyes. The frog croaked loudly, making the elephant thirsty. The elephant followed the sound and fell into a deep pit.\nThe elephant died. The sparrow's wife was happy that her babies' killer was gone.",
+      "source_resolution": "corpus/stories/PT023-the-duel-between-elephant-and-sparrow.txt line 86 (also panchatantra_complete.txt line 5013): \"When they carried out the plan, the fevered elephant shut his eyes in delight at the song of the gnat, was blinded by the woodpecker, wandered thirst-smitten at noonday, followed the croak of a frog, came to a great pit, fell in, and died.\" Note: the chapter file ends on the hand-off \"And the speaker told the story of\" (line 108), but that hand-off introduces the NEXT story (the gander, PT024), not this fable. The elephant/sparrow fable resolves at line 86.",
+      "discrepancy": "None. The gnat/woodpecker/frog plan and the pit death match the source."
+    },
+    {
+      "story": "PT023-the-duel-between-elephant-and-sparrow",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The plan was carried out, and the elephant, blinded by the woodpecker, fell into a pit and perished.",
+      "source_resolution": "corpus/stories/PT023-the-duel-between-elephant-and-sparrow.txt line 86 (also panchatantra_complete.txt line 5013): \"...was blinded by the woodpecker, wandered thirst-smitten at noonday, followed the croak of a frog, came to a great pit, fell in, and died.\"",
+      "discrepancy": "None. Brief but faithful to the source resolution."
+    },
+    {
+      "story": "PT024-the-shrewd-old-gander",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The hunter came and thought the geese were dead. He freed them from the trap and threw them down. But when he was about to leave, the geese flew up. They were all safe because of the old gander's plan.",
+      "source_resolution": "corpus/stories/PT024-the-shrewd-old-gander.txt line 14 (also panchatantra_complete.txt line 5047): \"At early dawn the hunter arrived, and when he looked them over, everyone seemed as good as dead. He therefore freed them from the snare with perfect assurance, and threw them all to the ground, one after the other. But when they saw him preparing to descend, they all followed the shrewd plan of the old gander and flew up simultaneously.\" Note: the chapter file ends on the hand-off \"And an old bird told the story of\" (line 34), but that hand-off belongs to the Garuda frame, not this fable. The gander/geese fable resolves at line 14.",
+      "discrepancy": "None. The feign-death plan and the simultaneous flight match the source."
+    },
+    {
+      "story": "PT024-the-shrewd-old-gander",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The hunter arrived at dawn, and seeing the geese lying still, he thought they were dead. He carefully freed them from the snare and threw them to the ground one by one. But the geese waited until the hunter was about to leave, then they followed the old gander's plan and flew up together, soaring over the hunter's head.",
+      "source_resolution": "corpus/stories/PT024-the-shrewd-old-gander.txt line 14 (also panchatantra_complete.txt line 5047): \"...threw them all to the ground, one after the other. But when they saw him preparing to descend, they all followed the shrewd plan of the old gander and flew up simultaneously.\"",
+      "discrepancy": "None. Faithful to the source resolution, including 'flying over his head'."
+    },
+    {
+      "story": "PT025-the-lion-and-the-ram",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The ram was too weak to defend himself. He was killed by the lion.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5077: 'But on a later day the lion saw the same ram cropping grass on the forest floor, and he thought: \"What! The fellow nibbles grass! His strength must be in relation to his diet.\" So he made a quick spring and killed the ram.'",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT025-the-lion-and-the-ram",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "With a swift pounce, the lion killed the ram.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5077: 'So he made a quick spring and killed the ram.'",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT026-smart-the-jackal",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Thunder-Fang ran away. Smart ate the camel.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5237: 'When the lion heard this, he, too, abandoned the dead camel and scampered for dear life. Whereupon Smart ate the camel bit by bit, so that the meat lasted a long time.'",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT026-smart-the-jackal",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The lion fled, leaving Smart to eat the camel's body. Smart ate the meat slowly, making it last a long time.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5237: 'When the lion heard this, he, too, abandoned the dead camel and scampered for dear life. Whereupon Smart ate the camel bit by bit, so that the meat lasted a long time.'",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT027-the-monk-who-left-his-body-behind",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Strong brought firewood and set the cell on fire. The monk didn't come back. He was just pretending.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5617: 'After Strong had related this parallel case to the king, he set fire to the cell that contained the naked monk.' (Chapter file corpus/stories/PT027 ends truncated on a hand-off and does NOT contain this line; resolution is in the continuation.)",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT027-the-monk-who-left-his-body-behind",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king agreed, and Strong had the monk's body burned. The monk never came back. He had been pretending all along.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5617: 'After Strong had related this parallel case to the king, he set fire to the cell that contained the naked monk.'",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT028",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "She told them about a wise person named Blossom. Blossom had a very hard life, but she never gave up. The girl said, \"I will be like Blossom. I will be happy with my snake husband.\"\n\nMoral: Be brave and happy with what you have.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 5611-5615 (continuation of the PT028 frame, past the truncated chapter's hand-off): \"One night the serpent issued from the generous chest which had been set for him in her chamber, and entered her bed... 'Stay, my dear wife. I am your husband.'... When she beheld him flashing with lofty diadem... they sank into a glad embrace. Now his father, the Brahman, rose betimes and discovered how matters stood. He therefore seized the serpent's skin that lay in the chest, and consumed it with fire... introduced to everybody as their own an extraordinarily handsome son.\"",
+      "discrepancy": "PT028 source chapter (corpus/stories/PT028-*.txt) ends on the hand-off line 'And the girl told the story of' and is TRUNCATED — its real ending is the continuation. This telling stops at the girl's decision to marry the snake and never shows the resolution: the night the serpent takes human form, reveals 'I am your husband,' and the father burns the snakeskin so he remains a man. Last beat is a decision, not the fable's consequence."
+    },
+    {
+      "story": "PT029",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Yama said, \"It was his fate to die when he saw Death.\"\n\nMoral: Sometimes things happen because it's meant to be.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5602: 'the parrot died at the mere sight of Death... And Yama said: \"It was simply fated that he should die at the mere sight of Death.\"'",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT030",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Red-Face got angry and grabbed Needle-Face. He threw her on a rock, and she died.\n\nMoral: Don't be stubborn and listen to others.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 5659: 'he seized her and dashed her on a rock, crushing face, eyes, head, and neck so that she died.'",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT031-right-mind-and-wrong-mind",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "They found Wrong-Mind's father hiding there.\nThe trick was exposed.\nWrong-Mind had to give back the stolen money.\nRight-Mind was free.",
+      "source_resolution": "stories/PT031-right-mind-and-wrong-mind.txt is TRUNCATED - it ends line 66 on the hand-off 'And his father told the story of'. The true ending is in the continuation, panchatantra_complete.txt:5814-5830: Wrong-Mind hides his father in the mimosa-tree hole; the father calls out 'Gentlemen, Right-Mind took that money'; Right-Mind sets fire to the mimosa, the father issues out scorched and confesses 'It is all Wrong-Mind's doing'; 'the king's men hanged Wrong-Mind to a branch of the mimosa, while they commended Right-Mind' and conferred the king's favour on him.",
+      "discrepancy": "Resolution mechanism matches the source exactly (father hidden in the tree, discovered, trick exposed, hero vindicated). One adaptation: the source has Wrong-Mind HANGED and Right-Mind honoured by the king; the telling softens this to 'Wrong-Mind had to give back the stolen money. Right-Mind was free.' The punitive detail differs, but this is a children's-adaptation softening of a source-present outcome, not a manufactured resolution - the discovery in the tree is faithful. Verdict RESOLVES."
+    },
+    {
+      "story": "PT031-right-mind-and-wrong-mind",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wrong-Mind claimed to have a witness, the goddess of the forest, who would reveal the truth. The magistrates agreed, and Wrong-Mind's father was asked to be a witness. However, Right-Mind's father suspected foul play and warned his son about the dangers of clever schemes.\n\nMoral: Clever plans often hide a hidden trap, and trusting someone who is not trustworthy can lead to trouble.",
+      "source_resolution": "panchatantra_complete.txt:5814-5830 - the ordeal at the mimosa tree: Wrong-Mind's father speaks from the hole, Right-Mind burns the tree, the father confesses, Wrong-Mind is hanged, Right-Mind is honoured.",
+      "discrepancy": "Stops at the plan/warning, before the resolution. Nothing after the setup appears: no ordeal at the mimosa tree, no voice from the tree, no discovery of the hidden father, no consequence for Wrong-Mind. The telling simply ends on a warning and a moral. Also mis-attributes the warning: the source has WRONG-Mind's father warn Wrong-Mind (stories/PT031 line 54 'Oh, my son... we are both lost'); the telling has Right-Mind's father warning Right-Mind. Missing the entire back half of the fable."
+    },
+    {
+      "story": "PT032-a-remedy-worse-than-the-disease",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The herons did what the crab said. The mungoose followed the fish and killed the snake. But then it ate all the herons in the tree.\n\nThe herons were very sad again. They realized that the crab's plan was not good.\n\nMoral: Be careful what you ask for, it might make things worse.",
+      "source_resolution": "stories/PT032-a-remedy-worse-than-the-disease.txt line 22 (= panchatantra_complete.txt:5806): 'the mungoose followed the bits of fish, killed the villainous snake, and also ate at his leisure all the herons who made their home in the tree.' The heron/mungoose fable resolves fully within the chapter file. (The file's closing hand-off at line 160 'And Cheek told the story of' belongs to the OUTER frame, past the fable, not to this story.)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT032-a-remedy-worse-than-the-disease",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The herons did as the crab suggested. The mungoose followed the fish bits and killed the snake. But then it ate all the herons who lived in the tree.\n\nMoral: Sometimes, a solution to a problem can create even bigger problems.",
+      "source_resolution": "stories/PT032 line 22 (= panchatantra_complete.txt:5806): the mungoose follows the fish trail, kills the snake, and eats all the herons in the tree.",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT033-the-mice-that-ate-iron",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Naduk lied again, but then he told the truth. Mice can eat iron, and a hawk can steal a big boy.\nEveryone laughed, and the balance-beam and boy were returned.\n\nMoral: Honesty is always the best choice.",
+      "source_resolution": "stories/PT033-the-mice-that-ate-iron.txt line 64 (= panchatantra_complete.txt:6006): 'Naduk told them the story of the balance-beam. At this they laughed and caused the restoration of balance-beam and boy to the respective owners.' The fable resolves fully within the chapter file. (The file's closing hand-off at line 156 'And Cheek told the story of' belongs to the OUTER frame, past this fable.)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT033-the-mice-that-ate-iron",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The magistrates laughed and asked Naduk to explain. He told them the story of the balance-beam, and they laughed too. They ordered the balance-beam and Money-God to be returned to their rightful owners.\n\nMoral: People often lie to cover up their own mistakes, but honesty is always the best policy.",
+      "source_resolution": "stories/PT033 line 64 (= panchatantra_complete.txt:6006): Naduk tells the story of the balance-beam; the magistrates laugh and cause the restoration of balance-beam and boy to their owners.",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT034",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The parrot said, \"I was raised among holy men. So I am kind. The other parrot was raised among hunters. So he was taught to be cruel.\"\n\nMoral: Education shows its true results.",
+      "source_resolution": "And the parrot replied to the king by giving a precise relation of the course of his life. ... Our education, good and bad, The obvious consequences had. (corpus/panchatantra_complete.txt lines 6108, 6112-6114)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT034",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The parrot's words were a lesson to the king: \"Our education, whether good or bad, determines our actions. Association with evil can lead to evil consequences. It's wiser to avoid fools and befriend good people.\"\n\nMoral: The company we keep and the lessons we learn shape who we become in life.",
+      "source_resolution": "And the parrot replied to the king by giving a precise relation of the course of his life. ... Our education, good and bad, The obvious consequences had. Thus mere association with you is an evil. As the proverb says: To foes of sense, not foolish friends, 'Tis wiser far to cling (panchatantra_complete.txt lines 6108, 6112-6126)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT035",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The chief agreed. But he found no gem in the thief's stomach. He was ashamed.\n\nHe said, \"I've done a terrible thing. I'll set them free.\" The prince and his friends were happy.\n\nMoral: A sensible enemy can be kind and save the day.",
+      "source_resolution": "To this the chief mercifully agreed, but he found no sign of a gem in the stomach, cut as he would. Thereupon he penitently cried: \"Woe, woe is me! ... The three were therefore set free uninjured, and hastening through the forest, they reached a civilized spot.\" (panchatantra_complete.txt lines 6178)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT035",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Realizing his mistake, the chief released the travelers, and they continued their journey. The thief's selfless act saved his friends' lives, and they all reached a safe destination.\n\nMoral: A sensible enemy can be a better friend than a selfish ally.",
+      "source_resolution": "The three were therefore set free uninjured, and hastening through the forest, they reached a civilized spot. (panchatantra_complete.txt line 6178; verse tail \"Better the sensible enemy than\" at 6184)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT036",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The monkey explained what had happened, and the entire court shunned it. The king's death was a tragic reminder that making friends with foolish people can lead to disastrous consequences.\n\nMoral: It's wiser to keep a safe distance from those who lack sense, for they can cause harm to others, just like the monkey killed the king.",
+      "source_resolution": "Then the monkey told what had happened, after which everybody, by common consent, scolded him and shunned him. \"So there is reason in saying that one should not make friends with a fool, inasmuch as the monkey killed the king.\" (panchatantra_complete.txt lines 6205-6209)",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT037 - The Winning of Friends",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Together the doves managed to lift the snare and fly away, leaving the hunter frustrated. \n\nSwift was impressed by Gay-Neck's leadership and teamwork skills. He realized that when friends work together, they can overcome even the most difficult challenges.\n\nMoral: United action and teamwork can help overcome even the most daunting obstacles.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 6553: 'When the doves heard this, being eager to live, they united their efforts to carry the snare away, flew just an arrow-shot into the air, formed a canopy in the sky, and proceeded without fear.' Then line 6555 the hunter looks up in amazement, pursues, and line 6568 'At last the hunter, observing that the flock of doves was protected by the roughness of the paths, turned back in disappointment.'",
+      "discrepancy": "None material. The chapter file corpus/stories/PT037-the-winning-of-friends.txt DOES end on a hand-off ('And Gay-Neck told the story of'), so the source was truncated, but the telling's written ending (doves lift the snare and fly away, hunter frustrated) reproduces the real continuation beat at line 6553/6555/6568 — it is not invented. The telling simply omits the later scene where the mouse Gold cuts the doves free (complete text ~line 6700+), but it ends on a genuine source consequence, not a plan or hand-off. The escape beat is present, so RESOLVES."
+    },
+    {
+      "story": "PT038 - The Bharunda Birds",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The second neck got angry and found poisonous food.\nHe ate it and felt very sick.\n\nBoth necks belonged to the same bird, so they both died.\n\nMoral: Sharing with others is kind and makes everyone happy.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 6545: 'While one of these birds was sauntering about, his first neck found some nectar. Then the second said: \"Give me half.\" And when the first refused, the second neck angrily picked up poison somewhere and ate it. As they had one belly, they died.' (also in corpus/stories/PT038-the-bharunda-birds.txt lines 5-7)",
+      "discrepancy": "None. Telling's final beat (both necks share one belly, second eats poison, both die) matches the source resolution exactly. Note: the PT038 chapter file ends on a hand-off ('And Gold told the story of'), but that hand-off belongs to the frame continuing into the NEXT chapter (Gold's Gloom); the Bharunda fable itself is fully contained in the file."
+    },
+    {
+      "story": "PT038 - The Bharunda Birds",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The second neck, feeling angry and entitled, went off to find something to punish its companion. It picked up some poisonous food and ate it. Since they shared the same belly, both necks suffered and eventually died.\n\nMoral: Greed and selfishness can lead to disaster, even when you think you're right.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 6545: 'While one of these birds was sauntering about, his first neck found some nectar. Then the second said: \"Give me half.\" And when the first refused, the second neck angrily picked up poison somewhere and ate it. As they had one belly, they died.'",
+      "discrepancy": "None. Second-neck-eats-poison, shared belly, both die — matches source exactly."
+    },
+    {
+      "story": "PT039 - Gold's Gloom",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wide-Bottom said, \"The mouse-hole must be near its food.\nThe smell of its hoard makes it strong.\"\n\nCrop-Ear said, \"How did you know that?\"\nWide-Bottom said, \"Because I've lived a long time.\"\n\nCrop-Ear was happy to have Wide-Bottom as a friend.\nHe learned that kindness and friendship are important.\n\nMoral: A kind heart and a listening ear make good friends.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 7319: 'Then Wide-Bottom was filled with glee and said: \"Now, Crop-ear, sleep in peace. It was the smell of this that enabled the mouse to wake you.\" So they took the hoard and turned to the cell.' followed by line 7327: 'But Wide-Bottom laughed and said: \"Have no fear, my friend. His jumping energy is gone with his property.\"' The mouse's hoard is dug up and the mouse loses his strength; his followers then desert him (line ~7345 'not one of my followers accompanied me (for I was penniless)').",
+      "discrepancy": "The source chapter file corpus/stories/PT039-gold-s-gloom.txt is TRUNCATED - it ends on the hand-off 'And Wide-Bottom told the story of' (file line 82; complete text line 7113). The telling stops at Wide-Bottom's diagnosis of the mouse-hole and never reaches the real resolution: Wide-Bottom and Crop-Ear follow the tracks and dig up the hoard (line 7319), and the mouse's vigor is destroyed with his wealth (line 7327). The mouse problem the story is built on is never resolved. The closing lines ('Crop-Ear was happy to have Wide-Bottom as a friend. He learned that kindness and friendship are important') and the moral 'A kind heart and a listening ear make good friends' are an invented sentimental wrap not in the source (the source's point is the opposite - the mouse's strength came from its wealth; cf. the essay at line 497 on 'the misery of poverty ... the story of \"Gold's Gloom\"'). The added Q&A 'How did you know that?' / 'Because I've lived a long time' is also not in source."
+    },
+    {
+      "story": "PT039 - Gold's Gloom",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Wide-Bottom asked Crop-Ear if he had found the mouse's hole, but Crop-Ear said he hadn't. \nThe holy man then explained that the mouse's hole was probably near its stash of food, and that the smell of the food was what made the mouse so active.\n\nCrop-Ear was amazed by Wide-Bottom's wisdom and asked him to tell more stories.\n\nMoral: A true friend looks beyond surface-level problems and sees the underlying causes of trouble.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 7319: 'So they took the hoard and turned to the cell.' and line 7327: 'But Wide-Bottom laughed and said: \"Have no fear, my friend. His jumping energy is gone with his property.\"' The mouse's hoard is dug up and his strength gone; his retinue deserts him ('not one of my followers accompanied me (for I was penniless)', line ~7345).",
+      "discrepancy": "The source chapter file is TRUNCATED (ends on the hand-off 'And Wide-Bottom told the story of', complete text line 7113). The telling stops at Wide-Bottom's explanation of the mouse-hole and ends on 'asked him to tell more stories' - a prelude/hand-off to the next nested tale, exactly the point the source file breaks off. It never reaches the source resolution: the hoard dug up (line 7319) and the mouse's jumping energy destroyed with his property (line 7327). The moral 'A true friend looks beyond surface-level problems and sees the underlying causes of trouble' is not the source's point (the source's point is about the power of wealth; cf. line 497)."
+    },
+    {
+      "story": "PT040-mother-shandilee-s-bargain",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The Brahman's wife asked, \"How was that?\" The Brahman said, \"It means that even a little help is good when given at the right time.\"\n\nMoral: Even a small gift can bring great happiness.",
+      "source_resolution": "panchatantra_complete.txt lines 7245-7259 (continuation, AFTER the nested Self-Defeating Forethought tale): wife agrees to give; softens/hulls the sesame; a dog fouls it; she trades hulled sesame for unhulled; the other household says 'To Mother Shandilee... she is mighty shrewd at a bargain.' That bargain IS the point of the chapter title.",
+      "discrepancy": "The chapter file corpus/stories/PT040 ends on the hand-off 'And the Brahman told the story of' (line 68-69) — it is a TRUNCATED source, and the fable's actual resolution (the sesame bargain) is NOT in it. Both tellings stop at that same 'How was that?' hand-off point, substituting a teaching/moral, and never show the bargain. The title is 'Mother Shandilee's Bargain' yet no bargain appears. The moral ('even a small gift can bring great happiness') names an outcome the body never shows. Missing content: complete-text lines 7245-7259."
+    },
+    {
+      "story": "PT040-mother-shandilee-s-bargain",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The wife asked, \"What's that supposed to mean?\" Shandilee explained that giving with a kind heart and at the right time brings great rewards. His wife was still skeptical, but Shandilee's words stayed with her.\n\nMoral: Even the smallest act of kindness can bring great rewards when done with a generous heart.",
+      "source_resolution": "panchatantra_complete.txt lines 7245-7259: the wife agrees to give; the sesame is fouled by a dog; she trades hulled for unhulled; the household calls Mother Shandilee 'mighty shrewd at a bargain.' This is the resolution of the titular bargain.",
+      "discrepancy": "Same as 4-9. The source chapter is truncated at the hand-off (stories/PT040 line 68-69), and the telling ends on a teaching/hint ('his words stayed with her') with no bargain and no consequence — it stops before the source resolution. The moral names rewards the body never shows. Missing content: complete-text lines 7245-7259."
+    },
+    {
+      "story": "PT041-self-defeating-forethought",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The jackal died from the pain. Both the hunter and the jackal died because of their own mistakes.\n\nMoral: Greed can be very bad for you.",
+      "source_resolution": "PT041 source lines 39-55 (also complete-text 7217-7233): jackal takes the bow sinew, the gut snaps, the bow-tip pierces the roof of his mouth and comes out like a topknot, and the jackal perishes. The fable is complete within the PT041 file before its closing hand-off.",
+      "discrepancy": "None — the telling's 'bow-tip went into his mouth... The jackal died from the pain' matches the source resolution."
+    },
+    {
+      "story": "PT041-self-defeating-forethought",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Loka's pain was intense, and he died soon after. The villagers found both the hillman and the jackal dead, and they said, \"Karna and Loka both met their deaths through their own foolishness.\"\n\nMoral: Indulge in no excessive greed, as it can lead to your own downfall.",
+      "source_resolution": "PT041 source lines 39-55 (complete-text 7217-7233): bow-tip pierces the jackal's mouth like a topknot and the jackal perishes from the pain. Complete within the file.",
+      "discrepancy": "None — core resolution (bow-tip, jackal dies) matches; the 'villagers found them' detail and the names are minor embellishments, not a fabricated resolution."
+    },
+    {
+      "story": "PT042-mister-duly",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king gave Mister Duly his daughter and a thousand villages. He made Mister Duly his crown prince. Mister Duly and his family lived happily ever after.\n\nMoral: What's duly yours, you will receive.",
+      "source_resolution": "PT042 source lines 86-92 (also complete-text equivalent): the king gives Mister Duly his own daughter together with a thousand villages and anoints him crown prince; he lives happily. The fable is complete within the PT042 file before its closing hand-off.",
+      "discrepancy": "None — the telling's 'king gave Mister Duly his daughter and a thousand villages... crown prince... lived happily ever after' matches the source resolution."
+    },
+    {
+      "story": "PT042-mister-duly",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king was pleased and promised immunity to all involved. He even gave Mister Duly his own daughter and a thousand villages, and made him crown prince.\n\nMoral: What's truly yours will be given to you in the end.",
+      "source_resolution": "PT042 source lines 86: king promises immunity, gives Mister Duly his own daughter + a thousand villages, anoints him crown prince. Complete within the file.",
+      "discrepancy": "None — the telling matches the source resolution (immunity, daughter, thousand villages, crown prince)."
+    },
+    {
+      "story": "PT043 - Soft, the Weaver",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The figure asked, \"How is that?\"\nSoft told the story of how people with money are respected, even if they are not good-looking.\n\nMoral: What is meant to be yours will come to you, no matter where you go.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8299-8330. After the hand-off, Soft resumes (\"Now anybody as rich as that becomes an object of desire. So give me plenty of money.\"), the figure sends him back to Growing City to observe the two merchants Penny-Hide and Penny-Fling, Soft sees Penny-Fling's generosity rewarded (\"Now at dawn a policeman came with money, a favor from the king, and gave it all to Penny-Fling.\") and wishes to become a giver: \"So may the blessèd Lord of All make me a person whose money goes in gifts and fun. I see no good in Penny-Hiding.\" Then line 8330: \"So the Lord of All took him at his word, making him that kind of person.\"",
+      "discrepancy": "The telling stops exactly on the chapter's hand-off line (\"Soft told the story of\") and never reaches the fable's real resolution. Missing entirely: the Penny-Hide / Penny-Fling episode and the closing line \"So the Lord of All took him at his word, making him that kind of person.\" The chapter file itself (corpus/stories/PT043-soft-the-weaver.txt:114) confirms the hand-off: \"And Soft told the story of\". The moral (\"What is meant to be yours will come to you\") names a fate the body never shows."
+    },
+    {
+      "story": "PT043 - Soft, the Weaver",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The figure was impressed with Soft's determination and decided to grant his wish. Soft returned home, where he and his wife lived happily ever after.\n\nMoral: The true value of wealth lies not in its accumulation, but in the ability to enjoy and share it with others.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8299-8330. The figure does NOT grant the wish at this point. He redirects Soft: \"'If things stand so,' said the figure, 'go once more to Growing City. There dwell two sons of merchants; their names are Penny-Hide and Penny-Fling...'\" Soft observes Penny-Fling's generosity, wishes to be a giver (\"So may the blessèd Lord of All make me a person whose money goes in gifts and fun\"), and line 8330: \"So the Lord of All took him at his word, making him that kind of person.\" There is no return home and no \"happily ever after\" anywhere in the Soft fable.",
+      "discrepancy": "\"The figure was impressed with Soft's determination and decided to grant his wish\" and \"Soft returned home, where he and his wife lived happily ever after\" are NOT in the source. In the source the figure is not impressed and does not grant; he sends Soft back to Growing City, where Soft abandons the wish for money-for-status and becomes a giver. The telling's ending inverts the fable's point (the source lesson is that money's fruit is gifts and fun, embodied in the Penny-Fling resolution), and the invented \"happily ever after\" supplies closure the source does not contain. The chapter file confirms the source the adapter had ends on the hand-off at corpus/stories/PT043-soft-the-weaver.txt:114 (\"And Soft told the story of\")."
+    },
+    {
+      "story": "PT044 - Hang-Ball and Greedy",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "After 15 long years, Greedy was tired and said to his wife, \"I've watched them for 15 years, and they're still hanging. I think they will never fall. Let's go back to our old home and eat mice again.\"\n\nMoral: Sometimes, we waste our time and energy following something that might not happen.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8297: \"Let us draw the conclusion that they will not fall in the future either, and return to the old mouse-trail.\"",
+      "discrepancy": "None. The telling's final beat (Greedy gives up after 15 years and returns to eating mice) matches the source resolution that the jackal and his wife abandon the bull and go back to the mouse-trail. Hand-off at the chapter's end (\"And Spot told the story of\") is a different nested tale and does not affect this fable."
+    },
+    {
+      "story": "PT044 - Hang-Ball and Greedy",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "After 15 years, Greedy was tired and frustrated. \"We've been following him for so long, but those testicles are still hanging. I think we should give up and go back to our old mouse-hunting routine.\"\nThe she-jackal agreed, and they returned to their usual spot. Greedy realized that his wife's constant goading had led him astray, and he should have been more careful.\n\nMoral: A man should be careful not to let others' opinions or constant nagging lead him away from what's sensible and practical.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8297: \"Let us draw the conclusion that they will not fall in the future either, and return to the old mouse-trail.\"",
+      "discrepancy": "None. The final events (give up after 15 years, return to old routine) match the source. The added sentence (Greedy reflecting that his wife's goading led him astray) is interpretive framing, not an invented event; it is consistent with the source's own verses about woman's whispers driving a man."
+    },
+    {
+      "story": "PT045 - The Mice That Set Elephants Free",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The mice came to help their friends. They gnawed the ropes.\n\nThe elephant king and his herd were free.\n\nMoral: Make friends with everyone, big or small.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8585: \"When the mice learned the matter, they gathered by the thousand, eager to return the favor shown them, and visited the elephant herd. And seeing king and herd fettered, they gnawed the guy-ropes where they stood, then swarmed up the branches, and by cutting the ropes aloft, set their friends free.\"",
+      "discrepancy": "None. The telling's ending (mice gnaw the ropes; elephant king and herd free) matches the source resolution. The chapter's hand-off (\"And Spot told the story of\") is the frame passing to a different nested tale, not this fable."
+    },
+    {
+      "story": "PT045 - The Mice That Set Elephants Free",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The elephant-king sent a message to the mice through one of his elephants, describing his situation. The mice quickly gathered and set out to rescue their friends. They gnawed through the ropes holding the elephant-king and his herd captive, then climbed the trees to cut the ropes above. With the ropes severed, the elephants were free.\n\nMoral: Make friends, no matter how strong or powerful you are, and they will help you in times of need.",
+      "source_resolution": "corpus/panchatantra_complete.txt:8585: \"...they gnawed the guy-ropes where they stood, then swarmed up the branches, and by cutting the ropes aloft, set their friends free.\"",
+      "discrepancy": "None. Final events (mice gnaw the ropes and cut the ropes aloft; elephants freed) match the source resolution in full."
+    },
+    {
+      "story": "PT046 Spot's Captivity",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The hunter was confused and ran away. \nThe four friends were happy and free. \nThey lived happily ever after.",
+      "source_resolution": "corpus/stories/PT046-spot-s-captivity.txt is NOT truncated - it ends with a full resolution and the Book II closing verse (lines 250-270). Resolution at line 254: 'Meanwhile the four friends, free of all injury, came together, expressed their mutual affection, took a new lease on life, and lived happily.' (The escape mechanics - Spot feigns dead, Swift pecks, hunter throws the turtle down and runs for a club, all four escape - are at line 250.)",
+      "discrepancy": "None. The telling's escape and happy-ending match the source."
+    },
+    {
+      "story": "PT046 Spot's Captivity",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "It was a clever plan, and it worked. We all escaped, and we were finally free. We lived happily ever after, grateful for our friendship and our freedom.",
+      "source_resolution": "Same as 4-9: source chapter resolves fully at line 254 (four friends reunite and live happily); escape scene at line 250.",
+      "discrepancy": "None. Matches source resolution."
+    },
+    {
+      "story": "PT047 Crows and Owls",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "So Cloudy won back his tree and his kingdom. The crows returned to the banyan tree, and never again did the owls trouble them.",
+      "source_resolution": "corpus/stories/PT047-crows-and-owls.txt IS TRUNCATED: it ends on a hand-off at line 582-583 - 'And Live-Strong answered: \"Listen. I will tell you' - i.e. it stops as Live-Strong is about to tell a nested tale, NOT at the fable's end. The real resolution is in the continuation of corpus/panchatantra_complete.txt at line 11284: 'In this fashion Cloudy exterminated his foes and returned to his old fortress in the banyan tree.' (Fire attack: lines 11260 and 11284.)",
+      "discrepancy": "None. Despite the truncated source, the telling correctly resolves to the burning of the owls' cave and Cloudy's return to the banyan tree, matching line 11284."
+    },
+    {
+      "story": "PT048 How the Birds Picked a King",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "The birds thought about what the crow said.\n\nThey decided to ask the owl to be their king.\n\nThe owl was very happy.",
+      "source_resolution": "corpus/stories/PT048-how-the-birds-picked-a-king.txt IS TRUNCATED: it ends on a hand-off at line 128-129 - '\"How was that?\" asked the birds. And the crow told' - stopping as the crow begins a nested tale. The real resolution is in corpus/panchatantra_complete.txt. Line 9994: 'And all the birds, after listening to the crow's remarks, said: \"He speaks well,\" and they flew to their homes, planning to reassemble for consultation on the question of a king. Only the owl remained with his consort...' Line 9998: the owl, left un-anointed, says 'You monster! Why have you wronged me by preventing the regal anointing? From this day there is enmity between us.' Fable ends line 10046 ('the crow also left the spot'), frame resumes line 10048 ('For this cause, my son, we have an inherited feud with the owls.').",
+      "discrepancy": "The telling shows the OPPOSITE of the source. Source: the birds abandon the anointing and fly home (owl never made king), the owl is 'deeply disappointed' and declares eternal enmity - the origin of the crow-owl feud. The telling invents 'They decided to ask the owl to be their king. The owl was very happy.' No anointing is completed in the source, and the owl is disappointed, not happy. The body also never shows this: the crow argued against a second king, yet the telling has the birds proceed anyway and the moral ('It's not wise to have two leaders, when one is good enough') matches neither the body nor the source."
+    },
+    {
+      "story": "PT048 How the Birds Picked a King",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The birds looked at each other, unsure of what to do.",
+      "source_resolution": "Same source as 4-9: chapter file truncated at the hand-off line 129; real resolution in corpus/panchatantra_complete.txt lines 9994-10046 - the birds say 'He speaks well' and fly to their homes (anointing abandoned), the owl is left waiting and declares eternal enmity between owls and crows (line 9998), and the crow leaves (line 10046).",
+      "discrepancy": "The telling stops mid-action at 'unsure of what to do,' just before the birds' verdict. Missing from the telling: the birds' decision ('He speaks well') and departure, the abandonment of the anointing, and the owl's declaration of eternal enmity between owls and crows - the actual resolution and the point of the fable."
+    },
+    {
+      "story": "PT049",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Four-Tusk was very sorry. He went back to his home and never came back to the lake.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 9780: \"I shall never return here.\" And with these words he went to his own place. (Same content in corpus/stories/PT049-how-the-rabbit-fooled-the-elephant.txt lines 118-119, before the frame resumes at line 121 and the chapter hands off at lines 137-138.)",
+      "discrepancy": "None. The telling's final outcome (elephant goes home and never returns) matches the source fable resolution."
+    },
+    {
+      "story": "PT049",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Four-Tusk realized his mistake and bowed his head in deep obeisance, asking for forgiveness.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 9780: \"I shall never return here.\" And with these words he went to his own place. (Same in corpus/stories/PT049 lines 118-119.)",
+      "discrepancy": "Telling stops at the elephant's remorse/begging for forgiveness (source line 9777/118 content) and omits the source's actual outcome: the elephant's pledge \"I shall never return here\" and his departure (\"he went to his own place\") — the event that saves the rabbits' lake. Last beat is a plea/decision, not the consequence. Note the simpler 4-9 band DOES include this outcome, so the 9+ band alone stops short."
+    },
+    {
+      "story": "PT050",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The partridge and Speedy were fooled and drew near to Curd-Ear. He quickly ate them both.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 9984: Then, of course, he seized them simultaneously, one with his paw, the other with the saw of his teeth. And when they were dead, he ate them both. (Same in corpus/stories/PT050 line 188.)",
+      "discrepancy": "None. Cat eats both disputants, matching the source resolution."
+    },
+    {
+      "story": "PT050",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "As soon as they did, he pounced, catching both the partridge and Speedy in his paws and teeth. He ate them both, proving that a corrupt judge can be a deadly trap.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 9984: he seized them simultaneously, one with his paw, the other with the saw of his teeth. And when they were dead, he ate them both. (Same in corpus/stories/PT050 line 188.)",
+      "discrepancy": "None. The pounce and eating match the source resolution."
+    },
+    {
+      "story": "PT051",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The three rogues caught the goat and ate it. They laughed and said, \"We fooled the Brahman!\"",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 10100: the three rogues met, caught the goat, and carried out their plan. (Same in corpus/stories/PT051 line 46.)",
+      "discrepancy": "None. \"Carried out their plan\" = the rogues' stated plan to eat the goat, so the telling's \"ate it\" is faithful to the source."
+    },
+    {
+      "story": "PT051",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The three rogues caught the goat and carried out their plan. Friendly returned home, feeling foolish. He realized that the rogues had tricked him with their clever words.",
+      "source_resolution": "Fable resolution in corpus/panchatantra_complete.txt line 10100: the three rogues met, caught the goat, and carried out their plan. (Same in corpus/stories/PT051 line 46.)",
+      "discrepancy": "None. The rogues get the goat exactly as in the source; the added lines about Friendly are consistent with the source (he flees terrified at line 10100/story line 46)."
+    },
+    {
+      "story": "PT052 The Snake and the Ants",
+      "band": "4-9",
+      "discrepancy": "None. The source chapter file does end on a hand-off ('And Red-Eye told the story of'), but the snake-and-ants fable's own resolution precedes it, so no truncation and no invention.",
+      "source_resolution": "corpus/stories/PT052-the-snake-and-the-ants.txt line 8 / corpus/panchatantra_complete.txt line 10134: 'Then the ants gathered about him, drawn by the odor of blood from the wound, and drove him frantic. How many did he kill? Or how many crush? Yet their uncounted phalanx stung him in every member, and enlarged the numerous wounds. And Haughty perished.'",
+      "telling_ending": "The ants kept stinging him until he died.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT052 The Snake and the Ants",
+      "band": "9+",
+      "discrepancy": "None. Fable resolution (Haughty perishes from the ants' stings) matches source; the added line 'the ant-hill was safe once again' is a harmless local coda that does not alter the resolution.",
+      "source_resolution": "corpus/stories/PT052-the-snake-and-the-ants.txt line 8 / corpus/panchatantra_complete.txt line 10134: '...yet their uncounted phalanx stung him in every member, and enlarged the numerous wounds. And Haughty perished.'",
+      "telling_ending": "Haughty's wounds grew bigger and bigger, and he became weaker and weaker. The ants continued to attack, and eventually, Haughty perished.\n\nThe ants celebrated their victory, and the ant-hill was safe once again.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT053 The Snake Who Paid Cash",
+      "band": "4-9",
+      "discrepancy": "None. The source chapter file ends on a hand-off ('And the Brahman told the story of'), but the fable resolution (son killed by snake, cremated by relatives) precedes it. Matches.",
+      "source_resolution": "corpus/stories/PT053-the-snake-who-paid-cash.txt line 14 / corpus/panchatantra_complete.txt line 10257: 'Instead, he furiously struck the boy with his sharp fangs to such effect that the boy died at once. And the relatives cremated him on a woodpile near the field.'",
+      "telling_ending": "The son died, and the relatives cremated him.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT053 The Snake Who Paid Cash",
+      "band": "9+",
+      "discrepancy": "None. Matches source resolution; the moral's 'swans leaving their lotus nest' image is drawn directly from the source verse ('Like swans from lotus nest').",
+      "source_resolution": "corpus/stories/PT053-the-snake-who-paid-cash.txt line 14 / corpus/panchatantra_complete.txt line 10257: '...the snake did not die. Instead, he furiously struck the boy with his sharp fangs to such effect that the boy died at once. And the relatives cremated him on a woodpile near the field.'",
+      "telling_ending": "Instead, the snake bit the boy with its sharp fangs, and he died instantly.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT054 The Unsocial Swans",
+      "band": "4-9",
+      "discrepancy": "None. The source chapter file ends on a hand-off ('And Fierce-Eye told the story of'), but the swans fable resolves before it. Matches.",
+      "source_resolution": "corpus/stories/PT054-the-unsocial-swans.txt line 14 / corpus/panchatantra_complete.txt line 10281: 'Now one old bird saw the king's men with clubs in their hands, and he said: \"Well, kinsmen, this is rather unpleasant. We must all hang together. Let us fly up and away.\" And they did so.'",
+      "telling_ending": "They all flew up and away.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT054 The Unsocial Swans",
+      "band": "9+",
+      "discrepancy": "Plot resolution matches source (the swans escape by flying away). BUT the telling appends an invented coda the source does not contain: 'The king's soldiers were left standing alone, confused and frustrated. The king realized that he had made a mistake and that his soldiers had overreacted.' No such king-reaction, soldier-emotion, or 'lesson' exists in the source (stories line 14 / complete line 10281 end the fable at the escape, followed directly by the verse 'Be generous to all that lives'). This invents events/lessons (adaptation rule 3) and adds a closing note/moral explanation (rule 4). It does not replace the resolution, so verdict is RESOLVES with this coda flagged.",
+      "source_resolution": "corpus/stories/PT054-the-unsocial-swans.txt line 14 / corpus/panchatantra_complete.txt line 10281: '...Let us fly up and away.\" And they did so.' (fable ends there; source then gives the verse 'Be generous to all that lives' with no king reaction)",
+      "telling_ending": "The birds quickly took to the skies and escaped.\n\nThe king's soldiers were left standing alone, confused and frustrated. The king realized that he had made a mistake and that his soldiers had overreacted.\n\nThe king learned a valuable lesson from this experience: being generous and kind to all living creatures is essential for maintaining peace and harmony.",
+      "verdict": "RESOLVES"
+    },
+    {
+      "story": "PT055",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"The fowler, overcome with grief and regret, entered the forest-fire,\nAnd was cleansed of his sins, rising to heaven, free from his wicked ways.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 10675-10683: \"But the fowler sank into the deepest despondency, and plunged into a great forest, meditating death. / And there he saw a forest-fire / And entered it; for all desire / Was dead. His sins were burned away; / He went to heaven, there to stay.\" (Fable also resolves the doves: the wife walks into the fire at 10647-10657 and is received into a divine car.)",
+      "discrepancy": "None. The chapter file corpus/stories/PT055-the-self-sacrificing-dove.txt ends on the frame hand-off line 402 \"And Flame-Eye told the story of\", but that hand-off resumes the FRAME to the next nested tale; the dove fable itself fully resolves at chapter lines 366-374, before the hand-off."
+    },
+    {
+      "story": "PT056",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"Foe-Crusher, the king, was advised by his counselors on how to deal with the situation. One counselor, Hook-Nose, suggested that the thief should not be killed. He explained, \"We should expect help from our enemies if they are divided among themselves. The thief has shown us that life and kindness can be more valuable than wealth.\"\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 10747-10767: the wife embraces the old man from fear of the thief; the old man speaks \"She who always shrank from me...\" and the thief replies \"Nothing here that I should like...\"; then at 10767 \"Thus advantage may be anticipated from a benefactor, thief though he be... he should not be killed.\"",
+      "discrepancy": "None. The chapter file corpus/stories/PT056-the-old-man-with-the-young-wife.txt ends on the frame hand-off line 70 \"And Hook-Nose told the story of\", which introduces the NEXT fable (The Brahman, the Thief, and the Ghost, complete text 10781+); the old-man/thief fable itself resolves at chapter lines 38-58, before the hand-off."
+    },
+    {
+      "story": "PT056",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"Foe-Crusher, a king, heard about this story. He asked another counselor, Hook-Nose, what to do. Hook-Nose said, \"Do not kill him. He helped us.\"\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 10747-10767: the old man realizes the wife embraces him from fear of the thief, speaks the \"She who always shrank from me...\" verse; thief replies \"Nothing here that I should like...\"; the frame then concludes \"he should not be killed.\"",
+      "discrepancy": "None. Same fable resolution as the 9+ band; the shortened 4-9 telling preserves the thief's reply and the Hook-Nose \"do not kill him\" frame decision."
+    },
+    {
+      "story": "PT058",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"She made the prince drink black mustard, and then poured hot water into the ant-hill to kill the other snake.\n\nThe prince was cured, and the princess was hailed as a hero when she returned to her father's kingdom. She was highly honored and lived happily ever after.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 10850-10853: the ant-hill snake names the remedy \"drinking black mustard\" and the belly-snake \"pouring in hot water\"; \"the princess... did just as they suggested. So she made her husband sound and well, and acquired vast wealth. When she returned to her own country, she was highly honored by father, mother, and relatives, and lived happily.\"",
+      "discrepancy": "None. The chapter file corpus/stories/PT058-the-snake-in-the-prince-s-belly.txt ends on the frame hand-off line 47 \"and Red-Eye told the story of\", which introduces the NEXT fable (the carpenter tale); the snake-in-the-belly fable resolves at chapter lines 17-20, before the hand-off. The telling's remedies (black mustard for the belly-snake, hot water for the ant-hill snake) match the source exactly."
+    },
+    {
+      "story": "PT058",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "\"Ugly-Mug heard the snakes and did what they said.\nThe prince got better and was happy.\nUgly-Mug got rich and was honored.\nShe lived happily with her family.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 10850-10853: the snakes reveal the remedies (black mustard / hot water); the princess overhears and applies them, \"she made her husband sound and well, and acquired vast wealth... lived happily.\"",
+      "discrepancy": "None. The 4-9 telling preserves both the nurse-snakes' quarrel and the remedies, and ends on the same cure-and-reward resolution."
+    },
+    {
+      "story": "PT059",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The lover was forced to mount the carpenter's shoulder. The carpenter went dancing to the doors of his relatives' houses.\n\nMoral: It is foolish to forgive someone who has done you wrong.",
+      "source_resolution": "Source fable resolves inside the chapter at line 54 (and in panchatantra_complete.txt line 10936): \"So he forced the fellow, much against his will, to mount his shoulder, and then went dancing about to the doors of the houses of all his relatives.\" The chapter's closing hand-off at line 97 (\"And Red-Eye told the story of\") belongs to the FRAME story leading into PT060, not to the fable.",
+      "discrepancy": "None. Final beat (lover forced onto shoulder, carpenter dances to relatives' doors) matches the source exactly."
+    },
+    {
+      "story": "PT059",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The carpenter's relatives were shocked by his behavior, but he just laughed and said that he was happy to have a long life ahead of him. He danced around the village, with the lover still on his shoulder, much to the amusement of the villagers.\n\nMoral: It's foolish to pardon someone who has clearly done wrong, and even more foolish to reward them for it.",
+      "source_resolution": "Same source resolution at chapter line 54 / complete-text line 10936: the fellow is forced onto the carpenter's shoulder and the carpenter dances to his relatives' doors.",
+      "discrepancy": "None. Ending matches (lover on shoulder, dancing). Minor embellishment (\"relatives were shocked\", \"amusement of the villagers\") but the terminal consequence is the source's."
+    },
+    {
+      "story": "PT060",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Yajnavalkya turned the girl into a mouse.\n\nHe gave her to the mouse. They lived happily.\n\nMoral: Be happy with what you have.",
+      "source_resolution": "Source fable resolves inside the chapter at line 135 (and in panchatantra_complete.txt line 11111): \"And her father, through the magic power of his holiness, turned her into a mouse, and gave her to him.\" The chapter's hand-off at line 173 (\"And Red-Eye told the story of\") is the FRAME story, not the fable.",
+      "discrepancy": "None. Final beat (transformed into a mouse and given to the mouse) matches the source."
+    },
+    {
+      "story": "PT060",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Yajnavalkya used his magic to transform his daughter into a mouse, and she was married to the mouse. From that day on, she lived happily as a mouse, doing mouse things.\n\nMoral: A person's true nature and happiness can be found when they are with those of their own kind.",
+      "source_resolution": "Same source resolution at chapter line 135 / complete-text line 11111: father turns her into a mouse and gives her to the mouse.",
+      "discrepancy": "None. Ending matches the source transformation and marriage."
+    },
+    {
+      "story": "PT061",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The bird flew away and sat on the king's doorway.\n\nIt dropped its poop again, and it turned to gold! The bird said, \"I was foolish to trust the hunter. Then the hunter was foolish to catch me. And the king and the counselor were foolish to doubt me.\"\n\nThe bird flew away, free and happy.\n\nMoral: Being foolish can lead to trouble, but also to freedom.",
+      "source_resolution": "Source fable resolves inside the chapter at line 28 (and in panchatantra_complete.txt line 11176): the freed bird \"perched on the lofty arch of the doorway long enough to drop dung which was of gold. Then he recited the stanza:\" followed by \"After which he took his carefree flight through the atmosphere.\" The chapter's hand-off at line 48 (\"And Red-Eye told the story of\") is the FRAME story, not the fable.",
+      "discrepancy": "None. The telling shows the freed bird dropping gold dung at the doorway and flying free, matching the source's carefree flight."
+    },
+    {
+      "story": "PT061",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The bird flew out of the cage and perched on the doorway, dropping its dung, which turned to gold once more. The bird looked at the king, the hunter, and the counselor, and said, \"We all made fools of ourselves. You caught me, the king kept me, and the counselor freed me. We were all wrong!\"\n\nMoral: Even the wisest people can make mistakes, and it's always best to be cautious and think things through.",
+      "source_resolution": "Same source resolution at chapter line 28 / complete-text line 11176: the bird drops gold dung at the doorway and takes its carefree flight, reciting the stanza \"I played the fool at first... We all were fools together.\"",
+      "discrepancy": "None. The telling renders the source stanza (\"We all made fools of ourselves\") and the freed-bird-drops-gold beat. The telling omits the explicit final flight sentence but ends on the same resolution event."
+    },
+    {
+      "story": "PT062",
+      "band": "4-9",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The lion, Curd-Face, and the owls were all fooled. They thought the lion was going to be their friend. But Live-Strong had a different plan. He wanted to get rid of them.",
+      "source_resolution": "Chapter corpus/stories/PT062-the-cave-that-talked.txt line 88 (and corpus/panchatantra_complete.txt line 11284): \". . . threw their fagots upon Live-Strong's nest. Then all the owls (being blind in the daytime) remembered Red-Eye's counsels as they suffered the torments of Pot-baking Hell. In this fashion Cloudy exterminated his foes and returned to his old fortress in the banyan tree.\"",
+      "discrepancy": "The telling ends on Live-Strong's plan/intention ('He wanted to get rid of them') with no consequence shown. The source resolution - the woodpile built at the gate and Cloudy's crows throwing fire on it so the owls are burned (Pot-baking Hell) - is never shown. Last beat is a decision, not an outcome. Also, the body newly invents 'The lion, Curd-Face, and the owls were all fooled. They thought the lion was going to be their friend.', which is not in the source, but the defect is the missing resolution."
+    },
+    {
+      "story": "PT062",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Cloudy, the king of the forest, was delighted when Live-Strong reported that the enemy's cave was ready to be burned. Cloudy and his followers, each carrying a lighted fagot, flew to the gate and threw the fire on Live-Strong's nest. The owls, realizing their mistake, suffered the torments of Pot-baking Hell.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 11284: \"So Cloudy and his followers, taking Live-Strong's advice, seized one lighted fagot apiece in their bills, flew to the gate of the cave, and threw their fagots upon Live-Strong's nest. Then all the owls (being blind in the daytime) remembered Red-Eye's counsels as they suffered the torments of Pot-baking Hell.\"",
+      "discrepancy": "None. The telling's final beats (fagots thrown on the nest, owls suffer Pot-baking Hell) match the source resolution."
+    },
+    {
+      "story": "PT063",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "Another black snake, a huge fellow, arrived and was shocked to see Slow-Poison carrying frogs. He said, \"Partner, this is disgusting! They're our natural food.\" Slow-Poison explained that he was just following the Brahman's curse. He told the story again, pretending to be remorseful.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 11542: \"Why spin it out? He ate them all so completely that not even frog-seed was left.\" (This follows the arrival of the second black snake at line 11499 and the nested Brahman tale.)",
+      "discrepancy": "The telling stops exactly at the source chapter's hand-off point (corpus/stories/PT063-the-frogs-that-rode-snakeback.txt line 48, \"How was that?\" asked the snake. And Slow-Poison told the story of), i.e. at the second snake's arrival and Slow-Poison's retelling. The fable's actual resolution - Slow-Poison devouring every frog so that 'not even frog-seed was left' - is never shown. It ends on Slow-Poison's pretense, then jumps to the moral."
+    },
+    {
+      "story": "PT065",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The monkey laughed and said, \"You fool! You traitor! How can anyone have two hearts? Go home, and never come back under the rose-apple tree.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt line 11982: \"Then the monkey laughed, and scolded him, saying: 'You fool! You traitor! How can anyone have two hearts? Go home, and never come back under the rose-apple tree.'\"",
+      "discrepancy": "None. The telling's resolution matches the source: the monkey escapes up the tree, exposes the two-hearts trick, and banishes the crocodile."
+    },
+    {
+      "story": "PT065",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Red-Face refused, saying, \"Rascal! Go away this moment. I will not come. Tell Handsome, miss, that Theodore will see him in the well no more.\"",
+      "source_resolution": "corpus/stories/PT065-the-monkey-and-the-crocodile.txt lines 176-184 / corpus/panchatantra_complete.txt lines 11982-11988: \"Then the monkey laughed, and scolded him, saying: 'You fool! You traitor! How can anyone have two hearts? Go home, and never come back under the rose-apple tree. . . .' The monkey said: 'Rascal! Go away this moment. I will not come. For / . . . / Tell Handsome, miss, that Theodore / Will see him in the well no more.'\"",
+      "discrepancy": "None. The telling reaches the chapter's full resolution, including the final quoted verse line ('Theodore will see him in the well no more'), which matches the source."
+    },
+    {
+      "story": "PT066 (Handsome and Theodore)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Handsone said, \"My dear Theodore, please come back. I will never hurt you.\" Theodore said, \"No, I will never come back.\"",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12177-12181: \"Tell Handsome, miss, that Theodore / Will see him in the well no more. / And so he sent her back.\" The fable ends with Theodore refusing to return; the hand-off to the next nested tale follows at 12189 (\"So the monkey told the story of\").",
+      "discrepancy": "None. The telling's final beat (Theodore refuses to return) matches the source resolution. Chapter file corpus/stories/PT066-handsome-and-theodore.txt does end on a hand-off (line 187), but that hand-off introduces the NEXT tale (Flop-Ear); the Handsome fable itself already resolved at line 178 of that file."
+    },
+    {
+      "story": "PT066 (Handsome and Theodore)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "He told the lizard to tell Handsome that he would never enter the well again.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12177-12181: \"Tell Handsome, miss, that Theodore / Will see him in the well no more. / And so he sent her back.\"",
+      "discrepancy": "None. Matches the source resolution (Theodore refuses to return to the well)."
+    },
+    {
+      "story": "PT067 (Flop-Ear and Dusty)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "This time, the lion was prepared and killed Flop-Ear. Dusty ate the donkey's ears and heart, and the lion divided the spoils with him. The lion was impressed with Dusty's cunning and promised not to be like Flop-Ear, who was deceived by his own foolishness.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12268: \"So the lion was convinced by the jackal's argument, divided with him, and ate his own share without suspicion.\" The fable ends there; the frame hand-off follows at 12280 (\"And monkey told the story of\").",
+      "discrepancy": "None. The telling compresses the source's middle beat (the lion's anger at finding the donkey minus ears and heart, and the jackal's 'born without ears and heart' explanation, lines 12256-12266) into a single line, but its final event - the lion accepts the jackal's account and divides the spoils - matches the source resolution."
+    },
+    {
+      "story": "PT068 (The Potter Militant)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king said, \"No, you must go. Your family is not brave like you think.\"\n\nThe king told the potter a story, but it's not important right now.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12296: \"'No, my friend,' said the king, 'you may be a treasure-house of all the virtues. Yet you must begone.'\" The potter story's final action is line 12375: \"And the potter, hearing this absconded.\" The chapter file corpus/stories/PT068-the-potter-militant.txt truncates at the hand-off (line 28), but the king's dismissal is present within it (line 18).",
+      "discrepancy": "None material. The telling's final beat (the king dismisses the potter) matches the source's dismissal. Source has one further beat after the nested jackal tale - the potter actually departs (line 12375) - which the telling collapses into the king's order; this is the same outcome, not a different resolution, and nothing is invented. The line 'The king told the potter a story' references the hand-off but the fable has already resolved."
+    },
+    {
+      "story": "PT068 (The Potter Militant)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king refused, saying that although Fight-Firm might be brave and clever, he had no noble blood.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12296: \"'No, my friend,' said the king, 'you may be a treasure-house of all the virtues. Yet you must begone.'\" (final action \"And the potter, hearing this absconded.\" at line 12375).",
+      "discrepancy": "None material. The telling's final beat (the king refuses to keep Fight-Firm / dismisses him) matches the source resolution. Nothing invented."
+    },
+    {
+      "story": "PT069",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The jackal cub was terrified and slunk away to join his own family. He realized he didn't belong with the lions.\n\nMoral: Being raised by someone else doesn't change your true nature.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12373 (end of THE JACKAL WHO KILLED NO ELEPHANTS): the lioness reveals 'Your mother was a jackal, and I fattened you with my own milk because I pitied you... hurry away and join your own people. If not, they will fight you, and you will tread the path of death.' — 'When the jackal heard this, he was terror stricken, and softly stole away to join his own people.' The chapter file (corpus/stories/PT069...) does end on a hand-off (line 86, 'and the monkey told the story of'), but the jackal fable itself is fully resolved inside that chapter at line 68, so no continuation was needed.",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT070",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "She said the magic words, \"I give life,\" and fell dead.\n\nMoral: Greed and selfishness can lead to great trouble.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12418 (end of THE UNGRATEFUL WIFE): 'Then the Brahman said: \"With three magic words I gave you half my life. Give me that.\" And from fear of the king she murmured, just as he had done, the three words \"I give life,\" and fell dead.' The chapter file ends on a hand-off (line 48), but the wife fable resolves inside the chapter at line 28.",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT070",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The king was amazed and asked the Brahman to explain what had happened. The Brahman told him the whole story.\n\nMoral: A person's true nature is revealed when they are given power and wealth.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12418-12420: wife speaks 'I give life' and falls dead; 'Then the king was amazed and said: \"What does this mean?\" And the Brahman related to him all that had gone before.'",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT071",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Splendor said, \"I said I would do what my wife asked. But I didn't mean it.\"\n\nMoral: Be careful what you say, it can get you into trouble.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12447-12457: King Joy asks why Splendor's head is shaved; Splendor answers with the verse 'What will not man for woman do, / When heads are shorn—at odd times, too? ...'. The fable's resolution is the henpecking revealed by the men's own words (frame comment line 12457: 'you were betrayed by your own speech'). The 4-9 telling keeps this outcome (both men henpecked, revealed next morning) and its moral tracks the source's 'betrayed by your own speech'; the invented dialogue line is flavour, not a substituted outcome.",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT071",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The king then told a story about a clever monkey who outwitted a crocodile. The monkey had seen the crocodile's sharp teeth and had decided to play a trick on him.\n\nMoral: Silence is often the best policy, especially when dealing with someone who is being unreasonable.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 12447-12475: the King Joy fable ends at Splendor's verse (12449-12455); the frame then closes at 12457 ('You simpleton!... you were betrayed by your own speech') with the parrot/grackle and ass-in-tiger-skin proverbs, and hands off at 12477 to the NEXT nested tale, THE ASS IN THE TIGER-SKIN (12479). The monkey-and-crocodile is the ENCLOSING frame of Book 4 (starts 11822), told BY the monkey TO the crocodile — it is not a story the king tells.",
+      "discrepancy": "The King Joy fable's own resolution IS present (the telling's 'your own words betrayed you' matches source line 12457), but the telling does not land on it — it then trails off on a hand-off beat introducing a story it never tells: 'The king then told a story about a clever monkey who outwitted a crocodile. The monkey had seen the crocodile's sharp teeth and had decided to play a trick on him.' That is a plan ('had decided to play a trick'), no consequence, and the content is not in the source: the source's next nested tale is The Ass in the Tiger-Skin (PT072), and the monkey-and-crocodile is the enclosing frame, not a tale King Joy tells. The preceding frame line is also garbled — the king says 'just like Joy and I', though the king IS Joy (source has the monkey addressing the crocodile: 'henpecked just like Joy and Splendor'). Flagged as an unfinished/garbled closing hand-off; if the fable's resolution is judged sufficient, this could instead be read as RESOLVES with an invented trailing hand-off."
+    },
+    {
+      "story": "PT072-the-ass-in-the-tiger-skin",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "They threw stones, clubs, and arrows at the donkey. He got hurt very badly.\n\nThe donkey died. Clean-Cloth was very sad.\n\nMoral: Even clever tricks cannot fool everyone forever.",
+      "source_resolution": "panchatantra_complete.txt:12487 — \"But one day the donkey heard the bray of a she-donkey in the distance. At the mere sound he himself began to bray. Then the farmers perceived that he was a donkey in disguise, and killed him with blows from clubs and stones and arrows.\"",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT072-the-ass-in-the-tiger-skin",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The farmers saw through the disguise and chased the donkey with clubs, stones, and arrows.\n\nThe donkey was killed, and the laundryman was left with nothing.\n\nMoral: The cleverest disguises can't fool everyone forever.",
+      "source_resolution": "panchatantra_complete.txt:12487 — same: farmers perceive the donkey in disguise and kill him with clubs, stones, and arrows.",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT073-the-farmer-s-wife",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The crocodile was sad and thought about what to do. He asked his monkey friend for advice.\n\nThe monkey said, \"You are foolish. I will not give you advice. You are like a monkey who broke a sparrow's nest.\"\n\nMoral: Bad things often happen together.",
+      "source_resolution": "panchatantra_complete.txt:12588 — \"And the she-jackal, perceiving that the woman was equally forlorn, having lost her husband's money and her lover, said with a sneer: 'You naked thing! Your cleverness is twice As great as mine, 'twould seem; Lover and husband lost, You sit beside the stream.'\" (present in telling at lines 19-23).",
+      "discrepancy": "Fable's own resolution IS present ('You are as unlucky as I am. Your lover took your money, and now you are naked.' / 'I am as unlucky as you are.'). The telling then continues past it into the chapter's frame-transition tail (crocodile / water-beast / monkey) and ends on the monkey's refusal — the exact point where the source hands off (panchatantra_complete.txt:12633, \"And the monkey told the story of THE PERT HEN-SPARROW\"). Nothing fabricated; the frame arc is not resolved but the fable's is."
+    },
+    {
+      "story": "PT073-the-farmer-s-wife",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The first crocodile was worried and asked his monkey friend for advice. The monkey refused to help, saying the crocodile was foolish to bother him. He told a story about a foolish monkey who broke a sparrow's nest, and then left.\n\nMoral: Misfortunes often come in threes, and it's essential to be prepared to face them wisely.",
+      "source_resolution": "panchatantra_complete.txt:12588 — she-jackal sneers at the forlorn, naked wife (present in telling at lines 9-11: \"At least I have my hunger to distract me. You're left with nothing.\").",
+      "discrepancy": "Fable's own resolution present. Telling then reproduces the chapter's frame-transition tail and ends on the monkey's refusal (source hand-off at :12633). Minor bridge addition \"and then left\" not in source, but not a resolution invention. The appended frame arc is unresolved; the fable's plot is resolved."
+    },
+    {
+      "story": "PT075-how-supersmart-ate-the-elephant",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Just then, another jackal appeared, and Supersmart fought him with his fangs, sending him away. He enjoyed the elephant meat for a long time.\n\nMoral: A clever trickster can outsmart his enemies, but may not be able to outsmart his equals.",
+      "source_resolution": "panchatantra_complete.txt:12757-12759 — \"Now while the jackal was eating meat through the opening cut by the leopard, a second jackal came on the scene in a great rage. And Supersmart, esteeming him an equal whose prowess was a known quantity ... made a dash at him, tore him with his fangs, made him seek the horizon, and himself comfortably enjoyed elephant-meat for a long time.\"",
+      "discrepancy": "none"
+    },
+    {
+      "story": "PT076",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Spot's family was happy to see him. They were glad he was back home.\n\nMoral: It's always better to be at home.",
+      "source_resolution": "PT076 chapter is NOT truncated - it contains the dog fable's resolution: Spot returns to 'his own place' and answers his relatives' questions (panchatantra_complete.txt:12810-12818). The 4-9 telling covers exactly the dog fable and stops on its real resolution (Spot back home).",
+      "discrepancy": "None. Dog-fable ending matches source."
+    },
+    {
+      "story": "PT076",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The monkey decided to take action and defend his home against the desperate stranger who had taken it over. With courage and determination, the monkey fought back and killed the intruder, reclaiming his home.\n\nSpot's journey taught him that it's always better to appreciate what you have, rather than seeking something new and potentially harmful.",
+      "source_resolution": "panchatantra_complete.txt:12820 - \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\" The defeated home was the CROCODILE's (line 12547: crocodile says \"my home is ruined\").",
+      "discrepancy": "The telling's ending attributes the frame resolution to the MONKEY - 'the monkey fought back and killed the intruder, reclaiming his home' - and invents a take-over of the monkey's home. The source gives BOTH the killing of the intruder AND the recovery of the home to the CROCODILE; the monkey does no fighting anywhere in the source. The monkey-kills-the-intruder event is not in the source."
+    },
+    {
+      "story": "PT077",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The judges said, \"The barber's act was wrong. He should be punished.\"\n\nMoral: Deeds ill-known, ill-recognized, ill-accomplished, ill-advised.",
+      "source_resolution": "PT077 chapter ends on a hand-off ('How was that?' asked Jewel. And they told the story of), i.e. TRUNCATED - but the BARBER fable's resolution precedes it, in the same chapter and at panchatantra_complete.txt:12970 - \"Whereupon they said: 'Well, well! Let this villainous barber be impaled. For his act was advised.'\"",
+      "discrepancy": "None material. The telling reaches the judges' verdict condemning the barber, condensing 'be impaled' to 'should be punished'; the resolution (barber condemned) matches the source."
+    },
+    {
+      "story": "PT077",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Jewel explained the original monk's appearance, and the judges condemned the barber to be impaled.\n\nMoral: Deeds ill-known, ill-recognized, ill-accomplished, and ill-advised should be avoided; take a warning from the barber.",
+      "source_resolution": "panchatantra_complete.txt:12970 - \"Let this villainous barber be impaled. For his act was advised.\" (The chapter file is truncated on the hand-off to the mungoose tale, but the barber fable's resolution is present.)",
+      "discrepancy": "None. Ending matches source exactly (barber impaled)."
+    },
+    {
+      "story": "PT078",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The Brahman was puzzled and asked his wife to clarify what had happened. She recounted the story of the mungoose's bravery and her own thoughtless actions.\n\nMoral: Greed and impulsiveness can lead to tragic mistakes, causing harm to those who truly care for us.",
+      "source_resolution": "PT078 chapter ends on a hand-off ('How was that?' asked the Brahman. And his wife told the story of), i.e. TRUNCATED - but the MUNGOOSE fable's resolution precedes it, at panchatantra_complete.txt:13009-13011: the mother 'angrily dropped the water-jar upon him, which killed him the moment that it struck... found the baby safe and sound, and near the cradle a great black snake, torn to bits. Then, overwhelmed with sorrow... her son, she beat her head and breast'; the Brahman comes home and the wife cries 'Greedy! Greedy!'",
+      "discrepancy": "None. The telling shows the full source resolution: mungoose kills the snake, mother kills the mungoose with the water-jar, baby found safe, snake torn to bits, grief, and the wife blaming the Brahman's greed."
+    },
+    {
+      "story": "PT079",
+      "band": "9+",
+      "verdict": "TRUNCATED",
+      "telling_ending": "The gold-finder scolded his companion, saying, \"I told you not to go any further. But you did not listen. Indeed, there is wisdom in the saying: 'Scholarship is less than sense; therefore seek intelligence.' You were blinded by your desire for treasure and did not use your common sense.\"\n\nMoral: True wisdom and common sense are more valuable than wealth and material possessions.",
+      "source_resolution": "The chapter file corpus/stories/PT079-the-four-treasure-seekers.txt is itself truncated: it ends mid-fable on the hand-off line \"'How was that?' asked the wheel-bearer. And the gold-finder told the story of\" (immediately after the scolding quoted in the telling). The Four Treasure-Seekers frame only closes in corpus/panchatantra_complete.txt, after the whole nested chain (Lion-Makers, Hundred-Wit, Musical Donkey, etc.), at line 13911: \"Then the gold-finder said: 'Yes, you are quite right... Yet, after all, a man should make fate his own, and not desert prudence, as you did in rejecting my advice.'\" — and the closing action one line later: \"With this the gold-finder bade him farewell and started home.\"",
+      "discrepancy": "The telling stops at exactly the point where the chapter file truncates (the scolding, right before the hand-off \"And the gold-finder told the story of\"), and never reaches the frame's actual resolution. Missing from the source resolution: the gold-finder's final words and \"With this the gold-finder bade him farewell and started home\" (complete text line 13911). The wheel-bearer's fate is left with no resolution. No fabricated event was added, so this is a truncation, not an invention."
+    },
+    {
+      "story": "PT080",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "They brought the lion to life, and it rose up.\n\nIt killed the three friends, and went away.\n\nThe wise one climbed down and went home.\n\nMoral: Sense is more important than learning.",
+      "source_resolution": "The PT080 chapter file corpus/stories/PT080-the-lion-makers.txt contains the fable's full resolution (its hand-off is only to the NEXT nested tale, Hundred-Wit): \"the lion was brought to life, rose up, and killed all three. But the man of sense, after the lion had gone elsewhere, climbed down and went home.\" (same at corpus/panchatantra_complete.txt lines 13291-13292).",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT080",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The lion then rose up and killed the other three friends. But the wise friend climbed down and went home, safe and sound.\n\nMoral: True wisdom and common sense are more valuable than all the knowledge in the world.",
+      "source_resolution": "The PT080 chapter file corpus/stories/PT080-the-lion-makers.txt contains the fable's full resolution (its hand-off is only to the NEXT nested tale, Hundred-Wit): \"the lion was brought to life, rose up, and killed all three. But the man of sense, after the lion had gone elsewhere, climbed down and went home.\" (same at corpus/panchatantra_complete.txt lines 13291-13292).",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT081",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The fishermen took Hundred-Wit and Thousand-Wit away. Single-Wit was happy to be safe.\n\nMoral: Being clever is not enough to save you. Sometimes, common sense and quick thinking can be more important.",
+      "source_resolution": "The PT081 chapter file corpus/stories/PT081-hundred-wit-thousand-wit-and-single-wit.txt contains the fable's full resolution (its hand-off is only to the NEXT nested tale, Musical Donkey): the net catches all water-creatures, \"Even Hundred-Wit and Thousand-Wit fell into a net and were killed\"; the fishermen carry them away while \"the frog, safe in the throat of a cistern\" recites the stanza \"While Hundred-Wit is on a head, While Thousand-Wit hangs limp and dead, Your humble Single-Wit, my dear, Is paddling in the water clear.\" (same at corpus/panchatantra_complete.txt lines 13329-13342).",
+      "discrepancy": ""
+    },
+    {
+      "story": "PT081",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The frog's wife asked, \"What happened?\" The frog replied, \"I was blinded by my own intelligence and pride. Intelligence is not the only factor in fate.\"\n\nMoral: Intelligence and knowledge are not enough to guarantee safety; sometimes, humility and listening to others are more important.",
+      "source_resolution": "The PT081 chapter file corpus/stories/PT081-hundred-wit-thousand-wit-and-single-wit.txt contains the fable's full resolution (its hand-off is only to the NEXT nested tale, Musical Donkey): Hundred-Wit and Thousand-Wit are netted and killed, the fishermen carry them away, and the frog Single-Wit is safe in a cistern, reciting \"While Hundred-Wit is on a head, While Thousand-Wit hangs limp and dead, Your humble Single-Wit, my dear, Is paddling in the water clear.\" and concluding \"And that is why I say that intelligence is not the sole determinant of fate.\" (same at corpus/panchatantra_complete.txt lines 13329-13342).",
+      "discrepancy": "Outcome matches (frog survives, the two fish die), so this resolves. Minor voice quirk only: the telling puts the confession in the frog's mouth (\"I was blinded by my own intelligence and pride\"), whereas in the source the frog is the one who flees and merely observes that \"intelligence is not the sole determinant of fate\" — the pride belonged to Hundred-Wit and Thousand-Wit. This is a characterization slip, not an invented or missing event."
+    },
+    {
+      "story": "PT082 (The Musical Donkey)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The jackal said, \"You should have listened to me. Now you're wearing a heavy mortar on your neck.\" Prig realized his mistake.\nMoral: Listen to your friends when they give you good advice.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13420-13442: farmers beat the donkey, hobble him with a mortar, he stands up and tramples the hedge to run away, and the jackal mocks him from a safe distance (\"Just so, you would not stop when I advised it.\"). Fable resolution is fully inside the chapter; the chapter's closing hand-off (L13452) introduces a DIFFERENT story, Slow the Weaver.",
+      "discrepancy": "None. Telling shows beaten donkey + mortar on neck + jackal's mock = source's resolution. Minor added line \"I'm glad I sang\" is embellishment, not a resolution change."
+    },
+    {
+      "story": "PT082 (The Musical Donkey)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Prig realized his mistake and said, \"You were right. I should have listened to you. My singing led to trouble.\"\nMoral: He who lacks wisdom and doesn't listen to his friend will often end up in trouble.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13420-13442: farmers beat the donkey, hobble him with a mortar, he stands up, tramples the hedge and runs away, jackal mocks him. Full resolution inside the chapter; hand-off at L13452 leads to a different nested tale.",
+      "discrepancy": "None. Telling matches source beat-for-beat including the escape and the jackal's mock."
+    },
+    {
+      "story": "PT083 (Slow, the Weaver)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "The fairy gave him what he asked for.\nBut people saw Slow and thought he was a monster.\nThey beat him with sticks and stones.\n\nSlow died. The people learned a lesson.\n\nMoral: Ask for what you really need, not what looks nice.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13536-13539: \"he became two-headed and four-armed. But as he came home, delight in his heart, the people thought he was a fiend, and beat him with clubs and stones and things so that he died.\" Resolution fully inside the chapter; hand-off at L13549 leads to The Brahman's Dream.",
+      "discrepancy": "None. Granted wish -> mistaken for monster -> beaten -> died, exactly as source."
+    },
+    {
+      "story": "PT083 (Slow, the Weaver)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Slow was delighted and asked the fairy for his wish. The fairy granted it, and Slow became two-headed and four-armed. However, the people thought he was a monster and beat him with clubs and stones, killing him.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13536-13539: became two-headed and four-armed; people thought he was a fiend and beat him with clubs and stones so that he died.",
+      "discrepancy": "None. Matches source resolution verbatim in substance."
+    },
+    {
+      "story": "PT084 (The Brahman's Dream)",
+      "band": "4-9",
+      "verdict": "RESOLVES",
+      "telling_ending": "Seedy kicked the jar in his dream.\nIt broke, and barley-meal spilled all over him.\nSeedy turned white from head to toe.\n\nSeedy woke up, and his friends laughed at him.\nHe looked silly with his white face.\n\nMoral: Don't let your dreams make you forget what's real.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13565: \"he let fly such a kick that he smashed the jar. And the barley-meal which it contained turned him white all over.\" Resolution fully inside the chapter; hand-off at L13578 leads to a further tale (King Moon).",
+      "discrepancy": "None affecting resolution. Added detail \"his friends laughed at him\" is not in the source but does not replace or contradict the source resolution (jar smashed, whitened)."
+    },
+    {
+      "story": "PT084 (The Brahman's Dream)",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "Seedy was so lost in his dream that he didn't notice his foot flying up to kick the jar. The jar shattered, and the barley-meal spilled all over him, turning him white.\n\nMoral: Indulging in hopes and daydreams can lead to accidents and foolish decisions.",
+      "source_resolution": "corpus/panchatantra_complete.txt L13565: kick smashed the jar; the barley-meal turned him white all over.",
+      "discrepancy": "None. Matches source resolution."
+    },
+    {
+      "story": "PT085 - The Unforgiving Monkey",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "The king, greedy for more pearl necklaces, decided to go to the lake with his retinue. The monkey led them to the lake, and when they were all in the water, the fiend ate them. The king was the last one to be eaten, and as he was being swallowed, the monkey told him that he had planned this revenge for the death of his household.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 13706 and 13718 (fable complete in corpus/stories/PT085-the-unforgiving-monkey.txt; the file's trailing 'And the other told the story of' is a FRAME hand-off, not a fable truncation). Source: the monkey spares the king and the king survives: 'Now go. I did not make you enter there, because I remembered that you were the king.' ... 'When the king heard this, he hastened home, grief-stricken.'",
+      "discrepancy": "The telling kills the king ('The king was the last one to be eaten'); the source explicitly spares him. The monkey says 'I did not make you enter there, because I remembered that you were the king,' and the source's final beat is the king RETURNING HOME grief-stricken. The king's death is not in the source. (Core revenge-via-lake resolution matches; the king's fate is inverted.)"
+    },
+    {
+      "story": "PT086 - The Credulous Fiend",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "The fiend, seeing the monkey's distress, tried to reason with him. He said, \"You have been caught by Twilight, the one who wins the race. It's time for you to bid me farewell and go home.\" The monkey, still in agony, couldn't respond and could only wait for his fate to be decided.",
+      "source_resolution": "corpus/panchatantra_complete.txt lines 13778-13786 (fable complete in corpus/stories/PT086; trailing 'the wheel-bearer told the story of' is a FRAME hand-off). Source fable end: thief chews the monkey's tail; monkey 'was too frightened to utter a word. In dreadful pain, he could only shut his eyes tight, clench his teeth, and wait'; fiend recites 'You have been caught by Twilight—He lives who wins the race.'",
+      "discrepancy": "None. The fable ends in the same suspended state in both (monkey caught in pain, waiting). Minor: the telling folds the frame's 'bid me farewell' line into the fiend's speech, but the resolution state matches the source."
+    },
+    {
+      "story": "PT087 - The Fiend Who Washed His Feet",
+      "band": "9+",
+      "verdict": "RESOLVES",
+      "telling_ending": "But Cruel, bound by his vow, didn't dare to chase the Brahman. He stayed in the lake, unable to break his promise. The Brahman escaped safely, and Cruel was left behind.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 13829 (fable complete in corpus/stories/PT087, which ends 'Here ends Book V'). Source: 'And when he did so, the fiend, not daring to break his vow, did not follow.'",
+      "discrepancy": "None. The Brahman escapes and the fiend, bound by his vow, does not pursue him in both versions."
+    },
+    {
+      "story": "PT089",
+      "band": "4-9",
+      "verdict": "INVENTED",
+      "telling_ending": "But it was too late. Numskull had lost all his fruit.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12820: \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\"",
+      "discrepancy": "The source fable (Book IV frame, 'The Monkey and the Crocodile', lines 11814-12820) ends with the crocodile fighting the intruder who seized his home and recovering it. The 4-9 telling invents a different plot and ending: two friends overfeed each other until one gets 'very fat', and the outcome is 'Numskull had lost all his fruit'. There is no crocodile, no rose-apple tree, no heart-plot, no overfeeding, and no loss-of-fruit outcome anywhere in the source resolution. 'Numskull' is not even a Book IV character (the lion Numskull appears in Book I, line 2804). The source monkey Red-Face gives his fruit away and survives; he never overeats or loses fruit. The telling's ending is not in the source."
+    },
+    {
+      "story": "PT089",
+      "band": "9+",
+      "verdict": "INVENTED",
+      "telling_ending": "But when the crocodile came back up, he found that the monkey had taken all the treasure and run away. The crocodile realized too late that he had been tricked.",
+      "source_resolution": "corpus/panchatantra_complete.txt line 12820 (same frame resolution): \"So the crocodile, having received his friend's advice, resolved to die if need be, said farewell to the monkey, and went to his own house. There he joined battle with the desperate ruffian who had forced a way in, put his reliance in resolute valor, and killed him. So he recovered his home and lived there happily for a long time.\"",
+      "discrepancy": "The telling keeps the monkey-and-crocodile frame and the 'monkey tricked the crocodile' verse, but invents the device and the ending. The source contains NO treasure: the monkey's trick is to claim his heart is kept 'in a hole in the rose-apple tree' (lines 11965-11966) so the crocodile turns back and he escapes being drowned. The word 'treasure' in the source appears only in unrelated nested tales, never in the monkey/crocodile frame. The telling's ending - the monkey stealing treasure and abandoning the crocodile, who is 'tricked' - is not in the source. In the source the crocodile's wife starves to death, his home is seized, the monkey gives him advice, and the crocodile kills the intruder and recovers his home (line 12820) with the friendship intact."
+    }
+  ]
+}

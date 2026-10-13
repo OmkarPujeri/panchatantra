@@ -1,0 +1,4079 @@
+{
+  "meta": {
+    "what": "Human-authorable story tags — the judgment half of the tagging schema.",
+    "why": "Mechanical fields (readability, duration, dialogue) are derived at build time by scripts/build_story_tags.py. Everything here is authored judgment and is reviewed by a human.",
+    "review_flag": "_draft: true means model-drafted and NOT yet reviewed.",
+    "rules": [
+      "skills priors are ORDINAL 0-3 and are never summed; 3 = central/teachable",
+      "M5_moral_conflict > 0 requires min_age >= 9",
+      "a story whose bands are ['9+'] requires min_age >= 9 (no 4-9 text exists)",
+      "characters are [name, species, role] triples drawn from the adapted text"
+    ]
+  },
+  "tags": {
+    "PT002": {
+      "moral": [
+        "The right guidance at the right time can turn a fool wise",
+        "judgment"
+      ],
+      "themes": [
+        "guidance",
+        "learning",
+        "transformation",
+        "wisdom"
+      ],
+      "characters": [
+        [
+          "Vishnusharman",
+          "human",
+          "teacher"
+        ],
+        [
+          "Immortal-Power",
+          "human",
+          "king"
+        ],
+        [
+          "Keen",
+          "human",
+          "advisor"
+        ],
+        [
+          "Rich-Power",
+          "human",
+          "prince"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 0,
+        "M3": 1,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 10,
+      "rationale": "No violence or death anywhere; the only heavy content is abstract talk of twelve years of grammar and a hundred land-grants, which keeps it at 5+ rather than 4.",
+      "key_beat": "Vishnusharman standing before King Immortal-Power, boldly promising to make the three dull princes wise within six months.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT003": {
+      "moral": [
+        "Jealousy and lies destroy friendship",
+        "loyalty"
+      ],
+      "themes": [
+        "jealousy",
+        "deception",
+        "friendship",
+        "betrayal"
+      ],
+      "characters": [
+        [
+          "Lively",
+          "bull",
+          "victim"
+        ],
+        [
+          "Rusty",
+          "lion",
+          "king"
+        ],
+        [
+          "Cheek",
+          "jackal",
+          "trickster"
+        ],
+        [
+          "Victor",
+          "jackal",
+          "trickster"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 11,
+      "rationale": "A 4-9 band exists and no death occurs on the page (Lively survives), but the servants' false report of his death and the jackals' jealous plot to be rid of him are the whole engine, so 5+.",
+      "key_beat": "Cheek and Victor the jackals huddled together under the banyan tree, whispering their plot against the strong bull Lively.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT004": {
+      "moral": [
+        "Think before you act, or carelessness will hurt you",
+        "caution"
+      ],
+      "themes": [
+        "curiosity",
+        "consequence",
+        "carelessness",
+        "judgment"
+      ],
+      "characters": [
+        [
+          "Monkey",
+          "monkey",
+          "fool"
+        ],
+        [
+          "Victor",
+          "human",
+          "counselor"
+        ],
+        [
+          "King",
+          "human",
+          "ruler"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists. The curious monkey is hurt when the beam falls and is lectured by Victor; the harm is non-fatal in this telling.",
+      "key_beat": "The monkey tugging the wedge out of the half-built temple beam, the timber crashing down on him.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT005": {
+      "moral": [
+        "Don't judge something by its noise or appearance.",
+        "judgment"
+      ],
+      "themes": [
+        "misjudgment",
+        "appearance-vs-reality",
+        "curiosity"
+      ],
+      "characters": [
+        [
+          "Jackal",
+          "jackal",
+          "fool"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 0,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 4,
+      "max_age": 8,
+      "rationale": "no harm; the 'scary noise' reveal is gentle",
+      "key_beat": "the jackal gnawing into the drum",
+      "tone": "playful",
+      "complexity": 1,
+      "_draft": false
+    },
+    "PT006": {
+      "moral": [
+        "A small word from a small man can raise or ruin a reputation",
+        "judgment"
+      ],
+      "themes": [
+        "false-accusation",
+        "jealousy",
+        "reputation",
+        "restoration"
+      ],
+      "characters": [
+        [
+          "Strong-Tooth",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Bull",
+          "human",
+          "betrayer"
+        ],
+        [
+          "King",
+          "human",
+          "king"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "A jealous servant falsely accuses the good merchant Strong-Tooth of kissing the queen and the king withdraws his favor; no violence but adult themes of sexual slander and court intrigue in the only (9+) band.",
+      "key_beat": "Bull pointing a finger at Strong-Tooth beside the sleeping king's bed as the king's face hardens.",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT007": {
+      "moral": [
+        "A predator will wear friendship like a mask to reach what he wants",
+        "caution"
+      ],
+      "themes": [
+        "betrayal",
+        "trust",
+        "greed",
+        "disguise"
+      ],
+      "characters": [
+        [
+          "Godly",
+          "human",
+          "victim"
+        ],
+        [
+          "June",
+          "human",
+          "trickster"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "The 4-9 text softens the murder to a straight theft, but it keeps June's explicit thought of killing Godly for the treasure, plus calculated seduction of a holy man's trust.",
+      "key_beat": "June bowing low at Godly's feet with folded hands while his eyes slide sideways toward the treasure under the old man's arm.",
+      "tone": "sly",
+      "complexity": 1
+    },
+    "PT008": {
+      "moral": [
+        "Greed and foolishness lead to trouble.",
+        "prudence"
+      ],
+      "themes": [
+        "greed",
+        "foolishness",
+        "betrayal"
+      ],
+      "characters": [
+        [
+          "Godly",
+          "human",
+          "teacher"
+        ],
+        [
+          "June",
+          "human",
+          "disciple"
+        ],
+        [
+          "Jackal",
+          "jackal",
+          "fool"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 8,
+      "max_age": 11,
+      "rationale": "nested frame (jackal fable inside the June betrayal) needs tracking; both deaths are off-page",
+      "key_beat": "the jackal caught between the two rams",
+      "tone": "cautionary",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT010": {
+      "moral": [
+        "Cruelty and greed eventually destroy the one who practices them",
+        "prudence"
+      ],
+      "themes": [
+        "greed",
+        "cunning",
+        "patience",
+        "inevitable-downfall"
+      ],
+      "characters": [
+        [
+          "Crow",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "Crow-hen",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "Snake",
+          "snake",
+          "tyrant"
+        ],
+        [
+          "Jackal",
+          "jackal",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 11,
+      "rationale": "The black snake devours the crow's newborn chicks and the snake itself dies choking on a fish bone (a crab strangles the heron's greed in the 9+ nested tale) - deaths of young and old, though told gently.",
+      "key_beat": "The black snake rearing back, a sharp fish bone jammed in its throat as it thrashes against the banyan trunk.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT012": {
+      "moral": [
+        "Cleverness beats strength.",
+        "cleverness"
+      ],
+      "themes": [
+        "wit-over-strength",
+        "pride",
+        "trickery",
+        "justice"
+      ],
+      "characters": [
+        [
+          "Numskull",
+          "lion",
+          "tyrant"
+        ],
+        [
+          "Rabbit",
+          "rabbit",
+          "trickster"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 10,
+      "rationale": "tyrant is tricked to drown; the 'is it fair to trick him?' tension is the point",
+      "key_beat": "Numskull roaring at his own reflection in the well",
+      "tone": "clever",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT013": {
+      "moral": [
+        "The gods befriend the man who climbs the height of determination.",
+        "courage"
+      ],
+      "themes": [
+        "deception",
+        "identity",
+        "determination",
+        "divine-intervention"
+      ],
+      "characters": [
+        [
+          "Weaver",
+          "human",
+          "impostor"
+        ],
+        [
+          "Carpenter",
+          "human",
+          "friend"
+        ],
+        [
+          "Princess Lovely",
+          "human",
+          "princess"
+        ],
+        [
+          "King Stout-Mail",
+          "human",
+          "ruler"
+        ],
+        [
+          "Vishnu",
+          "human",
+          "deity"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 13,
+      "rationale": "Only the 9+ band exists. A deception romance - a weaver poses as the god Vishnu to marry a princess - climaxes in a war where the god's discus cuts King Valor in two; impersonating a deity plus an on-page death keep it out of the younger band.",
+      "key_beat": "The weaver disguised as the god Vishnu, riding the carved wooden Garuda, descending onto the princess's moonlit balcony.",
+      "tone": "dramatic",
+      "complexity": 3
+    },
+    "PT014": {
+      "moral": [
+        "Gratitude is a virtue and ingratitude brings its own ruin",
+        "loyalty"
+      ],
+      "themes": [
+        "gratitude",
+        "ingratitude",
+        "betrayal",
+        "reward"
+      ],
+      "characters": [
+        [
+          "Sacrifice",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Tiger",
+          "tiger",
+          "friend"
+        ],
+        [
+          "Goldsmith",
+          "human",
+          "betrayer"
+        ],
+        [
+          "Snake",
+          "snake",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 13,
+      "rationale": "The Brahman is punished for a rescued man's ingratitude - the king orders him impaled and the snake poisons the queen to force his release; rescues from a well plus arrest, poisoning and reversal, only in the 9+ band.",
+      "key_beat": "The Brahman peering down into the grassy well where a tiger, monkey, snake and man tilt their faces up at him.",
+      "tone": "dramatic",
+      "complexity": 3
+    },
+    "PT015": {
+      "moral": [
+        "Don't invite strangers to stay in your home.",
+        "caution"
+      ],
+      "themes": [
+        "caution",
+        "hospitality",
+        "broken-promise",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Creep",
+          "louse",
+          "host"
+        ],
+        [
+          "Leap",
+          "flea",
+          "guest"
+        ],
+        [
+          "King",
+          "human",
+          "sleeper"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 3,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 7,
+      "max_age": 10,
+      "rationale": "the kind host is punished for the guest's fault — a real fairness question for M4/M5",
+      "key_beat": "Leap biting the king's back",
+      "tone": "cautionary",
+      "complexity": 1,
+      "_draft": false
+    },
+    "PT016": {
+      "moral": [
+        "Whoever betrays his true nature will eventually be discovered and punished.",
+        "identity"
+      ],
+      "themes": [
+        "deception",
+        "identity",
+        "hubris",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Fierce-Howl",
+          "jackal",
+          "impostor"
+        ],
+        [
+          "Lion",
+          "lion",
+          "minister"
+        ],
+        [
+          "Tiger",
+          "tiger",
+          "executioner"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 3,
+        "M4": 3,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 10,
+      "rationale": "CURATION OVERRULE: curation verdict is NINE_PLUS on the frame's misogynist verse, not the fable (HANDOVER §5). Adapted text shows no blood; the death is one line.",
+      "key_beat": "the pack of jackals howling, betraying his true nature",
+      "tone": "dramatic",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT017": {
+      "moral": [
+        "A stray word or sudden act can kill - even between friends",
+        "caution"
+      ],
+      "themes": [
+        "misunderstanding",
+        "friendship",
+        "carelessness",
+        "fatal-mistake"
+      ],
+      "characters": [
+        [
+          "Passion",
+          "bird",
+          "victim"
+        ],
+        [
+          "Owl",
+          "owl",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 10,
+      "rationale": "The sleeping swan Passion is shot dead by a caravan archer who misreads the owl's hoot as an omen - an on-page killing, though the 4-9 text tells it without gore.",
+      "key_beat": "The archer drawing his bow on the dozing swan as the owl's hoot echoes over the lake at dawn.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT018": {
+      "moral": [
+        "Those who live by their wits are devoured by their own cleverness",
+        "cleverness"
+      ],
+      "themes": [
+        "flattery",
+        "manipulation",
+        "self-sacrifice",
+        "mob-cunning"
+      ],
+      "characters": [
+        [
+          "Ugly",
+          "camel",
+          "victim"
+        ],
+        [
+          "Haughty",
+          "lion",
+          "king"
+        ],
+        [
+          "Jackal",
+          "jackal",
+          "trickster"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 3,
+        "M3": 2,
+        "M4": 2,
+        "M5": 3,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 10,
+      "max_age": 14,
+      "rationale": "The jackal and crow scheme to have the camel Ugly killed to feed the sick lion; Ugly volunteers and his body is torn apart and devoured - on-page cannibalism, 9+ band only.",
+      "key_beat": "The starving lion, jackal, crow and leopard ringed around Ugly as he bows low and offers his own life.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT019": {
+      "moral": [
+        "You are judged by the company you keep",
+        "judgment"
+      ],
+      "themes": [
+        "friendship",
+        "bad-company",
+        "jealousy",
+        "trust"
+      ],
+      "characters": [
+        [
+          "Trust-god",
+          "human",
+          "host"
+        ],
+        [
+          "Spotless",
+          "lion",
+          "friend"
+        ],
+        [
+          "Jackal",
+          "jackal",
+          "betrayer"
+        ],
+        [
+          "Crow",
+          "bird",
+          "betrayer"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "The lion's jackal and crow companions secretly plan to kill the carpenter and seize his food, and only a 9+ text exists - though the told version ends with the friendship intact and no death.",
+      "key_beat": "The carpenter and his wife up in the branches glaring down at the lion flanked by a grinning jackal and crow.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT020": {
+      "moral": [
+        "Know your own limits and listen to friendly advice before you act",
+        "caution"
+      ],
+      "themes": [
+        "self-knowledge",
+        "listening",
+        "pride",
+        "boasting"
+      ],
+      "characters": [
+        [
+          "Sprawl",
+          "bird",
+          "fool"
+        ],
+        [
+          "Constance",
+          "bird",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 1,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 3
+      },
+      "min_age": 4,
+      "max_age": 8,
+      "rationale": "No violence or death anywhere - a boastful plover and his clear-eyed wife argue over whether the tide will reach their nest, safe for the youngest band.",
+      "key_beat": "Sprawl puffing out his chest on the sand and shouting at the incoming waves while Constance watches, unimpressed.",
+      "tone": "playful",
+      "complexity": 1
+    },
+    "PT021": {
+      "moral": [
+        "Always listen carefully to good advice.",
+        "self-control"
+      ],
+      "themes": [
+        "advice",
+        "self-control",
+        "consequence",
+        "friendship"
+      ],
+      "characters": [
+        [
+          "Shell-Neck",
+          "turtle",
+          "protagonist"
+        ],
+        [
+          "Slim",
+          "gander",
+          "friend"
+        ],
+        [
+          "Grim",
+          "gander",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 7,
+      "max_age": 10,
+      "rationale": "4-9 text says 'cut him up with knives' — the only graphic line; fine 7+, soften for 4-6",
+      "key_beat": "Shell-Neck opening his mouth to speak mid-flight",
+      "tone": "cautionary",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT022": {
+      "moral": [
+        "Plan ahead before danger arrives, or pay for your delay.",
+        "prudence"
+      ],
+      "themes": [
+        "preparedness",
+        "forethought",
+        "consequences",
+        "fate"
+      ],
+      "characters": [
+        [
+          "Forethought",
+          "fish",
+          "protagonist"
+        ],
+        [
+          "Readywit",
+          "fish",
+          "friend"
+        ],
+        [
+          "Fatalist",
+          "fish",
+          "fool"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 11,
+      "rationale": "Fatalist is caught in the net and beaten to death with clubs, so the story carries a real killing despite the gentle 4-9 telling. (The 9+ telling no longer carries the plover nested frame — see scripts/fix_pt022_graft.py.)",
+      "key_beat": "The fishermen's net sweeping up the whole lake, Fatalist thrashing in the mesh while Readywit lies still.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT023": {
+      "moral": [
+        "Even the strongest can be brought down by many small allies working one clever plan.",
+        "cleverness"
+      ],
+      "themes": [
+        "revenge",
+        "teamwork",
+        "cleverness",
+        "grief"
+      ],
+      "characters": [
+        [
+          "Sparrow",
+          "bird",
+          "victim"
+        ],
+        [
+          "Woodpecker",
+          "bird",
+          "friend"
+        ],
+        [
+          "Frog",
+          "frog",
+          "ally"
+        ],
+        [
+          "Elephant",
+          "elephant",
+          "antagonist"
+        ],
+        [
+          "Gnat",
+          "insect",
+          "ally"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "The woodpecker pecks out the elephant's eyes and the blinded elephant topples into a pit and dies, and the sparrows' eggs are crushed, so it is a revenge killing despite the animal cast.",
+      "key_beat": "The blinded elephant stumbling after the frog's croak and plunging into the deep pit.",
+      "tone": "dramatic",
+      "complexity": 1
+    },
+    "PT024": {
+      "moral": [
+        "Heed the warning of the old and wise before the danger grows.",
+        "prudence"
+      ],
+      "themes": [
+        "heeding-advice",
+        "foresight",
+        "teamwork"
+      ],
+      "characters": [
+        [
+          "Gander",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "Geese",
+          "bird",
+          "fool"
+        ],
+        [
+          "Hunter",
+          "human",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 3,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 4,
+      "max_age": 10,
+      "rationale": "No character is killed or eaten; the geese are snared but escape by playing dead, so the story is servable young with only mild trap peril.",
+      "key_beat": "The geese lying still as the hunter frees and hurls them down, then bursting up together in flight.",
+      "tone": "clever",
+      "complexity": 1
+    },
+    "PT025": {
+      "moral": [
+        "Do not judge another's strength by the surface you see.",
+        "judgment"
+      ],
+      "themes": [
+        "misjudgment",
+        "appearances",
+        "fear",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Lion",
+          "lion",
+          "protagonist"
+        ],
+        [
+          "Ram",
+          "ram",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 1,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 11,
+      "rationale": "The lion misjudges the ram and kills him in a swift pounce, so a death is present even though the 4-9 telling softens it.",
+      "key_beat": "The lion springing on the peacefully grazing ram.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT026": {
+      "moral": [
+        "One who uses cleverness to harm others is finally undone by it.",
+        "honesty"
+      ],
+      "themes": [
+        "betrayal",
+        "greed",
+        "deception",
+        "manipulation"
+      ],
+      "characters": [
+        [
+          "Smart",
+          "jackal",
+          "trickster"
+        ],
+        [
+          "Thunder-Fang",
+          "lion",
+          "king"
+        ],
+        [
+          "Spike-Ear",
+          "camel",
+          "victim"
+        ],
+        [
+          "Meat-Face",
+          "wolf",
+          "dupe"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 8,
+      "max_age": 13,
+      "rationale": "Smart tricks the camel into being killed and eaten, then frames the wolf and drives the lion off with a Death-God lie; the 9+ band adds a 100-percent-interest bargain and a Death-God guarantee.",
+      "key_beat": "Smart licking his chops in the empty forest as the lion flees from the imagined Death-God.",
+      "tone": "sly",
+      "complexity": 3
+    },
+    "PT027": {
+      "moral": [
+        "A confident liar can fool even the mighty, but only until someone checks.",
+        "judgment"
+      ],
+      "themes": [
+        "deception",
+        "skepticism",
+        "curiosity",
+        "trust"
+      ],
+      "characters": [
+        [
+          "Monk",
+          "human",
+          "trickster"
+        ],
+        [
+          "Fine-Chariot",
+          "human",
+          "fool"
+        ],
+        [
+          "Strong",
+          "human",
+          "protagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "The monk is locked in his cell and his body is burned to expose the heaven-travel lie, a burning that reads as violent even though the trickster is only pretending.",
+      "key_beat": "The locked cell going up in flames with the naked monk still inside.",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT028": {
+      "moral": [
+        "Stand by your promise and accept what is destined for you.",
+        "loyalty"
+      ],
+      "themes": [
+        "promises",
+        "acceptance",
+        "devotion",
+        "fate"
+      ],
+      "characters": [
+        [
+          "Godly",
+          "human",
+          "father"
+        ],
+        [
+          "Girl",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Snake",
+          "snake",
+          "son"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 1,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "No death or violence occurs; the complexity is courtship and a bride who insists on marrying a snake, which suits older children rather than preschoolers.",
+      "key_beat": "The bride calmly declaring she will marry the snake as her relatives recoil in horror.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT029": {
+      "moral": [
+        "Some things happen simply because they are fated, and no one can prevent them.",
+        "judgment"
+      ],
+      "themes": [
+        "fate",
+        "mortality",
+        "inevitability"
+      ],
+      "characters": [
+        [
+          "Blossom",
+          "bird",
+          "victim"
+        ],
+        [
+          "Indra",
+          "human",
+          "king"
+        ],
+        [
+          "Yama",
+          "human",
+          "deity"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 1,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 8,
+      "max_age": 13,
+      "rationale": "The parrot Blossom dies at the mere sight of Death, and the tale turns on abstract fate and death-gods that young children cannot follow.",
+      "key_beat": "Blossom dropping dead on Indra's hand the instant Death appears.",
+      "tone": "dramatic",
+      "complexity": 1
+    },
+    "PT030": {
+      "moral": [
+        "Blind stubbornness that ignores good advice can bring real harm",
+        "caution"
+      ],
+      "themes": [
+        "stubbornness",
+        "ignoring-advice",
+        "self-destruction",
+        "listening"
+      ],
+      "characters": [
+        [
+          "Red-Face",
+          "monkey",
+          "fool"
+        ],
+        [
+          "Needle-Face",
+          "bird",
+          "victim"
+        ],
+        [
+          "Monkeys",
+          "monkey",
+          "group"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 9,
+      "rationale": "Even the softened 4-9 band has Red-Face grab the bird Needle-Face and throw her on a rock so she dies, and the 9+ band makes the death explicit; a killing keeps this above 4-5.",
+      "key_beat": "Red-Face seizing Needle-Face and hurling her onto the rock",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT031": {
+      "moral": [
+        "Trusting a dishonest friend's clever scheme leads only to ruin",
+        "prudence"
+      ],
+      "themes": [
+        "betrayal",
+        "greed",
+        "false-witness",
+        "trust"
+      ],
+      "characters": [
+        [
+          "Right-Mind",
+          "human",
+          "victim"
+        ],
+        [
+          "Wrong-Mind",
+          "human",
+          "betrayer"
+        ],
+        [
+          "Wrong-Mind's Father",
+          "human",
+          "witness"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 5,
+      "max_age": 9,
+      "rationale": "No death in either band, but the 4-9 text still carries theft, a friend framing a friend, a court ordeal, and a father asked to lie as a false witness, which is dense for the very young.",
+      "key_beat": "The two men digging in the ground and finding the buried pot of dinars gone",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT032": {
+      "moral": [
+        "A remedy chosen in panic can be worse than the disease it cures",
+        "judgment"
+      ],
+      "themes": [
+        "bad-advice",
+        "unintended-consequences",
+        "desperation",
+        "predator"
+      ],
+      "characters": [
+        [
+          "Heron",
+          "bird",
+          "victim"
+        ],
+        [
+          "Crab",
+          "crab",
+          "trickster"
+        ],
+        [
+          "Snake",
+          "snake",
+          "predator"
+        ],
+        [
+          "Mungoose",
+          "mongoose",
+          "predator"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 9,
+      "rationale": "Flagged murder x1; the snake eats the heron babies before they can fly and the mungoose kills the snake then eats all the herons, present even in the 4-9 band.",
+      "key_beat": "The mungoose charging up the fig tree after the trail of fish bits and killing the snake",
+      "tone": "wry",
+      "complexity": 1
+    },
+    "PT033": {
+      "moral": [
+        "Honesty is always the best choice.",
+        "honesty"
+      ],
+      "themes": [
+        "honesty",
+        "trickery",
+        "cleverness",
+        "justice"
+      ],
+      "characters": [
+        [
+          "Naduk",
+          "human",
+          "merchant"
+        ],
+        [
+          "Lakshman",
+          "human",
+          "liar"
+        ],
+        [
+          "Money-God",
+          "human",
+          "child"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 3,
+        "M3": 2,
+        "M4": 3,
+        "M5": 2,
+        "C1": 3,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 11,
+      "rationale": "a child is kidnapped to force a confession — slapstick in telling, but the plot beat is heavy; honesty-vs-cunning is a real dilemma (M5)",
+      "key_beat": "Naduk producing the 'hawk carried him off' excuse",
+      "tone": "wry",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT034": {
+      "moral": [
+        "The company we keep and the lessons we learn shape who we become",
+        "identity"
+      ],
+      "themes": [
+        "education",
+        "upbringing",
+        "two-natures",
+        "influence"
+      ],
+      "characters": [
+        [
+          "Caged Parrot",
+          "bird",
+          "antagonist"
+        ],
+        [
+          "Hermitage Parrot",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "King",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Hunter",
+          "human",
+          "captor"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 5,
+      "max_age": 9,
+      "rationale": "Flagged murder x1 but no one actually dies in either band; the only violent content is the caged parrot shouting Bind the king, kill him, plus the capture of the chicks and a horse running off.",
+      "key_beat": "The caged parrot screeching Bind him, kill him at the king as he passes",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT035": {
+      "moral": [
+        "A sensible enemy can be a better friend than a selfish ally",
+        "judgment"
+      ],
+      "themes": [
+        "sacrifice",
+        "misjudged-enemy",
+        "greed",
+        "loyalty"
+      ],
+      "characters": [
+        [
+          "Prince",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Merchant's Son",
+          "human",
+          "friend"
+        ],
+        [
+          "Son of Learning",
+          "human",
+          "friend"
+        ],
+        [
+          "Thief",
+          "human",
+          "trickster"
+        ],
+        [
+          "Village Chief",
+          "human",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 9,
+      "rationale": "No death occurs, but the chief repeatedly threatens to cut the travelers' stomachs open and the thief volunteers his own stomach to be cut first — in-text mutilation, floored at 7 to match the corpus's graphic-violence tier (PT023 blinding, PT027 burning) rather than the fable-death floor of 6.",
+      "key_beat": "The thief stepping forward and asking the chief to cut open his stomach first",
+      "tone": "clever",
+      "complexity": 2
+    },
+    "PT036": {
+      "moral": [
+        "Keep your distance from fools, for their help can destroy you",
+        "prudence"
+      ],
+      "themes": [
+        "foolishness",
+        "careless-trust",
+        "accidental-harm",
+        "misplaced-power"
+      ],
+      "characters": [
+        [
+          "King",
+          "human",
+          "victim"
+        ],
+        [
+          "Monkey",
+          "monkey",
+          "fool"
+        ],
+        [
+          "Queen",
+          "human",
+          "witness"
+        ],
+        [
+          "Merchant's Son",
+          "human",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 1,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists (flagged misogyny x1; murder x5): the sword-bearer monkey strikes at a bee and kills the king outright, so no 4-9 text exists to serve.",
+      "key_beat": "The monkey swinging its sword at the bee and striking the king dead",
+      "tone": "dramatic",
+      "complexity": 1
+    },
+    "PT037": {
+      "moral": [
+        "United action and teamwork overcome even the greatest obstacles",
+        "friendship"
+      ],
+      "themes": [
+        "teamwork",
+        "leadership",
+        "quick-thinking",
+        "cooperation"
+      ],
+      "characters": [
+        [
+          "Swift",
+          "crow",
+          "protagonist"
+        ],
+        [
+          "Gay-Neck",
+          "dove",
+          "king"
+        ],
+        [
+          "Hunter",
+          "human",
+          "captor"
+        ],
+        [
+          "Doves",
+          "dove",
+          "group"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists (flagged cannibal x1; murder x1); the hunter arrives with a snare and club and bloodshot eyes to trap the doves, so min_age must be at least 9.",
+      "key_beat": "The hundred doves rising as one flock and carrying the whole snare away into the sky",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT038": {
+      "moral": [
+        "Greed and selfishness destroy even those who share one fate",
+        "greed"
+      ],
+      "themes": [
+        "greed",
+        "sharing",
+        "self-harm",
+        "shared-destiny"
+      ],
+      "characters": [
+        [
+          "First Neck",
+          "bird",
+          "fool"
+        ],
+        [
+          "Second Neck",
+          "bird",
+          "betrayer"
+        ],
+        [
+          "Bharunda Bird",
+          "bird",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 9,
+      "rationale": "Flagged murder x1; even the softened 4-9 band has the second neck eating poison and both necks dying because they share one belly, so a death rules out the 4-5 tier.",
+      "key_beat": "The two necks of the single Bharunda bird pulling apart, one reaching for nectar and the other for poison",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT039": {
+      "moral": [
+        "Listen past a friend's odd behaviour to find the real trouble behind it",
+        "judgment"
+      ],
+      "themes": [
+        "friendship",
+        "misunderstanding",
+        "wisdom",
+        "root-cause"
+      ],
+      "characters": [
+        [
+          "Crop-Ear",
+          "human",
+          "host"
+        ],
+        [
+          "Wide-Bottom",
+          "human",
+          "friend"
+        ],
+        [
+          "mouse",
+          "mouse",
+          "thief"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 4,
+      "max_age": 12,
+      "rationale": "No violence in either band - just a guest briefly offended by a distracted host and a food-stealing mouse - and the 4-9 text is plain dialogue.",
+      "key_beat": "Crop-Ear absently whacking the alms-bowl with a bamboo stick while Wide-Bottom tries to talk to him.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT040": {
+      "moral": [
+        "Even a small gift given at the right time brings great reward",
+        "greed"
+      ],
+      "themes": [
+        "generosity",
+        "poverty",
+        "marital-conflict",
+        "right-timing"
+      ],
+      "characters": [
+        [
+          "Shandilee",
+          "human",
+          "guest"
+        ],
+        [
+          "Brahman",
+          "human",
+          "host"
+        ],
+        [
+          "wife",
+          "human",
+          "skeptic"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 2,
+        "M5": 0,
+        "C1": 1,
+        "C2": 1,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "No violence, but the whole story is an adult marital quarrel over poverty and charity laced with quoted sayings, so the abstract dialogue sits above the preschool band.",
+      "key_beat": "The Brahman gesturing up at the rain-cloud that gives only water yet is honoured by the whole world.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT041": {
+      "moral": [
+        "Greed devours the greedy, however clever the plan",
+        "greed"
+      ],
+      "themes": [
+        "greed",
+        "death",
+        "overreach",
+        "folly"
+      ],
+      "characters": [
+        [
+          "Karna",
+          "human",
+          "hunter"
+        ],
+        [
+          "Loka",
+          "jackal",
+          "fool"
+        ],
+        [
+          "boar",
+          "boar",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 0,
+        "M2": 1,
+        "M3": 3,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 1,
+        "C5": 1,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "Three deaths - the boar gores the hunter through the stomach, the boar dies of its wound, and the jackal is impaled through the mouth by the snapping bow-tip.",
+      "key_beat": "The bow-tip snapping free and driving up into the jackal's mouth as he gnaws the bowstring.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT042": {
+      "moral": [
+        "What is truly yours will reach you, however accidental the path looks",
+        "judgment"
+      ],
+      "themes": [
+        "destiny",
+        "mistaken-identity",
+        "romantic-intrigue",
+        "reward"
+      ],
+      "characters": [
+        [
+          "Mister Duly",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Moonlight",
+          "human",
+          "princess"
+        ],
+        [
+          "prince",
+          "human",
+          "foil"
+        ],
+        [
+          "Naughty",
+          "human",
+          "bystander"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2,
+        "M5": 2,
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Night-time trysts, a princess inviting a prince to her room, a policeman slipping off to meet a woman, and a daughter who marries a stranger in the dark - romantic and adulterous intrigue only fit for 9+.",
+      "key_beat": "Mister Duly grabbing the rampaging elephant's trunk and hauling the bride clear of the stampeding procession.",
+      "tone": "wry",
+      "complexity": 3
+    },
+    "PT043": {
+      "moral": [
+        "Wealth you can neither enjoy nor share is worth almost nothing",
+        "greed"
+      ],
+      "themes": [
+        "fate",
+        "wealth",
+        "perseverance",
+        "despair"
+      ],
+      "characters": [
+        [
+          "Soft",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Soft's wife",
+          "human",
+          "counselor"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 8,
+      "max_age": 12,
+      "rationale": "Soft twice loses his savings and then tries to hang himself from the banyan tree - a bloodless but real suicide attempt that rules out the younger band.",
+      "key_beat": "The rope pulled taut on the banyan branch as the glowing figure appears in the sky to stop Soft.",
+      "tone": "dramatic",
+      "complexity": 2
+    },
+    "PT044": {
+      "moral": [
+        "Do not let another's goading drag you away from what is sensible",
+        "judgment"
+      ],
+      "themes": [
+        "greed",
+        "peer-pressure",
+        "wasted-effort",
+        "caution"
+      ],
+      "characters": [
+        [
+          "Greedy",
+          "jackal",
+          "fool"
+        ],
+        [
+          "she-jackal",
+          "jackal",
+          "tempter"
+        ],
+        [
+          "Hang-Ball",
+          "bull",
+          "bystander"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 1,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 8,
+      "max_age": 12,
+      "rationale": "Both bands dwell on the bull's hanging testicles as the prize the jackals stalk for fifteen years - anatomy-driven humour aimed well past the preschool band.",
+      "key_beat": "The two jackals crouched in the grass, eyes fixed on Hang-Ball's swaying hindquarters as he drinks at the river.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT045": {
+      "moral": [
+        "Make friends with everyone, big or small.",
+        "friendship"
+      ],
+      "themes": [
+        "friendship",
+        "reciprocity",
+        "kindness",
+        "cooperation"
+      ],
+      "characters": [
+        [
+          "Mice",
+          "mouse",
+          "collective"
+        ],
+        [
+          "Elephant-King",
+          "elephant",
+          "protagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 4,
+      "max_age": 9,
+      "rationale": "gentlest of the pilot; no death, reciprocal-help theme is explicit",
+      "key_beat": "the mice gnawing through the elephant-snare ropes",
+      "tone": "warm",
+      "complexity": 1,
+      "_draft": false
+    },
+    "PT046": {
+      "moral": [
+        "True friends scheme together to set each other free",
+        "friendship"
+      ],
+      "themes": [
+        "friendship",
+        "captivity",
+        "cleverness",
+        "freedom"
+      ],
+      "characters": [
+        [
+          "Spot",
+          "deer",
+          "protagonist"
+        ],
+        [
+          "Gold",
+          "deer",
+          "strategist"
+        ],
+        [
+          "Swift",
+          "deer",
+          "helper"
+        ],
+        [
+          "Slow",
+          "turtle",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 5,
+      "max_age": 12,
+      "rationale": "No deaths in either band - the only scare is the feigned pecking of Spot's eyes - and the 4-9 text is a plain rescue tale.",
+      "key_beat": "Spot lying stiff as if dead while Swift pretends to peck at his eyes and the hunter drops the turtle to lunge for a club.",
+      "tone": "warm",
+      "complexity": 3
+    },
+    "PT047": {
+      "moral": [
+        "Never trust an enemy, however friendly they may seem.",
+        "prudence"
+      ],
+      "themes": [
+        "deception",
+        "strategy",
+        "trust",
+        "war"
+      ],
+      "characters": [
+        [
+          "Cloudy",
+          "crow",
+          "king"
+        ],
+        [
+          "Live-Strong",
+          "crow",
+          "strategist"
+        ],
+        [
+          "Foe-Crusher",
+          "owl",
+          "king"
+        ],
+        [
+          "Red-Eye",
+          "owl",
+          "counselor"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists. A war between two kingdoms ends with the crows tricking their way into the owls' single-gated cave and burning it, so that every owl dies inside; calculated betrayal and a whole host destroyed need a 9-year-old reader, and the long five-counsellor frame keeps it within 12.",
+      "key_beat": "the crows raining firebrands onto the woodpile at the cave gate while the owls, blind in the sunlight, cannot find their way out",
+      "tone": "dramatic",
+      "complexity": 3
+    },
+    "PT048": {
+      "moral": [
+        "One good leader is worth more than two quarrelling ones",
+        "judgment"
+      ],
+      "themes": [
+        "leadership",
+        "persuasion",
+        "doubt",
+        "assembly"
+      ],
+      "characters": [
+        [
+          "owl",
+          "owl",
+          "candidate"
+        ],
+        [
+          "crow",
+          "bird",
+          "counselor"
+        ],
+        [
+          "Garuda",
+          "bird",
+          "king"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 0,
+        "M3": 1,
+        "M4": 2,
+        "M5": 0,
+        "C1": 1,
+        "C2": 1,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 12,
+      "rationale": "The adapted text carries no violence - the crow only argues the owl is ugly and that two kings spell chaos - so the 4-9 band can be served even though the source kills the owl.",
+      "key_beat": "The crow landing mid-ceremony, wings spread, as the anointed owl waits on the flower-strewn throne.",
+      "tone": "clever",
+      "complexity": 3
+    },
+    "PT049": {
+      "moral": [
+        "A small clever creature can defeat a giant by outwitting it, but pretending to be what you are not is a risky game.",
+        "cleverness"
+      ],
+      "themes": [
+        "deception",
+        "cleverness",
+        "drought",
+        "intimidation"
+      ],
+      "characters": [
+        [
+          "Victory",
+          "rabbit",
+          "trickster"
+        ],
+        [
+          "Four-Tusk",
+          "elephant",
+          "king"
+        ],
+        [
+          "Block-Snout",
+          "rabbit",
+          "king"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 4,
+      "max_age": 12,
+      "rationale": "The 9+ band says the elephants killed rabbits (the rabbits 'lost many of their family members'), but the 4-9 telling softens it to 'hurt' with no on-page death, so the gentle band can be served young.",
+      "key_beat": "Victory the rabbit perched on a rock-pile, declaring himself the Moon's envoy to the towering elephant-king Four-Tusk.",
+      "tone": "clever",
+      "complexity": 2
+    },
+    "PT050": {
+      "moral": [
+        "A corrupt judge destroys the very creatures who trusted him.",
+        "judgment"
+      ],
+      "themes": [
+        "deception",
+        "false-judgment",
+        "trust",
+        "betrayal"
+      ],
+      "characters": [
+        [
+          "Curd-Ear",
+          "cat",
+          "trickster"
+        ],
+        [
+          "Speedy",
+          "rabbit",
+          "victim"
+        ],
+        [
+          "Partridge",
+          "bird",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "The cat eats both the partridge and Speedy on-page in the 4-9 band, so it is not a 4-5 story.",
+      "key_beat": "The holy-seeming cat Curd-Ear pouncing and seizing the partridge and Speedy in his paws and teeth.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT051": {
+      "moral": [
+        "Do not let strangers' repeated lies make you doubt what you plainly see.",
+        "caution"
+      ],
+      "themes": [
+        "deception",
+        "trickery",
+        "gullibility",
+        "greed"
+      ],
+      "characters": [
+        [
+          "Friendly",
+          "human",
+          "victim"
+        ],
+        [
+          "Rogues",
+          "human",
+          "trickster"
+        ],
+        [
+          "Goat",
+          "goat",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "The three rogues eat the goat in both bands, and the trick relies on repeated deception a child must track across three encounters.",
+      "key_beat": "The Brahman flinging the goat to the ground and bolting home while the three rogues close in on their prize.",
+      "tone": "sly",
+      "complexity": 1
+    },
+    "PT052": {
+      "moral": [
+        "Pride and a shortcut destroy even the strongest when a united crowd turns on them.",
+        "caution"
+      ],
+      "themes": [
+        "pride",
+        "hubris",
+        "consequence",
+        "unity"
+      ],
+      "characters": [
+        [
+          "Haughty",
+          "snake",
+          "fool"
+        ],
+        [
+          "Ants",
+          "ant",
+          "protagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "Haughty is stung to death by the ants on-page in both bands, so it is not a 4-5 story.",
+      "key_beat": "The wounded black snake Haughty buried under a seething, stinging mass of ants.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT053": {
+      "moral": [
+        "Greed for more turns a daily gift into a death sentence.",
+        "greed"
+      ],
+      "themes": [
+        "greed",
+        "consequence",
+        "kindness",
+        "trust"
+      ],
+      "characters": [
+        [
+          "Brahman",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Son",
+          "human",
+          "fool"
+        ],
+        [
+          "Snake",
+          "snake",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "The son is bitten by the snake and dies on-page in both bands, a child death that pushes the floor to 7.",
+      "key_beat": "The snake's hood flashing out of the anthill as its fangs strike the greedy boy.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT054": {
+      "moral": [
+        "A king who overreacts to a petty quarrel loses the loyal creatures who served him.",
+        "judgment"
+      ],
+      "themes": [
+        "generosity",
+        "hospitality",
+        "dispute",
+        "forgiveness"
+      ],
+      "characters": [
+        [
+          "Gay-Chariot",
+          "human",
+          "king"
+        ],
+        [
+          "Swans",
+          "bird",
+          "victim"
+        ],
+        [
+          "Great Bird",
+          "bird",
+          "guest"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "The king orders his club-carrying soldiers to kill all the swans in both bands; the birds escape, but the command to slaughter drives the floor up.",
+      "key_beat": "The flock of golden swans bursting into the sky as the soldiers' clubs swing over an empty shore.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT055": {
+      "moral": [
+        "True devotion proves itself in sacrificing oneself for another.",
+        "loyalty"
+      ],
+      "themes": [
+        "self-sacrifice",
+        "devotion",
+        "redemption",
+        "hospitality"
+      ],
+      "characters": [
+        [
+          "Dove",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "Dove's Wife",
+          "bird",
+          "victim"
+        ],
+        [
+          "Fowler",
+          "human",
+          "betrayer"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 3,
+        "M5": 2,
+        "C1": 1,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only a 9+ band exists and it carries misogynist framing ('a wife's love... for her husband') plus the dove's self-sacrifice and two characters entering the funeral fire to die and rise to heaven.",
+      "key_beat": "The dove ascending to heaven as his grieving wife follows him into the flames and becomes radiant.",
+      "tone": "dramatic",
+      "complexity": 2
+    },
+    "PT056": {
+      "moral": [
+        "Even an apparent enemy can become a benefactor when met with kindness.",
+        "friendship"
+      ],
+      "themes": [
+        "kindness",
+        "unexpected-help",
+        "mercy",
+        "marriage"
+      ],
+      "characters": [
+        [
+          "Lovelorn",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Young Wife",
+          "human",
+          "victim"
+        ],
+        [
+          "Thief",
+          "human",
+          "guest"
+        ],
+        [
+          "Hook-Nose",
+          "human",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "Curation flags murder x2, and the core is an unhappy arranged marriage (a young wife who shuns the old merchant in bed), so it is not a 4-6 story despite the tame 4-9 telling.",
+      "key_beat": "The terrified young wife suddenly clinging to old Lovelorn as the thief slips into the dark bedchamber.",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT058": {
+      "moral": [
+        "Quick wit and listening can cure what strength cannot",
+        "cleverness"
+      ],
+      "themes": [
+        "cleverness",
+        "overheard-secret",
+        "healing",
+        "quarrelling"
+      ],
+      "characters": [
+        [
+          "Ugly-Mug",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Prince",
+          "human",
+          "victim"
+        ],
+        [
+          "Belly-Snake",
+          "snake",
+          "antagonist"
+        ],
+        [
+          "King Gift",
+          "human",
+          "king"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 1,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 11,
+      "rationale": "A snake lodged in the prince's belly makes him ill and two squabbling snakes are driven out with mustard and hot water; the 4-9 text carries no death, just mild threat and a cure.",
+      "key_beat": "The snake's head poking from the sleeping prince's mouth while a second snake slides out of the ant-hill and the two glare at each other.",
+      "tone": "clever",
+      "complexity": 2
+    },
+    "PT059": {
+      "moral": [
+        "Do not reward and believe the one who clearly wronged you",
+        "judgment"
+      ],
+      "themes": [
+        "infidelity",
+        "deception",
+        "false-faithfulness",
+        "self-deception"
+      ],
+      "characters": [
+        [
+          "Carpenter",
+          "human",
+          "fool"
+        ],
+        [
+          "Wife",
+          "human",
+          "trickster"
+        ],
+        [
+          "Lover",
+          "human",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 2,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 8,
+      "max_age": 12,
+      "rationale": "A wife invites her lover while the husband hides under the bed, then invents a goddess's blessing to explain it - adult marital deception and a fooled husband.",
+      "key_beat": "The carpenter dancing through the village with the disgraced lover perched on his shoulder.",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT060": {
+      "moral": [
+        "Be happy with what you are and where you belong",
+        "identity"
+      ],
+      "themes": [
+        "identity",
+        "contentment",
+        "self-nature",
+        "true-companionship"
+      ],
+      "characters": [
+        [
+          "Yajnavalkya",
+          "human",
+          "sage"
+        ],
+        [
+          "Mouse-Maid",
+          "mouse",
+          "protagonist"
+        ],
+        [
+          "Mouse",
+          "mouse",
+          "groom"
+        ],
+        [
+          "Yajnavalkya's wife",
+          "human",
+          "mother"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 3
+      },
+      "min_age": 5,
+      "max_age": 11,
+      "rationale": "A mouse transformed into a girl is offered the sun, cloud, wind and mountain as suitors before choosing a mouse and being turned back; no violence, a gentle chain of suitors.",
+      "key_beat": "Yajnavalkya's magic turning the tiny mouse into a twelve-year-old girl in his hands.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT061": {
+      "moral": [
+        "Fools rush and fools doubt, so think before you act",
+        "judgment"
+      ],
+      "themes": [
+        "greed",
+        "foolishness",
+        "caution",
+        "appearance-vs-proof"
+      ],
+      "characters": [
+        [
+          "Bird",
+          "bird",
+          "protagonist"
+        ],
+        [
+          "Hunter",
+          "human",
+          "fool"
+        ],
+        [
+          "King",
+          "human",
+          "king"
+        ],
+        [
+          "Counselor",
+          "human",
+          "advisor"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 10,
+      "rationale": "The golden-dung bird is snared and caged over greed for its gold, then freed by a cautious counselor; the bird is caught and imprisoned but nothing dies.",
+      "key_beat": "The bird's droppings hitting the ground and flashing into gold.",
+      "tone": "playful",
+      "complexity": 1
+    },
+    "PT062": {
+      "moral": [
+        "Cunning without trust boomerangs on the schemer.",
+        "cunning"
+      ],
+      "themes": [
+        "cunning",
+        "deception",
+        "trust",
+        "chain-reaction"
+      ],
+      "characters": [
+        [
+          "Rough-Claw",
+          "lion",
+          "predator"
+        ],
+        [
+          "Curd-Face",
+          "jackal",
+          "fugitive"
+        ],
+        [
+          "Red-Eye",
+          "owl",
+          "gossip"
+        ],
+        [
+          "Live-Strong",
+          "owl",
+          "schemer"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 3,
+        "M3": 2,
+        "M4": 2,
+        "M5": 0,
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 8,
+      "max_age": 11,
+      "rationale": "four characters and a 'who guessed whose fear' chain — the 4-9 adaptation still carries it, but the tracking load is the point",
+      "key_beat": "the cave echoing Rough-Claw's roar",
+      "tone": "sly",
+      "complexity": 3,
+      "_draft": false
+    },
+    "PT063": {
+      "moral": [
+        "Beware the predator who flatters and offers to serve you",
+        "caution"
+      ],
+      "themes": [
+        "trust",
+        "predator-prey",
+        "deception",
+        "exploitation"
+      ],
+      "characters": [
+        [
+          "Slow-Poison",
+          "snake",
+          "trickster"
+        ],
+        [
+          "Water-Foot",
+          "frog",
+          "victim"
+        ],
+        [
+          "Frogs",
+          "frog",
+          "victim"
+        ],
+        [
+          "The Other Snake",
+          "snake",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists; the lazy snake feeds on the frogs it carries as a ride and a Brahman boy dies from its mistaken bite - predation and death throughout.",
+      "key_beat": "Water-Foot and his counselors riding in a line on the black snake's hood while frogs hop behind.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT065": {
+      "moral": [
+        "A quick wit keeps you out of a trap — and false friends set one.",
+        "loyalty"
+      ],
+      "themes": [
+        "friendship",
+        "betrayal",
+        "quick-thinking",
+        "greed"
+      ],
+      "characters": [
+        [
+          "Red-Face",
+          "monkey",
+          "loyal friend"
+        ],
+        [
+          "Ugly-Mug",
+          "crocodile",
+          "betrayer"
+        ],
+        [
+          "Crocodile's Wife",
+          "crocodile",
+          "instigator"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 3,
+        "M3": 2,
+        "M4": 3,
+        "M5": 3,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 11,
+      "rationale": "friendship vs spouse loyalty is a genuine dilemma (best M5 story in the pilot); wife's jealousy in the 4-9 text reads as marital conflict — keep for 8+",
+      "key_beat": "the monkey claiming his heart is hidden in the tree",
+      "tone": "wry",
+      "complexity": 2,
+      "_draft": false
+    },
+    "PT066": {
+      "moral": [
+        "An alliance with a stronger power will devour you in the end",
+        "judgment"
+      ],
+      "themes": [
+        "betrayal",
+        "alliances",
+        "trust",
+        "consequences"
+      ],
+      "characters": [
+        [
+          "Theodore",
+          "frog",
+          "betrayer"
+        ],
+        [
+          "Handsome",
+          "snake",
+          "tyrant"
+        ],
+        [
+          "Theodosius",
+          "frog",
+          "victim"
+        ],
+        [
+          "Lizard",
+          "lizard",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 1,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Even the softened 4-9 text has death: the snake eats all of Theodore's relatives and then his son Theodosius, so it is served at 9+ only.",
+      "key_beat": "The black snake coiled in the hole swallowing Theodore's relatives one by one.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT067": {
+      "moral": [
+        "A trickster who trusts his own trick too far loses everything",
+        "prudence"
+      ],
+      "themes": [
+        "deception",
+        "predation",
+        "trickery",
+        "betrayal"
+      ],
+      "characters": [
+        [
+          "Dusty",
+          "jackal",
+          "trickster"
+        ],
+        [
+          "Fierce-Mane",
+          "lion",
+          "king"
+        ],
+        [
+          "Flop-Ear",
+          "donkey",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists; the jackal lures the donkey Flop-Ear to be mauled and killed by the injured lion, and the jackal eats its ears and heart.",
+      "key_beat": "The wounded lion springing at Flop-Ear and landing short while the terrified donkey bolts.",
+      "tone": "dramatic",
+      "complexity": 2
+    },
+    "PT068": {
+      "moral": [
+        "Honesty is the best policy, and a scar is not a character",
+        "honesty"
+      ],
+      "themes": [
+        "honesty",
+        "appearance-vs-reality",
+        "pretense",
+        "judgment"
+      ],
+      "characters": [
+        [
+          "Fight-Firm",
+          "human",
+          "protagonist"
+        ],
+        [
+          "King",
+          "human",
+          "king"
+        ],
+        [
+          "Princes",
+          "human",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 10,
+      "rationale": "A potter's head scar is mistaken for a battle wound until he confesses he fell drunk on a broken pot; he loses his honors, and no one is killed.",
+      "key_beat": "The king gazing at the potter's ugly forehead scar and mistaking it for a hero's battle-wound.",
+      "tone": "wry",
+      "complexity": 1
+    },
+    "PT069": {
+      "moral": [
+        "Being raised by others does not change who you truly are.",
+        "identity"
+      ],
+      "themes": [
+        "identity",
+        "belonging",
+        "nature-vs-nurture",
+        "family"
+      ],
+      "characters": [
+        [
+          "Jackal cub",
+          "jackal",
+          "protagonist"
+        ],
+        [
+          "Lion",
+          "lion",
+          "king"
+        ],
+        [
+          "Lioness",
+          "lion",
+          "host"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 1,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists; the cub threatens to kill his brothers and the lioness reveals he is a jackal, a belonging/identity conflict.",
+      "key_beat": "The wild elephant crashes into the forest and the three cubs freeze, the jackal cub baring his teeth at his lion brothers.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT070": {
+      "moral": [
+        "A person's true nature shows when they gain power and wealth.",
+        "greed"
+      ],
+      "themes": [
+        "betrayal",
+        "greed",
+        "ingratitude",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Brahman",
+          "human",
+          "victim"
+        ],
+        [
+          "Wife",
+          "human",
+          "betrayer"
+        ],
+        [
+          "Cripple",
+          "human",
+          "trickster"
+        ],
+        [
+          "King",
+          "human",
+          "king"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 8,
+      "max_age": 12,
+      "rationale": "Death and betrayal: the wife's adultery, the Brahman pushed into a well, and the wife falling dead by the magic words, kept even in the softened 4-9 band.",
+      "key_beat": "The wife and the cripple shove the Brahman over the edge of the well while he still thinks taking them along was a good idea.",
+      "tone": "dramatic",
+      "complexity": 2
+    },
+    "PT071": {
+      "moral": [
+        "Guard your words; careless speech betrays you.",
+        "prudence"
+      ],
+      "themes": [
+        "marriage",
+        "careless-speech",
+        "silence"
+      ],
+      "characters": [
+        [
+          "King Joy",
+          "human",
+          "king"
+        ],
+        [
+          "Splendor",
+          "human",
+          "fool"
+        ],
+        [
+          "Splendor's wife",
+          "human",
+          "tyrant"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 5,
+      "max_age": 10,
+      "rationale": "Comic shame only, husbands shaved bald and ridden like horses; no death or injury in either band, so servable young.",
+      "key_beat": "King Joy, bridle gripped in his mouth, carries his laughing queen on his back around the palace courtyard, neighing.",
+      "tone": "wry",
+      "complexity": 2
+    },
+    "PT072": {
+      "moral": [
+        "Even the cleverest disguise cannot fool everyone forever.",
+        "caution"
+      ],
+      "themes": [
+        "deception",
+        "disguise",
+        "greed",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Clean-Cloth",
+          "human",
+          "trickster"
+        ],
+        [
+          "Donkey",
+          "donkey",
+          "victim"
+        ],
+        [
+          "Farmers",
+          "human",
+          "judge"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 2,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 11,
+      "rationale": "The donkey is stoned, clubbed, and shot with arrows and dies; too violent for 4-5 despite the gentle telling.",
+      "key_beat": "The donkey throws back its head and brays, the tiger-skin slipping, as farmers charge out of the barley with clubs and arrows.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT073": {
+      "moral": [
+        "Misfortunes come in threes; meet them wisely.",
+        "judgment"
+      ],
+      "themes": [
+        "betrayal",
+        "greed",
+        "misfortune",
+        "foolishness"
+      ],
+      "characters": [
+        [
+          "Farmer's wife",
+          "human",
+          "fool"
+        ],
+        [
+          "Rogue",
+          "human",
+          "trickster"
+        ],
+        [
+          "She-jackal",
+          "jackal",
+          "victim"
+        ],
+        [
+          "Crocodile",
+          "crocodile",
+          "fool"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 1,
+        "C2": 1,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 7,
+      "max_age": 12,
+      "rationale": "No death or violence; the weight is the wife's adultery and her theft of her husband's money to elope, which needs a slightly older listener.",
+      "key_beat": "The rogue wades the river carrying the money and the wife's clothes, leaving her stranded and weeping alone on the empty bank.",
+      "tone": "sly",
+      "complexity": 3
+    },
+    "PT075": {
+      "moral": [
+        "A clever trickster can outwit his enemies but not his equals.",
+        "cleverness"
+      ],
+      "themes": [
+        "cunning",
+        "deception",
+        "flattery",
+        "survival"
+      ],
+      "characters": [
+        [
+          "Supersmart",
+          "jackal",
+          "trickster"
+        ],
+        [
+          "Lion",
+          "lion",
+          "king"
+        ],
+        [
+          "Tiger",
+          "tiger",
+          "victim"
+        ],
+        [
+          "Leopard",
+          "leopard",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 1,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists; the jackal gulls tiger and leopard over a dead elephant and fights off a rival jackal with his fangs, death and layered deception throughout.",
+      "key_beat": "Supersmart, paws clasped and scalp dusted white, bows low to the lion, then springs aside as the leopard tears through the elephant's hide.",
+      "tone": "sly",
+      "complexity": 2
+    },
+    "PT076": {
+      "moral": [
+        "Home is best; appreciate what you have.",
+        "prudence"
+      ],
+      "themes": [
+        "home",
+        "contentment",
+        "travel",
+        "belonging"
+      ],
+      "characters": [
+        [
+          "Spot",
+          "dog",
+          "protagonist"
+        ],
+        [
+          "Housewife",
+          "human",
+          "host"
+        ],
+        [
+          "Other dogs",
+          "dog",
+          "tyrant"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 1,
+        "M4": 0,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 1,
+        "C6": 2
+      },
+      "min_age": 6,
+      "max_age": 11,
+      "rationale": "Spot is savaged by the other dogs (and in the 9+ band torn apart, with the monkey killing an intruder); the 4-9 band only says he was hurt badly.",
+      "key_beat": "Spot creeps out of the careless housewife's kitchen stuffed with food, only to be set upon and torn by the neighborhood dogs.",
+      "tone": "warm",
+      "complexity": 2
+    },
+    "PT077": {
+      "moral": [
+        "Copy another's deed without understanding it and you ruin yourself.",
+        "judgment"
+      ],
+      "themes": [
+        "greed",
+        "imitation",
+        "misjudgment",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Jewel",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Barber",
+          "human",
+          "fool"
+        ],
+        [
+          "Jain monk",
+          "human",
+          "victim"
+        ],
+        [
+          "Judges",
+          "human",
+          "judge"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 8,
+      "max_age": 12,
+      "rationale": "The barber clubs the monks and blood flows, plus the merchant's plan to starve himself; the 9+ band adds the barber being impaled.",
+      "key_beat": "The barber swings his club down at the kneeling monks, who clink into gold, as blood spatters the monastery courtyard.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT078": {
+      "moral": [
+        "Impulsive judgment can destroy the innocent who love us.",
+        "caution"
+      ],
+      "themes": [
+        "misjudgment",
+        "sacrifice",
+        "grief",
+        "impulsiveness"
+      ],
+      "characters": [
+        [
+          "Godly",
+          "human",
+          "father"
+        ],
+        [
+          "The wife",
+          "human",
+          "fool"
+        ],
+        [
+          "Mungoose",
+          "mongoose",
+          "victim"
+        ],
+        [
+          "Snake",
+          "snake",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 1,
+        "M5": 2,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "The mother staves in the loyal mungoose with a water-jar and the snake is found torn to bits (bloody mouth) - flagged gore-detail x2, murder x2; only a 9+ band exists.",
+      "key_beat": "The mother sees the mungoose's blood-smeared muzzle and hurls the water-jar down on him before she sees the baby is safe.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT079": {
+      "moral": [
+        "Common sense is worth more than scholarship or gold.",
+        "judgment"
+      ],
+      "themes": [
+        "greed",
+        "temptation",
+        "wisdom",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Terror-Joy",
+          "human",
+          "trickster"
+        ],
+        [
+          "The Brahmans",
+          "human",
+          "protagonist"
+        ],
+        [
+          "Wheel-bearer",
+          "human",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 3,
+        "M4": 2,
+        "M5": 3,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 3,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "The fourth quill reveals a man permanently tortured by a wheel whirling on his head (gore-detail x2, murder x1) and the treasure chain ends in torment; only a 9+ band exists.",
+      "key_beat": "The fourth quill drops and uncovers a man with a great wheel spinning endlessly on his head.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT080": {
+      "moral": [
+        "Common sense beats book-learning.",
+        "judgment"
+      ],
+      "themes": [
+        "wisdom",
+        "overconfidence",
+        "friendship",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "The wise friend",
+          "human",
+          "protagonist"
+        ],
+        [
+          "The eldest friend",
+          "human",
+          "fool"
+        ],
+        [
+          "The third friend",
+          "human",
+          "friend"
+        ],
+        [
+          "The lion",
+          "lion",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "The revived lion kills the three scholars (murder x1); the 4-9 band softens the telling but the friends still die, so this is not a 4-5 story.",
+      "key_beat": "The bare lion skeleton gains skin, flesh and blood, then rises whole and lunges while the wise friend watches from the tree.",
+      "tone": "cautionary",
+      "complexity": 2
+    },
+    "PT081": {
+      "moral": [
+        "Humility and listening save more than cleverness.",
+        "judgment"
+      ],
+      "themes": [
+        "cleverness",
+        "humility",
+        "listening",
+        "fate"
+      ],
+      "characters": [
+        [
+          "Single-Wit",
+          "frog",
+          "protagonist"
+        ],
+        [
+          "Thousand-Wit",
+          "fish",
+          "fool"
+        ],
+        [
+          "Hundred-Wit",
+          "fish",
+          "fool"
+        ],
+        [
+          "The frog's wife",
+          "frog",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "The fishermen net and carry off Hundred-Wit and Thousand-Wit - 'Thousand-Wit is dead' in the 9+ text - a death, though the 4-9 band says only 'taken away'.",
+      "key_beat": "At dawn the net comes up out of the drained pond, Hundred-Wit and Thousand-Wit thrashing inside it.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT082": {
+      "moral": [
+        "Take a good friend's advice.",
+        "prudence"
+      ],
+      "themes": [
+        "pride",
+        "ignoring-good-advice",
+        "listening",
+        "consequence"
+      ],
+      "characters": [
+        [
+          "Prig",
+          "donkey",
+          "protagonist"
+        ],
+        [
+          "The jackal",
+          "jackal",
+          "friend"
+        ],
+        [
+          "The farmers",
+          "human",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 3,
+        "M3": 3,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 4,
+      "max_age": 12,
+      "rationale": "No death; Prig is only beaten with sticks and hobbled with a mortar, all played comically - mild slapstick violence, nothing flagged.",
+      "key_beat": "Prig throws back his head and brays at the moonlit cucumber bed while lanterns light up across the fields.",
+      "tone": "playful",
+      "complexity": 1
+    },
+    "PT083": {
+      "moral": [
+        "Ask for what you need, not what looks nice.",
+        "prudence"
+      ],
+      "themes": [
+        "folly",
+        "wish",
+        "consequences",
+        "greed"
+      ],
+      "characters": [
+        [
+          "Slow",
+          "human",
+          "protagonist"
+        ],
+        [
+          "The fairy",
+          "fairy",
+          "host"
+        ],
+        [
+          "The barber",
+          "human",
+          "friend"
+        ],
+        [
+          "Slow's wife",
+          "human",
+          "adviser"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 6,
+      "max_age": 12,
+      "rationale": "Slow is beaten with clubs and stones and dies after the fairy grants his extra-arms-and-head wish - a killing present even in the 4-9 text.",
+      "key_beat": "Slow walks into town four-armed and two-headed, the crowd recoils in horror, then raises sticks and stones.",
+      "tone": "cautionary",
+      "complexity": 1
+    },
+    "PT084": {
+      "moral": [
+        "Don't let daydreams blind you to what is real.",
+        "prudence"
+      ],
+      "themes": [
+        "daydreaming",
+        "greed",
+        "foolishness",
+        "imagination"
+      ],
+      "characters": [
+        [
+          "Seedy",
+          "human",
+          "fool"
+        ],
+        [
+          "Seedy's wife",
+          "human",
+          "friend"
+        ],
+        [
+          "Moon-Lord",
+          "human",
+          "child"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 4,
+      "max_age": 12,
+      "rationale": "No violence or death at all - only a shattered jar and spilled barley-meal turning Seedy white; purely comic, nothing flagged.",
+      "key_beat": "Seedy's foot lashes out in his sleep, kicks the hanging jar, and a shower of white barley-meal covers his face.",
+      "tone": "wry",
+      "complexity": 1
+    },
+    "PT085": {
+      "moral": [
+        "Greed and revenge destroy everyone caught in them.",
+        "judgment"
+      ],
+      "themes": [
+        "revenge",
+        "greed",
+        "foresight",
+        "betrayal"
+      ],
+      "characters": [
+        [
+          "The chief monkey",
+          "monkey",
+          "protagonist"
+        ],
+        [
+          "The ram",
+          "ram",
+          "fool"
+        ],
+        [
+          "King Moon",
+          "human",
+          "victim"
+        ],
+        [
+          "The fiend",
+          "monster",
+          "antagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 3,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 3,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Three deaths: the horses burn alive, the whole monkey pack is slaughtered for their fat, and the king and retinue are devoured by the man-eating fiend - murder x3.",
+      "key_beat": "The king's retinue wades into the lotus lake and the fiend surges up, swallowing them one by one.",
+      "tone": "dramatic",
+      "complexity": 3
+    },
+    "PT086": {
+      "moral": [
+        "Even the cunning can be undone by their own fear and paranoia",
+        "judgment"
+      ],
+      "themes": [
+        "self-defeat",
+        "mistaken-identity",
+        "fear",
+        "trickery"
+      ],
+      "characters": [
+        [
+          "Princess Pearl",
+          "human",
+          "victim"
+        ],
+        [
+          "fiend",
+          "fiend",
+          "trickster"
+        ],
+        [
+          "horse-thief",
+          "human",
+          "fool"
+        ],
+        [
+          "monkey",
+          "monkey",
+          "friend"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 3,
+        "M3": 2,
+        "M4": 1,
+        "M5": 1,
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "A cannibal fiend stalks the princess and the monkey urges him to 'Eat him!'; an overheard-conversation misunderstanding drives the whole plot.",
+      "key_beat": "The fiend melts back into his true monstrous form and looms toward the thief still clinging to the banyan branch.",
+      "tone": "sly",
+      "complexity": 3
+    },
+    "PT087": {
+      "moral": [
+        "Think ahead and do not trust a friendly face",
+        "prudence"
+      ],
+      "themes": [
+        "quick-thinking",
+        "escape",
+        "appearances",
+        "self-imposed-bonds"
+      ],
+      "characters": [
+        [
+          "Cruel",
+          "fiend",
+          "tyrant"
+        ],
+        [
+          "Brahman",
+          "human",
+          "protagonist"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 11,
+      "rationale": "A cannibal fiend named Cruel rides a terrified Brahman's shoulders; only the 9+ band exists and the premise is a predator carrying off a man.",
+      "key_beat": "The Brahman bolts from the lakeside while Cruel stands frozen in the water, unable to chase because of his vow.",
+      "tone": "clever",
+      "complexity": 1
+    },
+    "PT089": {
+      "moral": [
+        "Giving or trusting too much can cost you everything",
+        "greed"
+      ],
+      "themes": [
+        "friendship",
+        "greed",
+        "betrayal",
+        "consequences"
+      ],
+      "characters": [
+        [
+          "Numskull",
+          "monkey",
+          "trickster"
+        ],
+        [
+          "Red-Face",
+          "crocodile",
+          "victim"
+        ]
+      ],
+      "skills": {
+        "M1": 1,
+        "M2": 1,
+        "M3": 2,
+        "M4": 1,
+        "M5": 0,
+        "C1": 2,
+        "C2": 2,
+        "C3": 2,
+        "C4": 1,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 4,
+      "max_age": 12,
+      "rationale": "The 4-9 band is a gentle fruit-sharing tale (Red-Face grows too fat to walk) with no death or violence, so it serves from age 4; the 9+ band adds the monkey's betrayal of the crocodile.",
+      "key_beat": "Red-Face so fat he cannot walk, slung over Numskull's back while the last of the fruit disappears.",
+      "tone": "cautionary",
+      "complexity": 1
+    }
+  },
+  "_skipped": {
+    "PT090": "Duplicate of PT002 — same 'three blockhead sons' frame (King Immortal-Power, Maidens' Delight), only the sons' names differ and they are borrowed from other stories. Titled 'front matter'; looks like a mislabelled extra record. Confirm and delete from the corpus rather than tag."
+  }
+}

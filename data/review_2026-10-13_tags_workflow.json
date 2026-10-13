@@ -1,0 +1,285 @@
+[
+  {
+    "story": "PT013",
+    "tag_record": {
+      "moral": [
+        "The gods befriend the man who climbs the height of determination.",
+        "courage"
+      ],
+      "themes": [
+        "deception",
+        "identity",
+        "determination",
+        "divine-intervention"
+      ],
+      "characters": [
+        [
+          "Weaver",
+          "human",
+          "impostor"
+        ],
+        [
+          "Carpenter",
+          "human",
+          "friend"
+        ],
+        [
+          "Princess Lovely",
+          "human",
+          "princess"
+        ],
+        [
+          "King Stout-Mail",
+          "human",
+          "ruler"
+        ],
+        [
+          "Vishnu",
+          "human",
+          "deity"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 2,
+        "C2": 3,
+        "C3": 3,
+        "C4": 1,
+        "C5": 2,
+        "C6": 3
+      },
+      "min_age": 9,
+      "max_age": 13,
+      "rationale": "Only the 9+ band exists. A deception romance - a weaver poses as the god Vishnu to marry a princess - climaxes in a war where the god's discus cuts King Valor in two; impersonating a deity plus an on-page death keep it out of the younger band.",
+      "key_beat": "The weaver disguised as the god Vishnu, riding the carved wooden Garuda, descending onto the princess's moonlit balcony.",
+      "tone": "dramatic",
+      "complexity": 3,
+      "_draft": false
+    },
+    "item_record": {
+      "measurement": [
+        [
+          "C2_cause_effect",
+          "Why did the king refuse to pay the yearly tribute to King Valor?",
+          [
+            "He had lost all his money at the festival",
+            "He felt protected by the god Vishnu",
+            "He wanted to start a war on purpose"
+          ],
+          1,
+          2,
+          9
+        ],
+        [
+          "C1_sequence",
+          "What did the carpenter give the weaver so he could reach the princess?",
+          [
+            "A letter asking the king for her hand",
+            "A ladder hidden in the palace garden",
+            "A mechanical bird shaped like Garuda"
+          ],
+          2,
+          1,
+          9
+        ],
+        [
+          "C3_character_motive",
+          "Why did the queen laugh when she learned of her daughter's night visitor?",
+          [
+            "She thought her son-in-law was a god",
+            "She thought the story was a silly joke",
+            "She wanted the guards to be punished"
+          ],
+          0,
+          2,
+          9
+        ],
+        [
+          "C6_theme",
+          "What is this story mostly about?",
+          [
+            "Why a weaver should never fall in love with a princess",
+            "How a bold trick won a princess and a god's aid",
+            "Why kings must always pay their yearly tribute on time"
+          ],
+          1,
+          2,
+          9
+        ]
+      ],
+      "discussion": [
+        [
+          "M1_perspective_taking",
+          "9+",
+          "The princess was certain her visitor was the god Vishnu. Why do you think it never once occurred to her that he might be an ordinary man?"
+        ],
+        [
+          "M2_intention_vs_outcome",
+          "9+",
+          "The carpenter only meant to help his lovesick friend. Did he intend for the deception to reach the king and start a war, or did that happen on its own?"
+        ],
+        [
+          "M3_consequence_reasoning",
+          "9+",
+          "The king boasted that his son-in-law was Vishnu. What did that boast set in motion, and what would have happened if the weaver had never been asked to fight?"
+        ],
+        [
+          "M4_justification_quality",
+          "9+",
+          "The weaver pretended to be a god so he could marry the princess. Was that wrong, even though he loved her and meant no one harm? Why or why not?"
+        ],
+        [
+          "M5_moral_conflict",
+          "9+",
+          "The weaver could flee and lose his wife, or fight and surely die; the god Vishnu chose to enter his body and save him. Was it right for Vishnu to help a man who had lied to a whole kingdom?"
+        ]
+      ],
+      "_draft": false
+    },
+    "notes": "Scope: PT013 only (the other newly-broken story, PT047, is still untagged and out of my brief).\n\nVerified by simulating both validators in-memory against the current built artifacts (no files written):\n- scripts/build_story_tags.py validate: no PT013 errors (only remaining error is the out-of-scope PT047).\n- scripts/build_story_items.py validate: NONE.\n\nShape decisions, taken from the read references (not invented):\n- tag_record mirrors data/story_tags_authored.json -> tags[\"PT014\"] (the nearest 9+-only neighbour): keys moral[text,domain], themes, characters[[name,species,role]], skills{M1..C6}, min_age, max_age, rationale, key_beat, tone, complexity, _draft. build_story_tags derives bands ([\"9+\"]), readability, calibration, attention_load and video_brief — those are NOT authored.\n- item_record mirrors items[\"PT014\"]/[\"PT012\"]: measurement rows [skill,prompt,[opts],correct,difficulty_prior,suitable_from_age], discussion rows [skill,band,prompt].\n\nAge/band: adapted text has only the 9+ band, so bands==[\"9+\"] forces min_age>=9 (validator rule). Set min_age 9, max_age 13, same as PT014. Rationale states the 9+-only justification (deity impersonation + a king cut in two by a discus).\n\nDiscussion bands: PT013 is 9+-only, so required_bands() returns {\"9+\"}. Every one of the 21 existing 9+-only stories (PT004, PT014, PT086, ...) carries 9+ discussion prompts ONLY — a 4-9 prompt is unreachable for a story with no 4-9 telling. I matched that precedent (one 9+ prompt per M skill: M1-M5). Extra 4-9 prompts would be harmless but contradict the design note and the neighbours, so I omitted them.\n\nMeasurement (band-invariant, MCQ, auto-scored, all C skills with prior>0): 4 items covering C2, C1, C3, C6. Every item is answerable from the 9+ telling alone. 3 options each, no duplicates, correct index never the longest option, and correct positions vary (1, 2, 0, 1). suitable_from_age 9, difficulty_prior 1-2.\n\nSkills priors: M3/M2/C2/C3/C6 central (3); M1/M4/M5/C1/C5 present (2); C4 incidental (1). M5=2 is legal here because min_age>=9, and it gets a 9+ discussion prompt (requires_adult derived True for M4/M5).\n\nMoral: the telling's own line, \"The gods befriend the man who climbs the height of determination.\" Domain \"courage\" is sanctioned by STORY_TAGGING_SCHEMA.md §2's example list (prudence|honesty|loyalty|greed|friendship|courage|...). Tags describe the weaver fable, not the Rusty/Victor lion frame in the source file.\n\nFormatting: all apostrophes ASCII ('), matching every existing authored item (0 curly apostrophes in the file)."
+  },
+  {
+    "story": "PT047",
+    "tag_record": {
+      "moral": [
+        "Never trust an enemy, however friendly they may seem.",
+        "prudence"
+      ],
+      "themes": [
+        "deception",
+        "strategy",
+        "trust",
+        "war"
+      ],
+      "characters": [
+        [
+          "Cloudy",
+          "crow",
+          "king"
+        ],
+        [
+          "Live-Strong",
+          "crow",
+          "strategist"
+        ],
+        [
+          "Foe-Crusher",
+          "owl",
+          "king"
+        ],
+        [
+          "Red-Eye",
+          "owl",
+          "counselor"
+        ]
+      ],
+      "skills": {
+        "M1": 2,
+        "M2": 2,
+        "M3": 3,
+        "M4": 2,
+        "M5": 2,
+        "C1": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 2,
+        "C5": 2,
+        "C6": 2
+      },
+      "min_age": 9,
+      "max_age": 12,
+      "rationale": "Only the 9+ band exists. A war between two kingdoms ends with the crows tricking their way into the owls' single-gated cave and burning it, so that every owl dies inside; calculated betrayal and a whole host destroyed need a 9-year-old reader, and the long five-counsellor frame keeps it within 12.",
+      "key_beat": "the crows raining firebrands onto the woodpile at the cave gate while the owls, blind in the sunlight, cannot find their way out",
+      "tone": "dramatic",
+      "complexity": 3
+    },
+    "item_record": {
+      "measurement": [
+        [
+          "C3_character_motive",
+          "Why did Live-Strong ask to live near the owls' gate?",
+          [
+            "He wanted to make friends with the owls",
+            "He wanted to build himself a nest",
+            "He was piling wood to burn the cave",
+            "He was afraid of the owl king"
+          ],
+          2,
+          1,
+          9
+        ],
+        [
+          "C2_cause_effect",
+          "Why did the owls fail to escape the burning cave?",
+          [
+            "They were blind in the daylight",
+            "The crows had sealed the gate",
+            "The fire spread too quickly for them",
+            "The king would not let them leave"
+          ],
+          0,
+          1,
+          9
+        ],
+        [
+          "C1_sequence",
+          "After the crows cast him out of the tree, what did Live-Strong do?",
+          [
+            "He hid alone in the forest",
+            "He went to the owls and won their trust",
+            "He flew straight back to Antelope Mountain",
+            "He returned to the banyan tree to spy"
+          ],
+          1,
+          1,
+          9
+        ],
+        [
+          "C6_theme",
+          "What is this story mostly about?",
+          [
+            "Why owls hunt only at night",
+            "Why crows and owls became friends",
+            "How to build a strong fort",
+            "Cunning beats greater strength"
+          ],
+          3,
+          2,
+          9
+        ]
+      ],
+      "discussion": [
+        [
+          "M1_perspective_taking",
+          "9+",
+          "Red-Eye warned the king that the crow was sly, but no one listened. How do you think Red-Eye felt as he finally flew away from the cave?"
+        ],
+        [
+          "M2_intention_vs_outcome",
+          "9+",
+          "Live-Strong let the owls feed him and trust him while he planned to destroy them. Did he mean them harm from the very first day, or only when he lit the fire? Does it matter which?"
+        ],
+        [
+          "M3_consequence_reasoning",
+          "9+",
+          "Trace what happened step by step, from the day Cloudy threw Live-Strong out to the day the cave burned. Where, if anywhere, could the owls have stopped it?"
+        ],
+        [
+          "M4_justification_quality",
+          "9+",
+          "The crows tricked and killed the owls to win back their tree. Was tricking an enemy that way the right thing to do, or should they have fought openly? Give your reasons."
+        ],
+        [
+          "M5_moral_conflict",
+          "9+",
+          "The owls had killed many crows, and Cloudy's counselors offered peace, war, retreat, a fort, or an alliance. Was cunning the right choice, even though it killed every owl? What else could he have done?"
+        ]
+      ]
+    },
+    "notes": "PT047 only has a 9+ adapted telling, so bands are forced to [\"9+\"] at build time; min_age 9 satisfies the validator rule \"bands ['9+'] requires min_age >= 9\" and the M5 prior>0 rule. max_age 12 matches the other 9+-only mass-death stories (PT004/PT037/PT085 all 9-12).\n\nDiscussion prompts are 9+ only, matching every other 9+-only record in the corpus (PT004, PT037, PT014, PT085): for a 9+-only story required_bands() returns just {\"9+\"}, so a 4-9 variant would be unreachable dead data. The project rule \"give a 4-9 and a 9+ version of each\" is the general band-specific rule; the 9+-only case is the documented exception in build_story_items.py's docstring.\n\nM5_moral_conflict prior=2 -> requires_adult derived True; band 9+ and min_age 9 make it legal. M1-M5 all have prompts; C1,C2,C3,C6 carry the four measurement items (each C skill prior>0).\n\nVerified in memory by importing build_story_tags and build_story_items and running their build_record/build + validate against a merged authored dict: tag validation produced no PT047 error (the only error was PT013, the OTHER story that gained a 9+ telling, which is out of my scope), and item validation produced zero errors. Measurement correct-option indices are [2,0,1,3] (varied) and no correct option is the longest (lengths 35/31/39/30 vs maxima 39/36/42/33). Tags describe the crows-and-owls fable itself.\n\n_draft intentionally omitted, matching the shape of the named reference record tags[\"PT002\"] and the 70/80 majority (the 10 with an explicit flag carry \"_draft\": false).\n\nBuild will compute (not authored): readability 9+ {fk_grade 4.08, words_per_sentence 11.98, words 695}; attention_load {duration_sec 315, pace medium, scene_density 3, dialogue_lines 2}; video_brief {scenes 12, visual_complexity 3, tone dramatic, characters_to_design [Cloudy, Live-Strong, Foe-Crusher, Red-Eye]}.\n\nNo file was written."
+  }
+]
