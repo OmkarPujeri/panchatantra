@@ -1,0 +1,17 @@
+# render caches — safe to delete (HANDOVER §2)
+source/fullbook/
+source/rendered/
+
+# scratch / OS / tooling
+.DS_Store
+.playwright-mcp/
+__pycache__/
+*.pyc
+
+# college submission material — not part of the corpus product
+aiml/
+
+# the original Ryder 1925 scan — 41MB, read by NO script (the pipeline uses pages_raw.json,
+# which is committed); public domain, re-fetchable from Wikimedia Commons
+# (commons.wikimedia.org/wiki/File:Panchatantra.djvu). Kept out to keep the repo ~11MB.
+source/Panchatantra_ryder_1925.djvu
